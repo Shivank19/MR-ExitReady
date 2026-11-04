@@ -2301,7 +2301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129834
+// Method Definition Index: 130388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m02003ECDD01908DA498AADAFDA62C6B7B852A8FE (EmbeddedAttribute_t60CF70BFFF56273AEC92BFA374E0AB62225D81A8* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2318,7 +2318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m02003ECDD01908D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129835
+// Method Definition Index: 130389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m890FE27A5AFFC875BC02F35C02CCFBA525403369 (NullableAttribute_tB2CF560C5DE12BFB4C54E70BA9DB05F50A94EE9C* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2340,7 +2340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m890FE27A5AFFC87
 		return;
 	}
 }
-// Method Definition Index: 129836
+// Method Definition Index: 130390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m1B6DB0CCDB41A792C16F691E4E46787B9A128198 (NullableAttribute_tB2CF560C5DE12BFB4C54E70BA9DB05F50A94EE9C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_p, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2360,7 +2360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableAttribute__ctor_m1B6DB0CCDB41A79
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129837
+// Method Definition Index: 130391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableContextAttribute__ctor_mC908D4ECBDF6A667731731B927DA79DE9E9C3D28 (NullableContextAttribute_t4B7F60C7B1F49767F52C1052D9D3FB03048365E9* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2379,87 +2379,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NullableContextAttribute__ctor_mC908D4EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129838
+// Method Definition Index: 130392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_add_OnMessageAdded_m751CF82736D7A7ACF9C80D97FF563B504E710572 (Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:40>
 		Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* L_0 = ___0_value;
 		ConversationEventBroker_add_MessageAdded_m38094343CE19F461318AF79DFA1F9AB9B133C556(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129839
+// Method Definition Index: 130393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_remove_OnMessageAdded_m902DDF3BD8F1C03F4F86685231B0C7FC6BA0A18A (Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:41>
 		Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* L_0 = ___0_value;
 		ConversationEventBroker_remove_MessageAdded_mFA4F290B8140AB00909470CB48589DFF4D4EFDBD(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129840
+// Method Definition Index: 130394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_add_OnConversationCleared_mCB623F8180A183F49867BDAFF987004BFDFCFAB4 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:49>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_value;
 		ConversationEventBroker_add_ConversationCleared_mC5E395ACA2AF369CB4ABD7A55DA86E830A8F140B(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129841
+// Method Definition Index: 130395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_remove_OnConversationCleared_m3931336D67E1B313995AE64254E1FE4B5BB6EB96 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:50>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_value;
 		ConversationEventBroker_remove_ConversationCleared_mCC07F7459A9E0386AE79B800055F6CFA28DCF066(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129842
+// Method Definition Index: 130396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_add_OnProcessingStateChanged_m47FC6C37B55C2B493405DA074C4821C61CBFD863 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:59>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = ___0_value;
 		ConversationEventBroker_add_ProcessingStateChanged_m9EBED68406958F51A2EAF617E74F0ABEAA2AD094(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129843
+// Method Definition Index: 130397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_remove_OnProcessingStateChanged_mB3FBF66F6431EFA505BEDAC106B3701EEDC5EB34 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:60>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = ___0_value;
 		ConversationEventBroker_remove_ProcessingStateChanged_m7D64C0ECB3E2F77C0312492DB16BCD6E5170329E(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129844
+// Method Definition Index: 130398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_add_OnSessionIdChanged_m1DA74D1F55FB591C7FD5F409C03CF3117EAE7BFE (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:70>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ___0_value;
 		ConversationEventBroker_add_SessionIdChanged_m83D87CF58910A1511385D4D3D7EFADD87A9B1647(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129845
+// Method Definition Index: 130399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_remove_OnSessionIdChanged_m90A4099E1876E83440F6702ECAF1D91F31C25010 (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:71>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ___0_value;
 		ConversationEventBroker_remove_SessionIdChanged_m3A886C71EDB812BC8C9E51462887855E96CC318B(L_0, NULL);
 		return;
 	}
 }
-// Method Definition Index: 129846
+// Method Definition Index: 130400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AgentBridgeAPI_SendPromptAsync_mE34982A4AAFE2EEB63063788DE4DD0F6C3862A7B (String_t* ___0_prompt, CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___1_caller, String_t* ___2_systemPrompt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2504,7 +2504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_6;
 	}
 }
-// Method Definition Index: 129847
+// Method Definition Index: 130401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AgentBridgeAPI_SendPromptAsync_m82B48B38ADEC1DFFBDE0F015EEE892B1E0FE954D (String_t* ___0_prompt, CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___1_caller, List_1_t60780973EC9D51451BEDC6010D1B18354917C72E* ___2_images, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2549,39 +2549,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_6;
 	}
 }
-// Method Definition Index: 129848
+// Method Definition Index: 130402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* AgentBridgeAPI_GetConversationHistory_m0A659F0D7DDBD44FC93CABBEFEEB052ADEE3E1B5 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:138>
 		List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* L_0;
 		L_0 = AgentBridgeCoreService_GetConversationHistory_m7A3F67E0D109E0326FB91A96D889C86EA7D34ABD(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 129849
+// Method Definition Index: 130403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* AgentBridgeAPI_GetConversationHistoryForCaller_m470496630C29E52D0B5C067DD4C5FB29C621BF6E (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:158>
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_0 = ___0_caller;
 		List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* L_1;
 		L_1 = AgentBridgeCoreService_GetConversationHistoryForCaller_m7AFBC4D16B0FAC0367E6BDC26E0FBF4F3692563F(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 129850
+// Method Definition Index: 130404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_ClearConversation_m24D13CA95DA39BAE46091E4CECEEB7094A694E93 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:175>
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_0 = ___0_caller;
 		AgentBridgeCoreService_ClearConversation_mDC6712A755E78683A37BD6A3B076930F65DFC061(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:176>
 		return;
 	}
 }
-// Method Definition Index: 129851
+// Method Definition Index: 130405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* AgentBridgeAPI_CancelCurrentOperationAsync_mE7F137EDB8DCFDCAE076E0C714C924FA78B1CB86 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2618,111 +2618,111 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 129852
+// Method Definition Index: 130406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeAPI_IsProcessing_m8AB6D41AF6A55C3906B1A9783F40627DC88FA874 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:211>
 		bool L_0;
 		L_0 = AgentBridgeCoreService_IsProcessing_mC2CF58C4A5635A890D4C5C6F5730AA68EA4E4659(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 129853
+// Method Definition Index: 130407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeAPI_GetSessionId_m471B726A15C4569FD8EFF378C9DF7905FB41FD16 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:232>
 		String_t* L_0;
 		L_0 = AgentBridgeCoreService_GetSessionId_m2F56493E25065F55D190BDEAAE72594331E49CFE(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 129854
+// Method Definition Index: 130408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeAPI_GetSessionIdForCaller_m0BD501D5C5972A9220B12223FC9CB647BFEFBC2B (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:254>
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_0 = ___0_caller;
 		String_t* L_1;
 		L_1 = AgentBridgeCoreService_GetSessionIdForCaller_m92B74E069A80CD12AD307B06C64C60666DAEFA3B(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 129855
+// Method Definition Index: 130409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C* AgentBridgeAPI_GetUsageForCaller_m10CF6E39D437CE60E18E5198DC2DDD9E1CFC1378 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:273>
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_0 = ___0_caller;
 		UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C* L_1;
 		L_1 = AgentBridgeCoreService_GetUsageForCaller_m4C6D38152B9C599153C167AE7EB88FE2B678569A(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 129856
+// Method Definition Index: 130410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeAPI_HasActiveSession_m1BD0D69B7BAD9E811D325C07D109126FB5CEA3F7 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:294>
 		bool L_0;
 		L_0 = AgentBridgeCoreService_HasActiveSession_m7247A03F156605ACF34735EFA6F5BB6C66CCD97A(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 129857
+// Method Definition Index: 130411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeAPI_GetLastError_m371A5FAD3282FE12C83BEE31BFEFB13CFB7BD51B (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:315>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:315>
 		String_t* L_0;
 		L_0 = AgentBridgeCoreService_GetLastError_mE412B1041EC81ABA3B5F3FF314056E64B1E71EBD(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 129858
+// Method Definition Index: 130412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_ClearError_mD2458515FFDBE6F00392DBA33DD2A04400A2A24B (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:330>
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_0 = ___0_caller;
 		AgentBridgeCoreService_ClearError_mF65E95873A44B8997F3926C9059B09C349BDE4F6(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:331>
 		return;
 	}
 }
-// Method Definition Index: 129859
+// Method Definition Index: 130413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeAPI_GetCurrentServiceName_m59BB0863C5988865038CF21F3FC9F910BFD6F246 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:345>
 		String_t* L_0;
 		L_0 = AgentBridgeCoreService_GetCurrentServiceName_m8AA3B3D29B37D792186BAED7F3D11BC562F5B714(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 129860
+// Method Definition Index: 130414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeAPI_GetResumeCommandForCaller_mBE404EFC09886DABB75E7FF58C31BB94040C4015 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:356>
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_0 = ___0_caller;
 		String_t* L_1;
 		L_1 = AgentBridgeCoreService_GetResumeCommandForCaller_m0B27CAA0A2505356A169614B06E7DE7058E855BA(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 129861
+// Method Definition Index: 130415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeAPI_ResumeInTerminal_mDE5203FF808EE3087628C5B07FDBCEFF0B810497 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:367>
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_0 = ___0_caller;
 		String_t* L_1;
 		L_1 = AgentBridgeCoreService_GetResumeCommandForCaller_m0B27CAA0A2505356A169614B06E7DE7058E855BA(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:368>
 		String_t* L_2 = V_0;
 		bool L_3;
 		L_3 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_2, NULL);
@@ -2732,20 +2732,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeAPI_ResumeInTerminal_mDE5203F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:370>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:370>
 		return (bool)0;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:372>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:372>
 		String_t* L_4 = V_0;
 		AgentBridgeCoreService_OpenTerminalWithCommand_mB359D12858F99831B544DCF7EBB563C8AE61D279(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:373>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:373>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 129862
+// Method Definition Index: 130416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImageAttachment_t0F80EC001DA15D5FF4E666191C0BF75A866DF126* AgentBridgeAPI_CreateImageFromTexture_m8DC99941F66BA7B18FAD499A217C4081033A3C29 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___0_texture, String_t* ___1_filename, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2758,21 +2758,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImageAttachment_t0F80EC001DA15D5FF4E666191C0B
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:392>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:392>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = ___0_texture;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
 		L_1 = ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:393>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:393>
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		String_t* L_2;
 		L_2 = Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:395>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:396>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:397>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:398>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:399>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:400>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:395>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:397>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:398>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:399>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:400>
 		ImageAttachment_t0F80EC001DA15D5FF4E666191C0BF75A866DF126* L_3 = (ImageAttachment_t0F80EC001DA15D5FF4E666191C0BF75A866DF126*)il2cpp_codegen_object_new(ImageAttachment_t0F80EC001DA15D5FF4E666191C0BF75A866DF126_il2cpp_TypeInfo_var);
 		ImageAttachment__ctor_m4E784333F08900D28E7AFA8815FB0B16D64D0C61(L_3, NULL);
 		ImageAttachment_t0F80EC001DA15D5FF4E666191C0BF75A866DF126* L_4 = L_3;
@@ -2792,13 +2792,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ImageAttachment_t0F80EC001DA15D5FF4E666191C0B
 		return L_8;
 	}
 }
-// Method Definition Index: 129863
+// Method Definition Index: 130417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_EnsureServiceInitialized_m46FE897888847DE127B95DCC89378EB30DCAA953 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:418>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:418>
 		AgentBridgeCoreService_EnsureServiceInitialized_mFE2B464987A49F60352A0F693E4FE32BD0B6A8F9(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:419>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:419>
 		return;
 	}
 }
@@ -2810,7 +2810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeAPI_EnsureServiceInitialized_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129864
+// Method Definition Index: 130418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelCurrentOperationAsyncU3Ed__17_MoveNext_m70FD58BEB9947737CB88B2CDA4A286B8A8C503C2 (U3CCancelCurrentOperationAsyncU3Ed__17_tA17987CC870D16BCCB4D8F392C3D5F850CFF41F4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2839,7 +2839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelCurrentOperationAsyncU3Ed__17_M
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:194>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:194>
 			CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_2 = __this->___caller;
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
 			L_3 = AgentBridgeCoreService_CancelCurrentOperationAsync_m0772B957051816E4446D9523163C797F6A991971(L_2, NULL);
@@ -2909,7 +2909,7 @@ CATCH_0069:
 
 IL_0080:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:195>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_15 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -2928,7 +2928,7 @@ IL2CPP_EXTERN_C  void U3CCancelCurrentOperationAsyncU3Ed__17_MoveNext_m70FD58BEB
 	_thisAdjusted = reinterpret_cast<U3CCancelCurrentOperationAsyncU3Ed__17_tA17987CC870D16BCCB4D8F392C3D5F850CFF41F4*>(__this + _offset);
 	U3CCancelCurrentOperationAsyncU3Ed__17_MoveNext_m70FD58BEB9947737CB88B2CDA4A286B8A8C503C2(_thisAdjusted, method);
 }
-// Method Definition Index: 129865
+// Method Definition Index: 130419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelCurrentOperationAsyncU3Ed__17_SetStateMachine_m716DF8E5509C2A023AA8FA1ACA7D4093001ADB23 (U3CCancelCurrentOperationAsyncU3Ed__17_tA17987CC870D16BCCB4D8F392C3D5F850CFF41F4* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2961,7 +2961,7 @@ IL2CPP_EXTERN_C  void U3CCancelCurrentOperationAsyncU3Ed__17_SetStateMachine_m71
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129866
+// Method Definition Index: 130420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__12_MoveNext_m6C0E59D39D7EB1783BC9EA92BC585B4D420983B4 (U3CSendPromptAsyncU3Ed__12_t8CA8905E198EA34B964CAC5F687BED4178F140DB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2998,7 +2998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__12_MoveNext_m6C0
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:93>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:93>
 			String_t* L_2 = __this->___prompt;
 			CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_3 = __this->___caller;
 			String_t* L_4 = __this->___systemPrompt;
@@ -3076,7 +3076,7 @@ CATCH_0083:
 
 IL_009c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:94>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_20 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder);
 		bool L_21 = V_1;
@@ -3096,7 +3096,7 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__12_MoveNext_m6C0E59D39D7EB1783BC9E
 	_thisAdjusted = reinterpret_cast<U3CSendPromptAsyncU3Ed__12_t8CA8905E198EA34B964CAC5F687BED4178F140DB*>(__this + _offset);
 	U3CSendPromptAsyncU3Ed__12_MoveNext_m6C0E59D39D7EB1783BC9EA92BC585B4D420983B4(_thisAdjusted, method);
 }
-// Method Definition Index: 129867
+// Method Definition Index: 130421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__12_SetStateMachine_m7F49C9536D044368EF4A6829D21F4F73D309CBAB (U3CSendPromptAsyncU3Ed__12_t8CA8905E198EA34B964CAC5F687BED4178F140DB* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3130,7 +3130,7 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__12_SetStateMachine_m7F49C9536D0443
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129868
+// Method Definition Index: 130422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__13_MoveNext_m51567CE0B529AA93C9B8C1C96C190C57124BDC3B (U3CSendPromptAsyncU3Ed__13_tE2CDDB266546C110C6F96AA358984078F9CB357B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3166,7 +3166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__13_MoveNext_m515
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:120>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:120>
 			String_t* L_2 = __this->___prompt;
 			CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_3 = __this->___caller;
 			List_1_t60780973EC9D51451BEDC6010D1B18354917C72E* L_4 = __this->___images;
@@ -3242,7 +3242,7 @@ CATCH_0080:
 
 IL_0099:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/AgentBridgeAPI.cs:121>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_19 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder);
 		bool L_20 = V_1;
@@ -3262,7 +3262,7 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__13_MoveNext_m51567CE0B529AA93C9B8C
 	_thisAdjusted = reinterpret_cast<U3CSendPromptAsyncU3Ed__13_tE2CDDB266546C110C6F96AA358984078F9CB357B*>(__this + _offset);
 	U3CSendPromptAsyncU3Ed__13_MoveNext_m51567CE0B529AA93C9B8C1C96C190C57124BDC3B(_thisAdjusted, method);
 }
-// Method Definition Index: 129869
+// Method Definition Index: 130423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__13_SetStateMachine_m6411578B3857B8F932DEF4A0F72FD65AA297EC95 (U3CSendPromptAsyncU3Ed__13_tE2CDDB266546C110C6F96AA358984078F9CB357B* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3296,7 +3296,7 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__13_SetStateMachine_m6411578B3857B8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129893
+// Method Definition Index: 130447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_add_OnMessageReceived_m9EBFF11B57A86A7620C287C243AE86007C6224F0 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3340,7 +3340,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129894
+// Method Definition Index: 130448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_remove_OnMessageReceived_mFC60AA89E45B2C5DC9EBA115F07F26800459AA04 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3384,7 +3384,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129895
+// Method Definition Index: 130449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_add_OnProcessingStateChanged_mE2DB6F099895F5A3FE685F31AC4FE184157DF2DD (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3428,7 +3428,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129896
+// Method Definition Index: 130450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_remove_OnProcessingStateChanged_m478424BA7A11C846A70CD4E369F3CB5C38C477C2 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3472,7 +3472,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129897
+// Method Definition Index: 130451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_add_OnConversationCleared_mCAFF1F20B8E0F2CC85F6489B040DF5E6983B2319 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3516,7 +3516,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129898
+// Method Definition Index: 130452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_remove_OnConversationCleared_m950D34362D06025EB807CC2E79E321F1E084D631 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3560,7 +3560,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129899
+// Method Definition Index: 130453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_add_OnConnectionStateChanged_mB17C89381C7CE36375F5E5D235683225D106293A (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3604,7 +3604,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129900
+// Method Definition Index: 130454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_remove_OnConnectionStateChanged_mF42DC7594C70B360C426CB9435B56FB9D93453D1 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3648,7 +3648,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129901
+// Method Definition Index: 130455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_add_OnErrorReceived_m852A84284626E6A8039CDD4B9676A4C31D9A93A7 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_t5C722C5706182F67FD7EDA944B38A58A4333D17F* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3692,7 +3692,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129902
+// Method Definition Index: 130456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_remove_OnErrorReceived_m457C29ED8E58A3D2A70C88438FBF505D6AD95539 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, Action_1_t5C722C5706182F67FD7EDA944B38A58A4333D17F* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3736,49 +3736,49 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 129903
+// Method Definition Index: 130457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RemoteAgentBridgeClient_get_IsConnected_mC748A3FB21FEB120223702C1B17C14E27D5301DB (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:100>
 		bool L_0 = __this->____isConnected;
 		return L_0;
 	}
 }
-// Method Definition Index: 129904
+// Method Definition Index: 130458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteAgentBridgeClient_get_AccessToken_mF4582880823DB8F12470E106D8AC735E822919C0 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:106>
 		String_t* L_0 = __this->___U3CAccessTokenU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 129905
+// Method Definition Index: 130459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_set_AccessToken_mA261E2CD2AB3322E80D1E95E77145A0154CA4F4F (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:106>
 		String_t* L_0 = ___0_value;
 		__this->___U3CAccessTokenU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAccessTokenU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 129906
+// Method Definition Index: 130460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteAgentBridgeClient_get_ServerUrl_mB10381EFA005D7D848EA015E6078D0AFFAC7AAAA (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:114>
 		String_t* L_0 = __this->____serverUrl;
 		return L_0;
 	}
 }
-// Method Definition Index: 129907
+// Method Definition Index: 130461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_set_ServerUrl_mAE26D3243F8FB22106B60CEA96F1FA402712534D (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:117>
 		String_t* L_0 = __this->____serverUrl;
 		String_t* L_1 = ___0_value;
 		bool L_2;
@@ -3789,13 +3789,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_set_ServerUrl_mA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:117>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:118>
 		bool L_3 = __this->____isConnected;
 		if (!L_3)
 		{
@@ -3803,34 +3803,34 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:118>
 		RemoteAgentBridgeClient_Disconnect_m1C96B30B35F31F292A961C300913C135BCA90CEB(__this, NULL);
 	}
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:119>
 		String_t* L_4 = ___0_value;
 		__this->____serverUrl = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____serverUrl), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:120>
 		return;
 	}
 }
-// Method Definition Index: 129908
+// Method Definition Index: 130462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RemoteAgentBridgeClient_get_Port_m0FF2DE70E354673635BE9068D6DD7DBCBC1E6FED (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:128>
 		int32_t L_0 = __this->____port;
 		return L_0;
 	}
 }
-// Method Definition Index: 129909
+// Method Definition Index: 130463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_set_Port_m4CA845E2B25266BDC550A8B28F6950047FF98230 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:131>
 		int32_t L_0 = __this->____port;
 		int32_t L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -3839,13 +3839,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_set_Port_m4CA845
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:131>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:132>
 		bool L_2 = __this->____isConnected;
 		if (!L_2)
 		{
@@ -3853,20 +3853,20 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:132>
 		RemoteAgentBridgeClient_Disconnect_m1C96B30B35F31F292A961C300913C135BCA90CEB(__this, NULL);
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:133>
 		int32_t L_3 = ___0_value;
 		__this->____port = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:134>
 		return;
 	}
 }
-// Method Definition Index: 129910
+// Method Definition Index: 130464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteAgentBridgeClient_get_BaseUrl_mC38E4A28E7CCADB2B9CAEEED26835555A160E3A8 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3876,7 +3876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteAgentBridgeClient_get_BaseUrl
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:137>
 		String_t* L_0 = __this->____serverUrl;
 		int32_t L_1 = __this->____port;
 		int32_t L_2 = L_1;
@@ -3886,7 +3886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RemoteAgentBridgeClient_get_BaseUrl
 		return L_4;
 	}
 }
-// Method Definition Index: 129911
+// Method Definition Index: 130465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient__ctor_m05589FD8090FB05F0DD04AAF93C66F1F803BB12D (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, String_t* ___0_serverUrl, int32_t ___1_port, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3901,9 +3901,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient__ctor_m05589FD80
 	String_t* G_B1_0 = NULL;
 	RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:146>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:148>
 		String_t* L_0 = ___0_serverUrl;
 		String_t* L_1 = L_0;
 		if (L_1)
@@ -3926,10 +3926,10 @@ IL_0017:
 		NullCheck(G_B2_1);
 		G_B2_1->____serverUrl = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->____serverUrl), (void*)G_B2_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:149>
 		int32_t L_3 = ___1_port;
 		__this->____port = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:150>
 		HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_4 = (HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42*)il2cpp_codegen_object_new(HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42_il2cpp_TypeInfo_var);
 		HttpClient__ctor_mD64C48138600CF1398E7BB24BF33EB582ECB1AFD(L_4, NULL);
 		HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_5 = L_4;
@@ -3940,11 +3940,11 @@ IL_0017:
 		HttpClient_set_Timeout_mB71FE4F51049156CCBC5C9BD28E884819F8D3D66(L_5, L_6, NULL);
 		__this->____httpClient = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____httpClient), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:151>
 		return;
 	}
 }
-// Method Definition Index: 129912
+// Method Definition Index: 130466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* RemoteAgentBridgeClient_ConnectAsync_m26183E27039A939B788EE5D0F7B3FE2F5EB3B0D1 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___0_cancellationToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3985,7 +3985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_4;
 	}
 }
-// Method Definition Index: 129913
+// Method Definition Index: 130467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_Disconnect_m1C96B30B35F31F292A961C300913C135BCA90CEB (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* G_B2_0 = NULL;
@@ -3993,7 +3993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_Disconnect_m1C96
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* G_B5_0 = NULL;
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:192>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_0 = __this->____connectionCts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_1 = L_0;
 		if (L_1)
@@ -4015,7 +4015,7 @@ IL_000c:
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:193>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_2 = __this->____connectionCts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_3 = L_2;
 		if (L_3)
@@ -4037,30 +4037,30 @@ IL_001d:
 
 IL_0022:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:194>
 		__this->____connectionCts = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____connectionCts), (void*)(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:195>
 		__this->____sseTask = (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____sseTask), (void*)(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:196>
 		__this->____healthCheckTask = (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____healthCheckTask), (void*)(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:197>
 		RemoteAgentBridgeClient_SetConnected_mE0EFF8A82835B06A4404A640878F08AA6CDA4AD3(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:198>
 		__this->____reconnectAttempts = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:199>
 		return;
 	}
 }
-// Method Definition Index: 129914
+// Method Definition Index: 130468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_Dispose_mE2C172C39F1E395CAD89448E2DE72FE9A92D4AE2 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* G_B4_0 = NULL;
 	HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:206>
 		bool L_0 = __this->____disposed;
 		if (!L_0)
 		{
@@ -4068,17 +4068,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_Dispose_mE2C172C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:206>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:207>
 		__this->____disposed = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:208>
 		RemoteAgentBridgeClient_Disconnect_m1C96B30B35F31F292A961C300913C135BCA90CEB(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:209>
 		HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_1 = __this->____httpClient;
 		HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_2 = L_1;
 		if (L_2)
@@ -4100,14 +4100,14 @@ IL_0022:
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:210>
 		__this->____httpClient = (HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____httpClient), (void*)(HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:211>
 		return;
 	}
 }
-// Method Definition Index: 129915
+// Method Definition Index: 130469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8315C46F5FCD7C0124892E2E464AF448EFC25D71* RemoteAgentBridgeClient_SendPromptAsync_m9920080B66470546E8618E1DF0A9557D77285E17 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, RemotePromptRequest_tB7599577400C60F4F02AFE8B62942808EBA3D443* ___0_request, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4151,7 +4151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8315C46F5FCD7C0124892E2E464AF448EFC25
 		return L_5;
 	}
 }
-// Method Definition Index: 129916
+// Method Definition Index: 130470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8315C46F5FCD7C0124892E2E464AF448EFC25D71* RemoteAgentBridgeClient_CancelAsync_m7433CB5778B3300DA9571F791D64042741AE4FA6 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, RemoteCallerRequest_tC354FF1BE45F38548D22405565CAE56F9D1CBA56* ___0_request, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4195,7 +4195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8315C46F5FCD7C0124892E2E464AF448EFC25
 		return L_5;
 	}
 }
-// Method Definition Index: 129917
+// Method Definition Index: 130471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8315C46F5FCD7C0124892E2E464AF448EFC25D71* RemoteAgentBridgeClient_ClearConversationAsync_m7B73AE9089B2AE372624CB9B0698535AD83562E4 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, RemoteCallerRequest_tC354FF1BE45F38548D22405565CAE56F9D1CBA56* ___0_request, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_cancellationToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4239,7 +4239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t8315C46F5FCD7C0124892E2E464AF448EFC25
 		return L_5;
 	}
 }
-// Method Definition Index: 129918
+// Method Definition Index: 130472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tCF84813B07E849CF35526977AC46C3B3EE2433CA* RemoteAgentBridgeClient_GetStatusAsync_m9E569CAE97C16AB2C0CC9FCC0C1CD521FF3CCF62 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___0_cancellationToken, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4280,7 +4280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tCF84813B07E849CF35526977AC46C3B3EE243
 		return L_4;
 	}
 }
-// Method Definition Index: 129919
+// Method Definition Index: 130473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* RemoteAgentBridgeClient_RunSseStreamAsync_m4AAEDE4E59710CB84CF685EE171453CE2417CDB0 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___0_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4319,7 +4319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 129920
+// Method Definition Index: 130474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* RemoteAgentBridgeClient_RunSseConnectionAsync_mA54030B49C0F59FF0F1EC0501F8AD466A78A3A58 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___0_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4358,7 +4358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 129921
+// Method Definition Index: 130475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_OnSseEventReceived_m71094436A94A6BF9D40D6AA87A112DD138C6544A (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 ___0_sseEvent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4386,7 +4386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_OnSseEventReceiv
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:405>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:405>
 			SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 L_0 = ___0_sseEvent;
 			int32_t L_1 = L_0.___EventType;
 			V_3 = L_1;
@@ -4425,13 +4425,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_OnSseEventReceiv
 
 IL_0027_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:408>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:408>
 			SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 L_3 = ___0_sseEvent;
 			String_t* L_4 = L_3.___Data;
 			ConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7* L_5;
 			L_5 = McpJsonConvert_Deserialize_TisConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7_m6DA9724DADAF54AA487B6DEA68ED8E5D6D8DB987(L_4, McpJsonConvert_Deserialize_TisConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7_m6DA9724DADAF54AA487B6DEA68ED8E5D6D8DB987_RuntimeMethod_var);
 			V_0 = L_5;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:409>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:409>
 			ConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7* L_6 = V_0;
 			if (!L_6)
 			{
@@ -4439,7 +4439,7 @@ IL_0027_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:411>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:411>
 			Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* L_7 = __this->___OnMessageReceived;
 			Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* L_8 = L_7;
 			if (L_8)
@@ -4458,19 +4458,19 @@ IL_0042_1:
 			ConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7* L_9 = V_0;
 			NullCheck(G_B5_0);
 			Action_1_Invoke_mF4B31FDF55ACE6ABF721C26C739DD584DB9E2471_inline(G_B5_0, L_9, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:413>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:413>
 			goto IL_00a6_1;
 		}
 
 IL_004a_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:416>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:416>
 			SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 L_10 = ___0_sseEvent;
 			String_t* L_11 = L_10.___Data;
 			RemoteProcessingState_t3E50B27947EE73013E686C4355EE49F9D5991513* L_12;
 			L_12 = McpJsonConvert_Deserialize_TisRemoteProcessingState_t3E50B27947EE73013E686C4355EE49F9D5991513_mA3D8F2DB6DFFAE2883257F334EC214F3C5A5F5EC(L_11, McpJsonConvert_Deserialize_TisRemoteProcessingState_t3E50B27947EE73013E686C4355EE49F9D5991513_mA3D8F2DB6DFFAE2883257F334EC214F3C5A5F5EC_RuntimeMethod_var);
 			V_1 = L_12;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:417>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:417>
 			RemoteProcessingState_t3E50B27947EE73013E686C4355EE49F9D5991513* L_13 = V_1;
 			if (!L_13)
 			{
@@ -4478,7 +4478,7 @@ IL_004a_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:419>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:419>
 			Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_14 = __this->___OnProcessingStateChanged;
 			Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_15 = L_14;
 			if (L_15)
@@ -4499,13 +4499,13 @@ IL_0065_1:
 			bool L_17 = L_16->___IsProcessing;
 			NullCheck(G_B9_0);
 			Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline(G_B9_0, L_17, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:421>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:421>
 			goto IL_00a6_1;
 		}
 
 IL_0072_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:424>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:424>
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_18 = __this->___OnConversationCleared;
 			Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_19 = L_18;
 			if (L_19)
@@ -4523,19 +4523,19 @@ IL_007e_1:
 		{
 			NullCheck(G_B12_0);
 			Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B12_0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:425>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:425>
 			goto IL_00a6_1;
 		}
 
 IL_0085_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:428>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:428>
 			SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 L_20 = ___0_sseEvent;
 			String_t* L_21 = L_20.___Data;
 			RemoteSseError_tA227A6435A018557DF48977BAE55B29BD8FA9C6A* L_22;
 			L_22 = McpJsonConvert_Deserialize_TisRemoteSseError_tA227A6435A018557DF48977BAE55B29BD8FA9C6A_m694B30CC32442F7790D97C340010F502CEF1BE41(L_21, McpJsonConvert_Deserialize_TisRemoteSseError_tA227A6435A018557DF48977BAE55B29BD8FA9C6A_m694B30CC32442F7790D97C340010F502CEF1BE41_RuntimeMethod_var);
 			V_2 = L_22;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:429>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:429>
 			RemoteSseError_tA227A6435A018557DF48977BAE55B29BD8FA9C6A* L_23 = V_2;
 			if (!L_23)
 			{
@@ -4543,7 +4543,7 @@ IL_0085_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:431>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:431>
 			Action_1_t5C722C5706182F67FD7EDA944B38A58A4333D17F* L_24 = __this->___OnErrorReceived;
 			Action_1_t5C722C5706182F67FD7EDA944B38A58A4333D17F* L_25 = L_24;
 			if (L_25)
@@ -4566,7 +4566,7 @@ IL_00a0_1:
 
 IL_00a6_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:439>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:439>
 			goto IL_00ce;
 		}
 	}
@@ -4583,9 +4583,9 @@ IL_00a6_1:
 CATCH_00a8:
 	{
 		Exception_t* L_27 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:440>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:440>
 		V_4 = L_27;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:442>
 		String_t* L_28;
 		L_28 = SseEvent_get_WireEventName_m521E7278CF518AA2DC6B2B2D97E0AB356162C3D3((&___0_sseEvent), NULL);
 		Exception_t* L_29 = V_4;
@@ -4595,18 +4595,18 @@ CATCH_00a8:
 		String_t* L_31;
 		L_31 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5AD16FDA2F74C2DD55C45C1AD7A925B04FF9D5AB)), L_28, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9816E74B93E1C26A72AD4D2196C8A3C7A3C28924)), L_30, NULL);
 		Log_Error_m701B2D8BC797A36BA4E4CB01769D2AC391289184(L_31, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:443>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:443>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00ce;
 	}
 
 IL_00ce:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:444>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:444>
 		return;
 	}
 }
-// Method Definition Index: 129922
+// Method Definition Index: 130476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* RemoteAgentBridgeClient_RunHealthCheckLoopAsync_m8363CB62BE09542095EC41C61134F57E6896C45D (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___0_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4645,7 +4645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 129923
+// Method Definition Index: 130477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* RemoteAgentBridgeClient_RetryInitialConnectionAsync_m59BBF38F24C0645467D6829E19248DB7C751F3C6 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___0_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4684,7 +4684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 129924
+// Method Definition Index: 130478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* RemoteAgentBridgeClient_ReconnectAsync_m6A9482335278DBBF0ADF843E424259A94DD590DD (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___0_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4723,7 +4723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 129925
+// Method Definition Index: 130479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tD454F17C6AE674354CA5E1B134A59440E32AE12D* RemoteAgentBridgeClient_PostRequestAsync_m6168CFDC114D8A887898B0FD84E7514483C641ED (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, String_t* ___0_endpoint, String_t* ___1_jsonBody, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___2_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4770,7 +4770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tD454F17C6AE674354CA5E1B134A59440E32AE
 		return L_6;
 	}
 }
-// Method Definition Index: 129926
+// Method Definition Index: 130480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_ConfigureAuth_mD4DF3A3FF80A73FE74FE85CBA2C61500D72E5024 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4781,7 +4781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_ConfigureAuth_mD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:559>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:559>
 		String_t* L_0;
 		L_0 = RemoteAgentBridgeClient_get_AccessToken_mF4582880823DB8F12470E106D8AC735E822919C0_inline(__this, NULL);
 		bool L_1;
@@ -4792,8 +4792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_ConfigureAuth_mD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:561>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:562>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:561>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:562>
 		HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* L_2 = ___0_request;
 		NullCheck(L_2);
 		HttpRequestHeaders_tAC1E0B2246D915164C80B7A7925DE31283788DF7* L_3;
@@ -4808,11 +4808,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_ConfigureAuth_mD
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:564>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:564>
 		return;
 	}
 }
-// Method Definition Index: 129927
+// Method Definition Index: 130481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 RemoteAgentBridgeClient_ParseOperationResult_mDBE8D7AA97FC58D4028869335EA7354DC07D90F2 (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4835,12 +4835,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4B
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:574>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:574>
 			String_t* L_0 = ___0_json;
 			RemoteOperationResult_t57F629CB22C88207B33401B99B29C8CAC8AAF3E4* L_1;
 			L_1 = McpJsonConvert_Deserialize_TisRemoteOperationResult_t57F629CB22C88207B33401B99B29C8CAC8AAF3E4_m6EFBAF6079CF0D83DB00DC9B1AA6537A513C71E4(L_0, McpJsonConvert_Deserialize_TisRemoteOperationResult_t57F629CB22C88207B33401B99B29C8CAC8AAF3E4_m6EFBAF6079CF0D83DB00DC9B1AA6537A513C71E4_RuntimeMethod_var);
 			V_0 = L_1;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:575>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:575>
 			RemoteOperationResult_t57F629CB22C88207B33401B99B29C8CAC8AAF3E4* L_2 = V_0;
 			if (L_2)
 			{
@@ -4907,9 +4907,9 @@ IL_001f_1:
 CATCH_0027:
 	{
 		Exception_t* L_9 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:577>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:577>
 		V_2 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:579>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:579>
 		Exception_t* L_10 = V_2;
 		NullCheck(L_10);
 		String_t* L_11;
@@ -4926,18 +4926,18 @@ CATCH_0027:
 
 IL_0041:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:581>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:581>
 		ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_14 = V_1;
 		return L_14;
 	}
 }
-// Method Definition Index: 129928
+// Method Definition Index: 130482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_SetConnected_mE0EFF8A82835B06A4404A640878F08AA6CDA4AD3 (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, bool ___0_connected, const RuntimeMethod* method) 
 {
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B4_0 = NULL;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:589>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:589>
 		bool L_0 = __this->____isConnected;
 		bool L_1 = ___0_connected;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -4946,16 +4946,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentBridgeClient_SetConnected_mE0
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:589>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:589>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:590>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:590>
 		bool L_2 = ___0_connected;
 		__this->____isConnected = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:591>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:591>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = __this->___OnConnectionStateChanged;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_4 = L_3;
 		if (L_4)
@@ -4974,7 +4974,7 @@ IL_001c:
 		bool L_5 = ___0_connected;
 		NullCheck(G_B4_0);
 		Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline(G_B4_0, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:592>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:592>
 		return;
 	}
 }
@@ -4986,7 +4986,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129929
+// Method Definition Index: 130483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelAsyncU3Ed__46_MoveNext_m13B7128903A3EAE8F1822D8FB8F25EDF6337FD36 (U3CCancelAsyncU3Ed__46_t82CF12EAF6DC55E04A26A6A928F75E6E9DE1665F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5029,7 +5029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelAsyncU3Ed__46_MoveNext_m13B7128
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:250>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:250>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			NullCheck(L_3);
 			bool L_4 = L_3->____disposed;
@@ -5039,7 +5039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelAsyncU3Ed__46_MoveNext_m13B7128
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:250>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:250>
 			ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_5 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
 			ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAC44C0EC58063BA52CA4F7480EEC05C89670A339)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCancelAsyncU3Ed__46_MoveNext_m13B7128903A3EAE8F1822D8FB8F25EDF6337FD36_RuntimeMethod_var)));
@@ -5047,7 +5047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelAsyncU3Ed__46_MoveNext_m13B7128
 
 IL_0024_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:252>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:252>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_6 = V_1;
 			RemoteCallerRequest_tC354FF1BE45F38548D22405565CAE56F9D1CBA56* L_7 = __this->___request;
 			String_t* L_8;
@@ -5100,7 +5100,7 @@ IL_0092_1:
 			V_3 = L_21;
 			String_t* L_22 = L_20.___Item2;
 			V_4 = L_22;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:253>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:253>
 			String_t* L_23 = V_4;
 			if (!L_23)
 			{
@@ -5108,12 +5108,12 @@ IL_0092_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:255>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:255>
 			String_t* L_24 = V_4;
 			String_t* L_25;
 			L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2D742ADD8BB8079200E89882AE2EF53F2B007E55, L_24, NULL);
 			Log_Error_m701B2D8BC797A36BA4E4CB01769D2AC391289184(L_25, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:256>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:256>
 			String_t* L_26 = V_4;
 			ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_27;
 			memset((&L_27), 0, sizeof(L_27));
@@ -5124,7 +5124,7 @@ IL_0092_1:
 
 IL_00c7_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:259>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:259>
 			String_t* L_28 = V_3;
 			ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_29;
 			L_29 = RemoteAgentBridgeClient_ParseOperationResult_mDBE8D7AA97FC58D4028869335EA7354DC07D90F2(L_28, NULL);
@@ -5157,7 +5157,7 @@ CATCH_00d0:
 
 IL_00e9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:260>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:260>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tF067096AC6F0889AF43A374C2B76B76C03F72940* L_33 = (AsyncTaskMethodBuilder_1_tF067096AC6F0889AF43A374C2B76B76C03F72940*)(&__this->___U3CU3Et__builder);
 		ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_34 = V_2;
@@ -5177,7 +5177,7 @@ IL2CPP_EXTERN_C  void U3CCancelAsyncU3Ed__46_MoveNext_m13B7128903A3EAE8F1822D8FB
 	_thisAdjusted = reinterpret_cast<U3CCancelAsyncU3Ed__46_t82CF12EAF6DC55E04A26A6A928F75E6E9DE1665F*>(__this + _offset);
 	U3CCancelAsyncU3Ed__46_MoveNext_m13B7128903A3EAE8F1822D8FB8F25EDF6337FD36(_thisAdjusted, method);
 }
-// Method Definition Index: 129930
+// Method Definition Index: 130484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelAsyncU3Ed__46_SetStateMachine_mB018B4B09DE8D3AE93BEC98CB60F07D66B0FB4D9 (U3CCancelAsyncU3Ed__46_t82CF12EAF6DC55E04A26A6A928F75E6E9DE1665F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5211,7 +5211,7 @@ IL2CPP_EXTERN_C  void U3CCancelAsyncU3Ed__46_SetStateMachine_mB018B4B09DE8D3AE93
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129931
+// Method Definition Index: 130485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CClearConversationAsyncU3Ed__47_MoveNext_m3FACF7DAB9C7169BF7DB27D86570236F1D0400D7 (U3CClearConversationAsyncU3Ed__47_t80E368E940C9F7A08D82CB4191809FC9092BD5A6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5254,7 +5254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CClearConversationAsyncU3Ed__47_MoveNe
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:272>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:272>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			NullCheck(L_3);
 			bool L_4 = L_3->____disposed;
@@ -5264,7 +5264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CClearConversationAsyncU3Ed__47_MoveNe
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:272>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:272>
 			ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_5 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
 			ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAC44C0EC58063BA52CA4F7480EEC05C89670A339)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CClearConversationAsyncU3Ed__47_MoveNext_m3FACF7DAB9C7169BF7DB27D86570236F1D0400D7_RuntimeMethod_var)));
@@ -5272,7 +5272,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CClearConversationAsyncU3Ed__47_MoveNe
 
 IL_0024_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:274>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:274>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_6 = V_1;
 			RemoteCallerRequest_tC354FF1BE45F38548D22405565CAE56F9D1CBA56* L_7 = __this->___request;
 			String_t* L_8;
@@ -5325,7 +5325,7 @@ IL_0092_1:
 			V_3 = L_21;
 			String_t* L_22 = L_20.___Item2;
 			V_4 = L_22;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:275>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:275>
 			String_t* L_23 = V_4;
 			if (!L_23)
 			{
@@ -5333,12 +5333,12 @@ IL_0092_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:277>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:277>
 			String_t* L_24 = V_4;
 			String_t* L_25;
 			L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCC730CF8713FD0EE47F5FB3264338761D6DE2159, L_24, NULL);
 			Log_Error_m701B2D8BC797A36BA4E4CB01769D2AC391289184(L_25, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:278>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:278>
 			String_t* L_26 = V_4;
 			ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_27;
 			memset((&L_27), 0, sizeof(L_27));
@@ -5349,7 +5349,7 @@ IL_0092_1:
 
 IL_00c7_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:281>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:281>
 			String_t* L_28 = V_3;
 			ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_29;
 			L_29 = RemoteAgentBridgeClient_ParseOperationResult_mDBE8D7AA97FC58D4028869335EA7354DC07D90F2(L_28, NULL);
@@ -5382,7 +5382,7 @@ CATCH_00d0:
 
 IL_00e9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:282>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tF067096AC6F0889AF43A374C2B76B76C03F72940* L_33 = (AsyncTaskMethodBuilder_1_tF067096AC6F0889AF43A374C2B76B76C03F72940*)(&__this->___U3CU3Et__builder);
 		ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_34 = V_2;
@@ -5402,7 +5402,7 @@ IL2CPP_EXTERN_C  void U3CClearConversationAsyncU3Ed__47_MoveNext_m3FACF7DAB9C716
 	_thisAdjusted = reinterpret_cast<U3CClearConversationAsyncU3Ed__47_t80E368E940C9F7A08D82CB4191809FC9092BD5A6*>(__this + _offset);
 	U3CClearConversationAsyncU3Ed__47_MoveNext_m3FACF7DAB9C7169BF7DB27D86570236F1D0400D7(_thisAdjusted, method);
 }
-// Method Definition Index: 129932
+// Method Definition Index: 130486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CClearConversationAsyncU3Ed__47_SetStateMachine_m458B18E3ED713E103963DFC60E0F8AADA7E0B291 (U3CClearConversationAsyncU3Ed__47_t80E368E940C9F7A08D82CB4191809FC9092BD5A6* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5436,7 +5436,7 @@ IL2CPP_EXTERN_C  void U3CClearConversationAsyncU3Ed__47_SetStateMachine_m458B18E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129933
+// Method Definition Index: 130487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectAsyncU3Ed__42_MoveNext_mA73072C53F9D56CC5D3368B582F5148BB5932939 (U3CConnectAsyncU3Ed__42_t4CD7E8E94048B69DF563B64737A14397F8538A6F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5482,7 +5482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectAsyncU3Ed__42_MoveNext_mA73072
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:162>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:162>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			NullCheck(L_3);
 			bool L_4 = L_3->____disposed;
@@ -5492,7 +5492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectAsyncU3Ed__42_MoveNext_mA73072
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:162>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:162>
 			ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_5 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
 			ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAC44C0EC58063BA52CA4F7480EEC05C89670A339)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CConnectAsyncU3Ed__42_MoveNext_mA73072C53F9D56CC5D3368B582F5148BB5932939_RuntimeMethod_var)));
@@ -5500,7 +5500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectAsyncU3Ed__42_MoveNext_mA73072
 
 IL_0027_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:163>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:163>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_6 = V_1;
 			NullCheck(L_6);
 			bool L_7 = L_6->____isConnected;
@@ -5510,18 +5510,18 @@ IL_0027_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:163>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:163>
 			V_2 = (bool)1;
 			goto IL_0178;
 		}
 
 IL_0036_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:165>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:165>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_8 = V_1;
 			NullCheck(L_8);
 			L_8->____reconnectAttempts = 0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:166>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:166>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_9 = V_1;
 			CancellationTokenU5BU5D_t1C827FB987A2ACED63D969CA77D4DF8ED0681AE5* L_10 = (CancellationTokenU5BU5D_t1C827FB987A2ACED63D969CA77D4DF8ED0681AE5*)(CancellationTokenU5BU5D_t1C827FB987A2ACED63D969CA77D4DF8ED0681AE5*)SZArrayNew(CancellationTokenU5BU5D_t1C827FB987A2ACED63D969CA77D4DF8ED0681AE5_il2cpp_TypeInfo_var, (uint32_t)1);
 			CancellationTokenU5BU5D_t1C827FB987A2ACED63D969CA77D4DF8ED0681AE5* L_11 = L_10;
@@ -5534,7 +5534,7 @@ IL_0036_1:
 			NullCheck(L_9);
 			L_9->____connectionCts = L_13;
 			Il2CppCodeGenWriteBarrier((void**)(&L_9->____connectionCts), (void*)L_13);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:169>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:169>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_14 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_15 = V_1;
 			NullCheck(L_15);
@@ -5589,7 +5589,7 @@ IL_00bd_1:
 			V_3 = L_29;
 			String_t* L_30 = L_28.___Item2;
 			V_4 = L_30;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:170>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:170>
 			RemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4* L_31 = V_3;
 			if (L_31)
 			{
@@ -5597,7 +5597,7 @@ IL_00bd_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:172>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:172>
 			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33 = L_32;
 			NullCheck(L_33);
@@ -5623,7 +5623,7 @@ IL_00bd_1:
 			L_41 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_40, NULL);
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_41, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:173>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:173>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_42 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_43 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_44 = V_1;
@@ -5638,14 +5638,14 @@ IL_00bd_1:
 			NullCheck(L_42);
 			L_42->____sseTask = L_47;
 			Il2CppCodeGenWriteBarrier((void**)(&L_42->____sseTask), (void*)L_47);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:174>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:174>
 			V_2 = (bool)0;
 			goto IL_0178;
 		}
 
 IL_0126_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:178>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:178>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_48 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_49 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_50 = V_1;
@@ -5660,7 +5660,7 @@ IL_0126_1:
 			NullCheck(L_48);
 			L_48->____sseTask = L_53;
 			Il2CppCodeGenWriteBarrier((void**)(&L_48->____sseTask), (void*)L_53);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:181>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:181>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_54 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_55 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_56 = V_1;
@@ -5675,11 +5675,11 @@ IL_0126_1:
 			NullCheck(L_54);
 			L_54->____healthCheckTask = L_59;
 			Il2CppCodeGenWriteBarrier((void**)(&L_54->____healthCheckTask), (void*)L_59);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:183>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:183>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_60 = V_1;
 			NullCheck(L_60);
 			RemoteAgentBridgeClient_SetConnected_mE0EFF8A82835B06A4404A640878F08AA6CDA4AD3(L_60, (bool)1, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:184>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:184>
 			V_2 = (bool)1;
 			goto IL_0178;
 		}
@@ -5709,7 +5709,7 @@ CATCH_015f:
 
 IL_0178:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:185>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_64 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder);
 		bool L_65 = V_2;
@@ -5729,7 +5729,7 @@ IL2CPP_EXTERN_C  void U3CConnectAsyncU3Ed__42_MoveNext_mA73072C53F9D56CC5D3368B5
 	_thisAdjusted = reinterpret_cast<U3CConnectAsyncU3Ed__42_t4CD7E8E94048B69DF563B64737A14397F8538A6F*>(__this + _offset);
 	U3CConnectAsyncU3Ed__42_MoveNext_mA73072C53F9D56CC5D3368B582F5148BB5932939(_thisAdjusted, method);
 }
-// Method Definition Index: 129934
+// Method Definition Index: 130488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectAsyncU3Ed__42_SetStateMachine_mA988ACE82A99081C7E033296BB221E05D858A591 (U3CConnectAsyncU3Ed__42_t4CD7E8E94048B69DF563B64737A14397F8538A6F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5763,7 +5763,7 @@ IL2CPP_EXTERN_C  void U3CConnectAsyncU3Ed__42_SetStateMachine_mA988ACE82A99081C7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129935
+// Method Definition Index: 130489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetStatusAsyncU3Ed__48_MoveNext_m2897EB0D63B052A12717C79A1611BFBB73D05109 (U3CGetStatusAsyncU3Ed__48_t447BA77347E523BBA81202BF8FA3A151063CBB83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5818,7 +5818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetStatusAsyncU3Ed__48_MoveNext_m2897
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:292>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:292>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			NullCheck(L_3);
 			bool L_4 = L_3->____disposed;
@@ -5828,7 +5828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetStatusAsyncU3Ed__48_MoveNext_m2897
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:292>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:292>
 			ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_5 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
 			ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAC44C0EC58063BA52CA4F7480EEC05C89670A339)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetStatusAsyncU3Ed__48_MoveNext_m2897EB0D63B052A12717C79A1611BFBB73D05109_RuntimeMethod_var)));
@@ -5836,7 +5836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetStatusAsyncU3Ed__48_MoveNext_m2897
 
 IL_0025_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:294>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:294>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_6 = V_1;
 			NullCheck(L_6);
 			String_t* L_7;
@@ -5859,7 +5859,7 @@ IL_0036_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:298>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:298>
 				il2cpp_codegen_runtime_class_init_inline(HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E_il2cpp_TypeInfo_var);
 				HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E* L_10;
 				L_10 = HttpMethod_get_Get_mAD94BF07B40B20DAF42CBEEC2E910FC5CE0DA670_inline(NULL);
@@ -5922,12 +5922,12 @@ IL_0193_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:299>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:299>
 						RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_18 = V_1;
 						HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* L_19 = __this->___U3CrequestU3E5__2;
 						NullCheck(L_18);
 						RemoteAgentBridgeClient_ConfigureAuth_mD4DF3A3FF80A73FE74FE85CBA2C61500D72E5024(L_18, L_19, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:300>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:300>
 						RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_20 = V_1;
 						NullCheck(L_20);
 						HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_21 = L_20->____httpClient;
@@ -5976,7 +5976,7 @@ IL_00cb_3:
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_33;
 						L_33 = TaskAwaiter_1_GetResult_m367AF608B24E025158242A6AA2770013C38FB8A9((&V_6), TaskAwaiter_1_GetResult_m367AF608B24E025158242A6AA2770013C38FB8A9_RuntimeMethod_var);
 						V_4 = L_33;
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:302>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:302>
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_34 = V_4;
 						NullCheck(L_34);
 						bool L_35;
@@ -5987,7 +5987,7 @@ IL_00cb_3:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:304>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:304>
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_36 = V_4;
 						NullCheck(L_36);
 						int32_t L_37;
@@ -6009,7 +6009,7 @@ IL_00cb_3:
 
 IL_0106_3:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:307>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:307>
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_44 = V_4;
 						NullCheck(L_44);
 						HttpContent_tD09737BB27CB151BC9688882F785208620211E1C* L_45;
@@ -6056,11 +6056,11 @@ IL_0163_3:
 					{
 						String_t* L_55;
 						L_55 = TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9((&V_7), TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:308>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:308>
 						RemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4* L_56;
 						L_56 = McpJsonConvert_Deserialize_TisRemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4_m9D94729600C7443E1098D96CFCE000C24DCC2F59(L_55, McpJsonConvert_Deserialize_TisRemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4_m9D94729600C7443E1098D96CFCE000C24DCC2F59_RuntimeMethod_var);
 						V_5 = L_56;
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:309>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:309>
 						RemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4* L_57 = V_5;
 						ValueTuple_2_t2CEA62E02A97B390B64693DC6DAE337805CE10DF L_58;
 						memset((&L_58), 0, sizeof(L_58));
@@ -6093,8 +6093,8 @@ IL_0163_3:
 CATCH_0194_1:
 		{
 			OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662* L_59 = ((OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*)IL2CPP_GET_ACTIVE_EXCEPTION(OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:311>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:313>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:311>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:313>
 			ValueTuple_2_t2CEA62E02A97B390B64693DC6DAE337805CE10DF L_60;
 			memset((&L_60), 0, sizeof(L_60));
 			ValueTuple_2__ctor_m5CE078D74353AD7F934A1E05ADCE2294DA785AF6((&L_60), (RemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4*)NULL, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE329263AFE9F97E9F39843C5368FFD8D5A82BBCD)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ValueTuple_2__ctor_m5CE078D74353AD7F934A1E05ADCE2294DA785AF6_RuntimeMethod_var)));
@@ -6106,9 +6106,9 @@ CATCH_0194_1:
 CATCH_01a3_1:
 		{
 			Exception_t* L_61 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:315>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:315>
 			V_8 = L_61;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:317>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:317>
 			Exception_t* L_62 = V_8;
 			NullCheck(L_62);
 			String_t* L_63;
@@ -6148,7 +6148,7 @@ CATCH_01bf:
 
 IL_01d8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:319>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t66EFD422511C08F554D307B03CF0CCC20CCA0E09* L_69 = (AsyncTaskMethodBuilder_1_t66EFD422511C08F554D307B03CF0CCC20CCA0E09*)(&__this->___U3CU3Et__builder);
 		ValueTuple_2_t2CEA62E02A97B390B64693DC6DAE337805CE10DF L_70 = V_2;
@@ -6168,7 +6168,7 @@ IL2CPP_EXTERN_C  void U3CGetStatusAsyncU3Ed__48_MoveNext_m2897EB0D63B052A12717C7
 	_thisAdjusted = reinterpret_cast<U3CGetStatusAsyncU3Ed__48_t447BA77347E523BBA81202BF8FA3A151063CBB83*>(__this + _offset);
 	U3CGetStatusAsyncU3Ed__48_MoveNext_m2897EB0D63B052A12717C79A1611BFBB73D05109(_thisAdjusted, method);
 }
-// Method Definition Index: 129936
+// Method Definition Index: 130490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetStatusAsyncU3Ed__48_SetStateMachine_m4A253591C41A5402D5BE395D2D7D00B11F892CF9 (U3CGetStatusAsyncU3Ed__48_t447BA77347E523BBA81202BF8FA3A151063CBB83* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6202,7 +6202,7 @@ IL2CPP_EXTERN_C  void U3CGetStatusAsyncU3Ed__48_SetStateMachine_m4A253591C41A540
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129937
+// Method Definition Index: 130491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPostRequestAsyncU3Ed__55_MoveNext_mEC932EC4330FC20A8383C2707DF9E20BF256282E (U3CPostRequestAsyncU3Ed__55_tB2F112035C0C35F27D866EEF7D4F068895ECCEF9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6257,7 +6257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPostRequestAsyncU3Ed__55_MoveNext_mEC
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:528>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:528>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			NullCheck(L_3);
 			String_t* L_4;
@@ -6281,10 +6281,10 @@ IL_0024_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:532>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:533>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:534>
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:535>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:532>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:533>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:534>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:535>
 				il2cpp_codegen_runtime_class_init_inline(HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E_il2cpp_TypeInfo_var);
 				HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E* L_8;
 				L_8 = HttpMethod_get_Post_mEDC84247B73445A6922B43A065A10740C2F690CF_inline(NULL);
@@ -6355,12 +6355,12 @@ IL_0197_2:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:536>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:536>
 						RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_20 = V_1;
 						HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* L_21 = __this->___U3CrequestU3E5__2;
 						NullCheck(L_20);
 						RemoteAgentBridgeClient_ConfigureAuth_mD4DF3A3FF80A73FE74FE85CBA2C61500D72E5024(L_20, L_21, NULL);
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:537>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:537>
 						RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_22 = V_1;
 						NullCheck(L_22);
 						HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_23 = L_22->____httpClient;
@@ -6409,7 +6409,7 @@ IL_00d4_3:
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_35;
 						L_35 = TaskAwaiter_1_GetResult_m367AF608B24E025158242A6AA2770013C38FB8A9((&V_6), TaskAwaiter_1_GetResult_m367AF608B24E025158242A6AA2770013C38FB8A9_RuntimeMethod_var);
 						V_4 = L_35;
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:539>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:539>
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_36 = V_4;
 						NullCheck(L_36);
 						bool L_37;
@@ -6420,7 +6420,7 @@ IL_00d4_3:
 						}
 					}
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:541>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:541>
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_38 = V_4;
 						NullCheck(L_38);
 						int32_t L_39;
@@ -6442,7 +6442,7 @@ IL_00d4_3:
 
 IL_010f_3:
 					{
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:544>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:544>
 						HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_46 = V_4;
 						NullCheck(L_46);
 						HttpContent_tD09737BB27CB151BC9688882F785208620211E1C* L_47;
@@ -6490,7 +6490,7 @@ IL_016c_3:
 						String_t* L_57;
 						L_57 = TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9((&V_7), TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
 						V_5 = L_57;
-						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:545>
+						//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:545>
 						String_t* L_58 = V_5;
 						ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_59;
 						memset((&L_59), 0, sizeof(L_59));
@@ -6523,8 +6523,8 @@ IL_016c_3:
 CATCH_0198_1:
 		{
 			OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662* L_60 = ((OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*)IL2CPP_GET_ACTIVE_EXCEPTION(OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:547>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:549>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:547>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:549>
 			ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_61;
 			memset((&L_61), 0, sizeof(L_61));
 			ValueTuple_2__ctor_mEA682AE0DEB0D89054EB55197618D6C2C4A60CE7((&L_61), (String_t*)NULL, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE329263AFE9F97E9F39843C5368FFD8D5A82BBCD)), ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ValueTuple_2__ctor_mEA682AE0DEB0D89054EB55197618D6C2C4A60CE7_RuntimeMethod_var)));
@@ -6536,9 +6536,9 @@ CATCH_0198_1:
 CATCH_01a7_1:
 		{
 			Exception_t* L_62 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:551>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:551>
 			V_8 = L_62;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:553>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:553>
 			Exception_t* L_63 = V_8;
 			NullCheck(L_63);
 			String_t* L_64;
@@ -6578,7 +6578,7 @@ CATCH_01c3:
 
 IL_01dc:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:555>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:555>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tF5FDB2FBB7F972DE3630F15794DB5CB0EBA33C52* L_70 = (AsyncTaskMethodBuilder_1_tF5FDB2FBB7F972DE3630F15794DB5CB0EBA33C52*)(&__this->___U3CU3Et__builder);
 		ValueTuple_2_tA369C763469BCB1C81541EE3A74BAE7F5F7A4A91 L_71 = V_2;
@@ -6598,7 +6598,7 @@ IL2CPP_EXTERN_C  void U3CPostRequestAsyncU3Ed__55_MoveNext_mEC932EC4330FC20A8383
 	_thisAdjusted = reinterpret_cast<U3CPostRequestAsyncU3Ed__55_tB2F112035C0C35F27D866EEF7D4F068895ECCEF9*>(__this + _offset);
 	U3CPostRequestAsyncU3Ed__55_MoveNext_mEC932EC4330FC20A8383C2707DF9E20BF256282E(_thisAdjusted, method);
 }
-// Method Definition Index: 129938
+// Method Definition Index: 130492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPostRequestAsyncU3Ed__55_SetStateMachine_m70A364899F874B541FA5DB1E2E09FFA45794E244 (U3CPostRequestAsyncU3Ed__55_tB2F112035C0C35F27D866EEF7D4F068895ECCEF9* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6632,7 +6632,7 @@ IL2CPP_EXTERN_C  void U3CPostRequestAsyncU3Ed__55_SetStateMachine_m70A364899F874
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129939
+// Method Definition Index: 130493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReconnectAsyncU3Ed__54_MoveNext_mDC4323A6E0BF3A4DD2773BAE3D5600D3B903483F (U3CReconnectAsyncU3Ed__54_tA32602B0C6B37A289EA7AFD3868250261A5C327E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6687,16 +6687,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReconnectAsyncU3Ed__54_MoveNext_mDC43
 
 IL_001d_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:491>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:491>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_4 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_5 = V_1;
 			NullCheck(L_5);
 			int32_t L_6 = L_5->____reconnectAttempts;
 			NullCheck(L_4);
 			L_4->____reconnectAttempts = ((int32_t)il2cpp_codegen_add(L_6, 1));
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:492>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:493>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:494>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:492>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:493>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:494>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_7 = V_1;
 			NullCheck(L_7);
 			int32_t L_8 = L_7->____reconnectAttempts;
@@ -6721,7 +6721,7 @@ IL_005b_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:500>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:500>
 				double L_12 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 				TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_13;
@@ -6768,7 +6768,7 @@ IL_00a2_2:
 IL_00be_2:
 			{
 				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_3), NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:501>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:501>
 				goto IL_00cd_1;
 			}
 		}
@@ -6785,15 +6785,15 @@ IL_00be_2:
 CATCH_00c7_1:
 		{
 			OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662* L_24 = ((OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*)IL2CPP_GET_ACTIVE_EXCEPTION(OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:502>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:504>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:502>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:504>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0170_1;
 		}
 
 IL_00cd_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:507>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:507>
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_25 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
 			bool L_26;
@@ -6804,7 +6804,7 @@ IL_00cd_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:509>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:509>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_27 = V_1;
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_28 = __this->___ct;
 			NullCheck(L_27);
@@ -6850,28 +6850,28 @@ IL_013a_1:
 			ValueTuple_2_t2CEA62E02A97B390B64693DC6DAE337805CE10DF L_38;
 			L_38 = TaskAwaiter_1_GetResult_m30434618A5121F8C9B1DBA22A6D3FCF6B991007F((&V_4), TaskAwaiter_1_GetResult_m30434618A5121F8C9B1DBA22A6D3FCF6B991007F_RuntimeMethod_var);
 			RemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4* L_39 = L_38.___Item1;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:510>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:510>
 			if (!L_39)
 			{
 				goto IL_0158_1;
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:512>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:512>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_40 = V_1;
 			NullCheck(L_40);
 			L_40->____reconnectAttempts = 0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:513>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:513>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_41 = V_1;
 			NullCheck(L_41);
 			RemoteAgentBridgeClient_SetConnected_mE0EFF8A82835B06A4404A640878F08AA6CDA4AD3(L_41, (bool)1, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:514>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:514>
 			goto IL_0170_1;
 		}
 
 IL_0158_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:489>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:489>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_42 = V_1;
 			NullCheck(L_42);
 			bool L_43 = L_42->____isConnected;
@@ -6921,7 +6921,7 @@ CATCH_0172:
 
 IL_018b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:517>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:517>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_49 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -6940,7 +6940,7 @@ IL2CPP_EXTERN_C  void U3CReconnectAsyncU3Ed__54_MoveNext_mDC4323A6E0BF3A4DD2773B
 	_thisAdjusted = reinterpret_cast<U3CReconnectAsyncU3Ed__54_tA32602B0C6B37A289EA7AFD3868250261A5C327E*>(__this + _offset);
 	U3CReconnectAsyncU3Ed__54_MoveNext_mDC4323A6E0BF3A4DD2773BAE3D5600D3B903483F(_thisAdjusted, method);
 }
-// Method Definition Index: 129940
+// Method Definition Index: 130494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReconnectAsyncU3Ed__54_SetStateMachine_m0DA0941410726437421CC32549F8ED275B11416A (U3CReconnectAsyncU3Ed__54_tA32602B0C6B37A289EA7AFD3868250261A5C327E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6973,7 +6973,7 @@ IL2CPP_EXTERN_C  void U3CReconnectAsyncU3Ed__54_SetStateMachine_m0DA094141072643
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129941
+// Method Definition Index: 130495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetryInitialConnectionAsyncU3Ed__53_MoveNext_mA84F109E7A0538507B162A8CF1DA573FBCE16164 (U3CRetryInitialConnectionAsyncU3Ed__53_t26A3F6D8CB5108637166675C591B08796CA817E2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7006,7 +7006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetryInitialConnectionAsyncU3Ed__53_M
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:481>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:481>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_4 = __this->___ct;
 			NullCheck(L_3);
@@ -7050,7 +7050,7 @@ IL_004f_1:
 IL_006b_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:482>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:482>
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_14 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
 			bool L_15;
@@ -7072,13 +7072,13 @@ IL_006b_1:
 
 IL_0087_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:482>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:482>
 			goto IL_00c6;
 		}
 
 IL_0089_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:483>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:483>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_18 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_19 = V_1;
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_20 = __this->___ct;
@@ -7088,7 +7088,7 @@ IL_0089_1:
 			NullCheck(L_18);
 			L_18->____sseTask = L_21;
 			Il2CppCodeGenWriteBarrier((void**)(&L_18->____sseTask), (void*)L_21);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:484>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:484>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_22 = V_1;
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_23 = V_1;
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_24 = __this->___ct;
@@ -7126,7 +7126,7 @@ CATCH_00af:
 
 IL_00c6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:485>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:485>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_29 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -7145,7 +7145,7 @@ IL2CPP_EXTERN_C  void U3CRetryInitialConnectionAsyncU3Ed__53_MoveNext_mA84F109E7
 	_thisAdjusted = reinterpret_cast<U3CRetryInitialConnectionAsyncU3Ed__53_t26A3F6D8CB5108637166675C591B08796CA817E2*>(__this + _offset);
 	U3CRetryInitialConnectionAsyncU3Ed__53_MoveNext_mA84F109E7A0538507B162A8CF1DA573FBCE16164(_thisAdjusted, method);
 }
-// Method Definition Index: 129942
+// Method Definition Index: 130496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRetryInitialConnectionAsyncU3Ed__53_SetStateMachine_m97319267E61AC8F4AED95F7E4E8D01D8DB47BD28 (U3CRetryInitialConnectionAsyncU3Ed__53_t26A3F6D8CB5108637166675C591B08796CA817E2* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7178,7 +7178,7 @@ IL2CPP_EXTERN_C  void U3CRetryInitialConnectionAsyncU3Ed__53_SetStateMachine_m97
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129943
+// Method Definition Index: 130497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunHealthCheckLoopAsyncU3Ed__52_MoveNext_mAF5E5379FB8C603935019F97D56D43D02B73BC50 (U3CRunHealthCheckLoopAsyncU3Ed__52_t48E6875705889A1A85FCE1D6F666C6DD0A0A3B5B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7243,7 +7243,7 @@ IL_001d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:456>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:456>
 				il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 				TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_5;
 				L_5 = TimeSpan_FromSeconds_m4401B50C0CA831134068595C6AF2F1CA92AAF80F((10.0), NULL);
@@ -7289,7 +7289,7 @@ IL_006c_2:
 IL_0088_2:
 			{
 				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:457>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:457>
 				goto IL_0097_1;
 			}
 		}
@@ -7306,15 +7306,15 @@ IL_0088_2:
 CATCH_0091_1:
 		{
 			OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662* L_16 = ((OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*)IL2CPP_GET_ACTIVE_EXCEPTION(OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:458>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:460>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:458>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:460>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0158_1;
 		}
 
 IL_0097_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:463>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:463>
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_17 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
 			bool L_18;
@@ -7334,7 +7334,7 @@ IL_0097_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:465>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:465>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_21 = V_1;
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_22 = __this->___ct;
 			NullCheck(L_21);
@@ -7380,7 +7380,7 @@ IL_010c_1:
 			ValueTuple_2_t2CEA62E02A97B390B64693DC6DAE337805CE10DF L_32;
 			L_32 = TaskAwaiter_1_GetResult_m30434618A5121F8C9B1DBA22A6D3FCF6B991007F((&V_3), TaskAwaiter_1_GetResult_m30434618A5121F8C9B1DBA22A6D3FCF6B991007F_RuntimeMethod_var);
 			RemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4* L_33 = L_32.___Item1;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:466>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:466>
 			if (L_33)
 			{
 				goto IL_0140_1;
@@ -7406,9 +7406,9 @@ IL_010c_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:468>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:468>
 			Log_Error_m701B2D8BC797A36BA4E4CB01769D2AC391289184(_stringLiteral543721D313536D19DC876D824299A61C9433A41C, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:469>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:469>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_38 = V_1;
 			NullCheck(L_38);
 			RemoteAgentBridgeClient_SetConnected_mE0EFF8A82835B06A4404A640878F08AA6CDA4AD3(L_38, (bool)0, NULL);
@@ -7416,7 +7416,7 @@ IL_010c_1:
 
 IL_0140_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:452>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:452>
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_39 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
 			bool L_40;
@@ -7466,7 +7466,7 @@ CATCH_015a:
 
 IL_0173:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:473>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:473>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_46 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -7485,7 +7485,7 @@ IL2CPP_EXTERN_C  void U3CRunHealthCheckLoopAsyncU3Ed__52_MoveNext_mAF5E5379FB8C6
 	_thisAdjusted = reinterpret_cast<U3CRunHealthCheckLoopAsyncU3Ed__52_t48E6875705889A1A85FCE1D6F666C6DD0A0A3B5B*>(__this + _offset);
 	U3CRunHealthCheckLoopAsyncU3Ed__52_MoveNext_mAF5E5379FB8C603935019F97D56D43D02B73BC50(_thisAdjusted, method);
 }
-// Method Definition Index: 129944
+// Method Definition Index: 130498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunHealthCheckLoopAsyncU3Ed__52_SetStateMachine_m9A272F90DB051AECDAD178813BCFA8373EC3021F (U3CRunHealthCheckLoopAsyncU3Ed__52_t48E6875705889A1A85FCE1D6F666C6DD0A0A3B5B* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7518,7 +7518,7 @@ IL2CPP_EXTERN_C  void U3CRunHealthCheckLoopAsyncU3Ed__52_SetStateMachine_m9A272F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129945
+// Method Definition Index: 130499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunSseConnectionAsyncU3Ed__50_MoveNext_mFB71CD9E02CF7DEFC392E74D8B6FB4E6A1D7FF53 (U3CRunSseConnectionAsyncU3Ed__50_t2A5F97A42DB7D66878383A3B11C87E5C2B66BAAD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7585,7 +7585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunSseConnectionAsyncU3Ed__50_MoveNex
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:355>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:355>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			NullCheck(L_3);
 			String_t* L_4;
@@ -7593,7 +7593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunSseConnectionAsyncU3Ed__50_MoveNex
 			String_t* L_5;
 			L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_4, _stringLiteralE2C487CD0C5239253915C06D4D016F6EB5DAFC24, NULL);
 			V_2 = L_5;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:357>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:357>
 			il2cpp_codegen_runtime_class_init_inline(HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E_il2cpp_TypeInfo_var);
 			HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E* L_6;
 			L_6 = HttpMethod_get_Get_mAD94BF07B40B20DAF42CBEEC2E910FC5CE0DA670_inline(NULL);
@@ -7649,7 +7649,7 @@ IL_037b_1:
 					}
 				}
 				{
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:358>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:358>
 					HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* L_13 = __this->___U3CrequestU3E5__2;
 					NullCheck(L_13);
 					HttpRequestHeaders_tAC1E0B2246D915164C80B7A7925DE31283788DF7* L_14;
@@ -7661,12 +7661,12 @@ IL_037b_1:
 					MediaTypeWithQualityHeaderValue__ctor_m1DFFFA0504471B53C21F5FB03C49CF0F7A4460DD(L_16, _stringLiteral612B6814E904DD042B167418DFE491AD4B5A0B1B, NULL);
 					NullCheck(L_15);
 					HttpHeaderValueCollection_1_Add_m73CD43035C86CFC687450AA4574E18D67A50CE09(L_15, L_16, HttpHeaderValueCollection_1_Add_m73CD43035C86CFC687450AA4574E18D67A50CE09_RuntimeMethod_var);
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:359>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:359>
 					RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_17 = V_1;
 					HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* L_18 = __this->___U3CrequestU3E5__2;
 					NullCheck(L_17);
 					RemoteAgentBridgeClient_ConfigureAuth_mD4DF3A3FF80A73FE74FE85CBA2C61500D72E5024(L_17, L_18, NULL);
-					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:361>
+					//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:361>
 					HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_19 = (HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42*)il2cpp_codegen_object_new(HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42_il2cpp_TypeInfo_var);
 					HttpClient__ctor_mD64C48138600CF1398E7BB24BF33EB582ECB1AFD(L_19, NULL);
 					HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_20 = L_19;
@@ -7731,7 +7731,7 @@ IL_0363_2:
 							}
 						}
 						{
-							//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:362>
+							//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:362>
 							HttpClient_t18C26B758AF7E9331DC8A86A2AD715B53BBA9D42* L_27 = __this->___U3CsseClientU3E5__3;
 							HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* L_28 = __this->___U3CrequestU3E5__2;
 							CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_29 = __this->___ct;
@@ -7835,12 +7835,12 @@ IL_034b_3:
 									}
 								}
 								{
-									//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:363>
+									//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:363>
 									HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_46 = __this->___U3CresponseU3E5__4;
 									NullCheck(L_46);
 									HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_47;
 									L_47 = HttpResponseMessage_EnsureSuccessStatusCode_m9B3196715BFBEEC6946D0C082DE33C4C43C00210(L_46, NULL);
-									//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:365>
+									//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:365>
 									HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* L_48 = __this->___U3CresponseU3E5__4;
 									NullCheck(L_48);
 									HttpContent_tD09737BB27CB151BC9688882F785208620211E1C* L_49;
@@ -7938,7 +7938,7 @@ IL_0333_4:
 											}
 										}
 										{
-											//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:366>
+											//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:366>
 											Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_65 = __this->___U3CstreamU3E5__5;
 											StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_66 = (StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B*)il2cpp_codegen_object_new(StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B_il2cpp_TypeInfo_var);
 											StreamReader__ctor_mAFA827D6D825FEC2C29C73B65C2DD1AB9076DEC7(L_66, L_65, NULL);
@@ -7991,21 +7991,21 @@ IL_031b_5:
 													}
 												}
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:368>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:368>
 													__this->___U3CcurrentEventTypeU3E5__7 = 2;
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:369>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:369>
 													StringBuilder_t* L_71 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 													StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_71, NULL);
 													__this->___U3CcurrentDataU3E5__8 = L_71;
 													Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcurrentDataU3E5__8), (void*)L_71);
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:370>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:370>
 													__this->___U3ChasDataU3E5__9 = (bool)0;
 													goto IL_02ef_6;
 												}
 
 IL_01c5_6:
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:374>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:374>
 													StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_72 = __this->___U3CreaderU3E5__6;
 													NullCheck(L_72);
 													Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_73;
@@ -8050,7 +8050,7 @@ IL_0221_6:
 													String_t* L_82;
 													L_82 = TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9((&V_8), TaskAwaiter_1_GetResult_m82A392802A854576DC9525B87B0053B56201ABB9_RuntimeMethod_var);
 													V_7 = L_82;
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:375>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:375>
 													String_t* L_83 = V_7;
 													if (!L_83)
 													{
@@ -8058,7 +8058,7 @@ IL_0221_6:
 													}
 												}
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:377>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:377>
 													String_t* L_84 = V_7;
 													bool L_85;
 													L_85 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_84, NULL);
@@ -8068,7 +8068,7 @@ IL_0221_6:
 													}
 												}
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:380>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:380>
 													bool L_86 = __this->___U3ChasDataU3E5__9;
 													if (!L_86)
 													{
@@ -8076,7 +8076,7 @@ IL_0221_6:
 													}
 												}
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:382>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:382>
 													RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_87 = V_1;
 													il2cpp_codegen_initobj((&V_9), sizeof(SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60));
 													int32_t L_88 = __this->___U3CcurrentEventTypeU3E5__7;
@@ -8090,25 +8090,25 @@ IL_0221_6:
 													SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 L_91 = V_9;
 													NullCheck(L_87);
 													RemoteAgentBridgeClient_OnSseEventReceived_m71094436A94A6BF9D40D6AA87A112DD138C6544A(L_87, L_91, NULL);
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:383>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:383>
 													StringBuilder_t* L_92 = __this->___U3CcurrentDataU3E5__8;
 													NullCheck(L_92);
 													StringBuilder_t* L_93;
 													L_93 = StringBuilder_Clear_m2D76F6533574F40A4E3E2DC4E730277CBD0AF8F6(L_92, NULL);
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:384>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:384>
 													__this->___U3ChasDataU3E5__9 = (bool)0;
 												}
 
 IL_0284_6:
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:386>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:386>
 													__this->___U3CcurrentEventTypeU3E5__7 = 2;
 													goto IL_02ef_6;
 												}
 
 IL_028d_6:
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:388>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:388>
 													String_t* L_94 = V_7;
 													NullCheck(L_94);
 													bool L_95;
@@ -8119,7 +8119,7 @@ IL_028d_6:
 													}
 												}
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:390>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:390>
 													String_t* L_96 = V_7;
 													NullCheck(L_96);
 													String_t* L_97;
@@ -8132,7 +8132,7 @@ IL_028d_6:
 
 IL_02b0_6:
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:392>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:392>
 													String_t* L_99 = V_7;
 													NullCheck(L_99);
 													bool L_100;
@@ -8143,7 +8143,7 @@ IL_02b0_6:
 													}
 												}
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:394>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:394>
 													bool L_101 = __this->___U3ChasDataU3E5__9;
 													if (!L_101)
 													{
@@ -8151,7 +8151,7 @@ IL_02b0_6:
 													}
 												}
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:394>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:394>
 													StringBuilder_t* L_102 = __this->___U3CcurrentDataU3E5__8;
 													NullCheck(L_102);
 													StringBuilder_t* L_103;
@@ -8160,7 +8160,7 @@ IL_02b0_6:
 
 IL_02d4_6:
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:395>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:395>
 													StringBuilder_t* L_104 = __this->___U3CcurrentDataU3E5__8;
 													String_t* L_105 = V_7;
 													NullCheck(L_105);
@@ -8169,13 +8169,13 @@ IL_02d4_6:
 													NullCheck(L_104);
 													StringBuilder_t* L_107;
 													L_107 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_104, L_106, NULL);
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:396>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:396>
 													__this->___U3ChasDataU3E5__9 = (bool)1;
 												}
 
 IL_02ef_6:
 												{
-													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:372>
+													//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:372>
 													CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_108 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 													il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
 													bool L_109;
@@ -8258,7 +8258,7 @@ CATCH_037c:
 
 IL_03bf:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:399>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:399>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		__this->___U3CrequestU3E5__2 = (HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrequestU3E5__2), (void*)(HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2*)NULL);
@@ -8289,7 +8289,7 @@ IL2CPP_EXTERN_C  void U3CRunSseConnectionAsyncU3Ed__50_MoveNext_mFB71CD9E02CF7DE
 	_thisAdjusted = reinterpret_cast<U3CRunSseConnectionAsyncU3Ed__50_t2A5F97A42DB7D66878383A3B11C87E5C2B66BAAD*>(__this + _offset);
 	U3CRunSseConnectionAsyncU3Ed__50_MoveNext_mFB71CD9E02CF7DEFC392E74D8B6FB4E6A1D7FF53(_thisAdjusted, method);
 }
-// Method Definition Index: 129946
+// Method Definition Index: 130500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunSseConnectionAsyncU3Ed__50_SetStateMachine_mEC4263EBC6F3E59BB9B8975AA3E360A31DE0ABDB (U3CRunSseConnectionAsyncU3Ed__50_t2A5F97A42DB7D66878383A3B11C87E5C2B66BAAD* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8322,7 +8322,7 @@ IL2CPP_EXTERN_C  void U3CRunSseConnectionAsyncU3Ed__50_SetStateMachine_mEC4263EB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129947
+// Method Definition Index: 130501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunSseStreamAsyncU3Ed__49_MoveNext_m9433BE19BC44FE68D4C94999FFC45BD159C223F0 (U3CRunSseStreamAsyncU3Ed__49_t2965E626CBD09E7708C072EB32F62157903DD28E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8379,7 +8379,7 @@ IL_001d_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:331>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:331>
 				RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_5 = V_1;
 				CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_6 = __this->___ct;
 				NullCheck(L_5);
@@ -8423,7 +8423,7 @@ IL_005f_2:
 IL_007b_2:
 			{
 				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:332>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:332>
 				goto IL_00af_1;
 			}
 		}
@@ -8445,8 +8445,8 @@ IL_007b_2:
 CATCH_0084_1:
 		{
 			OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662* L_16 = ((OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*)IL2CPP_GET_ACTIVE_EXCEPTION(OperationCanceledException_tC97D0B4532C15E6F0E9F9375091C9ECCA438D662*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:333>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:335>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:333>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:335>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0131_1;
 		}
@@ -8455,9 +8455,9 @@ CATCH_008a_1:
 		{
 			{
 				Exception_t* L_17 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:337>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:337>
 				V_3 = L_17;
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:339>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:339>
 				CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_18 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var)));
 				bool L_19;
@@ -8468,7 +8468,7 @@ CATCH_008a_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:341>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:341>
 				Exception_t* L_20 = V_3;
 				NullCheck(L_20);
 				String_t* L_21;
@@ -8480,7 +8480,7 @@ CATCH_008a_1:
 
 IL_00ad_1:
 			{
-				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:343>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:343>
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_00af_1;
 			}
@@ -8488,7 +8488,7 @@ IL_00ad_1:
 
 IL_00af_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:345>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:345>
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_23 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
 			bool L_24;
@@ -8499,11 +8499,11 @@ IL_00af_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:348>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:348>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_25 = V_1;
 			NullCheck(L_25);
 			RemoteAgentBridgeClient_SetConnected_mE0EFF8A82835B06A4404A640878F08AA6CDA4AD3(L_25, (bool)0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:349>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:349>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_26 = V_1;
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_27 = __this->___ct;
 			NullCheck(L_26);
@@ -8551,7 +8551,7 @@ IL_011a_1:
 
 IL_0121_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:327>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:327>
 			CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED* L_37 = (CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED*)(&__this->___ct);
 			il2cpp_codegen_runtime_class_init_inline(CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_il2cpp_TypeInfo_var);
 			bool L_38;
@@ -8592,7 +8592,7 @@ CATCH_0133:
 
 IL_014c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:351>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_42 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -8611,7 +8611,7 @@ IL2CPP_EXTERN_C  void U3CRunSseStreamAsyncU3Ed__49_MoveNext_m9433BE19BC44FE68D4C
 	_thisAdjusted = reinterpret_cast<U3CRunSseStreamAsyncU3Ed__49_t2965E626CBD09E7708C072EB32F62157903DD28E*>(__this + _offset);
 	U3CRunSseStreamAsyncU3Ed__49_MoveNext_m9433BE19BC44FE68D4C94999FFC45BD159C223F0(_thisAdjusted, method);
 }
-// Method Definition Index: 129948
+// Method Definition Index: 130502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRunSseStreamAsyncU3Ed__49_SetStateMachine_mBC76886C1CF5D34320063DF2D4219AEAE6BE6282 (U3CRunSseStreamAsyncU3Ed__49_t2965E626CBD09E7708C072EB32F62157903DD28E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8644,7 +8644,7 @@ IL2CPP_EXTERN_C  void U3CRunSseStreamAsyncU3Ed__49_SetStateMachine_mBC76886C1CF5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129949
+// Method Definition Index: 130503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__45_MoveNext_mAAC03EA421DC75FC7596BA69D863E4F930251163 (U3CSendPromptAsyncU3Ed__45_tD9B3232BE33FD146361250C20A2187CCB50F079B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8687,7 +8687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__45_MoveNext_mAAC
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:228>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:228>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_3 = V_1;
 			NullCheck(L_3);
 			bool L_4 = L_3->____disposed;
@@ -8697,7 +8697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__45_MoveNext_mAAC
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:228>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:228>
 			ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_5 = (ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB_il2cpp_TypeInfo_var)));
 			ObjectDisposedException__ctor_mB2C8582279AF3F0C1CF9AA52DA7331BF848DFD48(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralAC44C0EC58063BA52CA4F7480EEC05C89670A339)), NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CSendPromptAsyncU3Ed__45_MoveNext_mAAC03EA421DC75FC7596BA69D863E4F930251163_RuntimeMethod_var)));
@@ -8705,7 +8705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__45_MoveNext_mAAC
 
 IL_0024_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:230>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:230>
 			RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* L_6 = V_1;
 			RemotePromptRequest_tB7599577400C60F4F02AFE8B62942808EBA3D443* L_7 = __this->___request;
 			String_t* L_8;
@@ -8758,7 +8758,7 @@ IL_0092_1:
 			V_3 = L_21;
 			String_t* L_22 = L_20.___Item2;
 			V_4 = L_22;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:231>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:231>
 			String_t* L_23 = V_4;
 			if (!L_23)
 			{
@@ -8766,12 +8766,12 @@ IL_0092_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:233>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:233>
 			String_t* L_24 = V_4;
 			String_t* L_25;
 			L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral388B6E620EB327F96924C220C291ACBEA2F7E769, L_24, NULL);
 			Log_Error_m701B2D8BC797A36BA4E4CB01769D2AC391289184(L_25, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:234>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:234>
 			String_t* L_26 = V_4;
 			ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_27;
 			memset((&L_27), 0, sizeof(L_27));
@@ -8782,7 +8782,7 @@ IL_0092_1:
 
 IL_00c7_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:237>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:237>
 			String_t* L_28 = V_3;
 			ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_29;
 			L_29 = RemoteAgentBridgeClient_ParseOperationResult_mDBE8D7AA97FC58D4028869335EA7354DC07D90F2(L_28, NULL);
@@ -8815,7 +8815,7 @@ CATCH_00d0:
 
 IL_00e9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:238>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_tF067096AC6F0889AF43A374C2B76B76C03F72940* L_33 = (AsyncTaskMethodBuilder_1_tF067096AC6F0889AF43A374C2B76B76C03F72940*)(&__this->___U3CU3Et__builder);
 		ValueTuple_2_tBE5B4915E1CEA1416C0DE837C133F4BD7C189862 L_34 = V_2;
@@ -8835,7 +8835,7 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__45_MoveNext_mAAC03EA421DC75FC7596B
 	_thisAdjusted = reinterpret_cast<U3CSendPromptAsyncU3Ed__45_tD9B3232BE33FD146361250C20A2187CCB50F079B*>(__this + _offset);
 	U3CSendPromptAsyncU3Ed__45_MoveNext_mAAC03EA421DC75FC7596BA69D863E4F930251163(_thisAdjusted, method);
 }
-// Method Definition Index: 129950
+// Method Definition Index: 130504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__45_SetStateMachine_m882DB78F4AD041DD85CAE796B3E5289519342B88 (U3CSendPromptAsyncU3Ed__45_tD9B3232BE33FD146361250C20A2187CCB50F079B* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8869,45 +8869,45 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__45_SetStateMachine_m882DB78F4AD041
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129951
+// Method Definition Index: 130505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t SseStreamHandler_get_BytesReceived_m6E2FCF58A891104B8A0D8F0BB01EF033DBD2ED42 (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
 		int64_t L_0 = __this->___U3CBytesReceivedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 129952
+// Method Definition Index: 130506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_set_BytesReceived_m4088AE7AD76653FB131FB60734191FE0A0ABEED2 (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
 		int64_t L_0 = ___0_value;
 		__this->___U3CBytesReceivedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 129953
+// Method Definition Index: 130507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SseStreamHandler_get_EventsReceived_m746372C20C3C0D63B5BD029C586280DAC743E63E (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
 		int32_t L_0 = __this->___U3CEventsReceivedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 129954
+// Method Definition Index: 130508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_set_EventsReceived_m582231FFDA5B7F027CC44BA42EF9732A3B5A3073 (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
 		int32_t L_0 = ___0_value;
 		__this->___U3CEventsReceivedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 129955
+// Method Definition Index: 130509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler__ctor_mF32AF47B4D29151D930B2040509858C0E9896C1E (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, Action_1_t1FB60C038B261D14874D1A9180D0E7E14FBC88BD* ___0_onEventReceived, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___1_onError, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8922,22 +8922,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler__ctor_mF32AF47B4D29151D
 	Action_1_t1FB60C038B261D14874D1A9180D0E7E14FBC88BD* G_B1_0 = NULL;
 	SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:38>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		__this->____buffer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____buffer), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:40>
 		__this->____currentEventType = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:41>
 		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
 		__this->____currentData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentData), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:60>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)4096));
 		DownloadHandlerScript__ctor_m67B5897E7D6354051F54E8EB70ACA62BA0EF264A(__this, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:62>
 		Action_1_t1FB60C038B261D14874D1A9180D0E7E14FBC88BD* L_3 = ___0_onEventReceived;
 		Action_1_t1FB60C038B261D14874D1A9180D0E7E14FBC88BD* L_4 = L_3;
 		if (L_4)
@@ -8960,15 +8960,15 @@ IL_003e:
 		NullCheck(G_B2_1);
 		G_B2_1->____onEventReceived = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->____onEventReceived), (void*)G_B2_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:63>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_6 = ___1_onError;
 		__this->____onError = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____onError), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 129956
+// Method Definition Index: 130510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SseStreamHandler_ReceiveData_m02CAB48C23EBDC98EAB2B044E386915026F1726C (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_dataLength, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
@@ -8977,7 +8977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SseStreamHandler_ReceiveData_m02CAB48C23
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B7_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B6_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:72>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		if (!L_0)
 		{
@@ -8994,13 +8994,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SseStreamHandler_ReceiveData_m02CAB48C23
 
 IL_0006:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:73>
 		return (bool)1;
 	}
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:75>
 		int64_t L_2;
 		L_2 = SseStreamHandler_get_BytesReceived_m6E2FCF58A891104B8A0D8F0BB01EF033DBD2ED42_inline(__this, NULL);
 		int32_t L_3 = ___1_dataLength;
@@ -9008,7 +9008,7 @@ IL_0008:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:79>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_4;
 		L_4 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = ___0_data;
@@ -9017,15 +9017,15 @@ IL_0008:
 		String_t* L_7;
 		L_7 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_4, L_5, 0, L_6);
 		V_0 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:80>
 		StringBuilder_t* L_8 = __this->____buffer;
 		String_t* L_9 = V_0;
 		NullCheck(L_8);
 		StringBuilder_t* L_10;
 		L_10 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:81>
 		SseStreamHandler_ProcessBuffer_m4760583C6BAF3169297DB160A717EB005883C414(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:82>
 		goto IL_005e;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -9042,9 +9042,9 @@ CATCH_003a:
 	{
 		{
 			Exception_t* L_11 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:83>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:83>
 			V_1 = L_11;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:85>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:85>
 			Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_12 = __this->____onError;
 			Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_13 = L_12;
 			if (L_13)
@@ -9072,7 +9072,7 @@ IL_0047:
 
 IL_005c:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:86>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:86>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_005e;
 		}
@@ -9080,26 +9080,26 @@ IL_005c:
 
 IL_005e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:88>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 129957
+// Method Definition Index: 130511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SseStreamHandler_GetProgress_m4C24A0F5CE5060F033F0B210540746EFF80B6606 (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:91>
 		return (0.0f);
 	}
 }
-// Method Definition Index: 129958
+// Method Definition Index: 130512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_ProcessBuffer_m4760583C6BAF3169297DB160A717EB005883C414 (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
 	int32_t V_1 = 0;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:99>
 		StringBuilder_t* L_0 = __this->____buffer;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -9109,13 +9109,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_ProcessBuffer_m4760583C
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:104>
 		String_t* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_2, ((int32_t)10), NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:105>
 		int32_t L_4 = V_1;
 		if ((((int32_t)L_4) < ((int32_t)0)))
 		{
@@ -9123,7 +9123,7 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:108>
 		String_t* L_5 = V_0;
 		int32_t L_6 = V_1;
 		NullCheck(L_5);
@@ -9133,38 +9133,38 @@ IL_000c:
 		String_t* L_8;
 		L_8 = String_TrimEnd_mDB4D96F8312F563656D4115A9F280062E05D2EE8(L_7, ((int32_t)13), NULL);
 		V_2 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:109>
 		String_t* L_9 = V_0;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
 		String_t* L_11;
 		L_11 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_9, ((int32_t)il2cpp_codegen_add(L_10, 1)), NULL);
 		V_0 = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:111>
 		String_t* L_12 = V_2;
 		SseStreamHandler_ProcessLine_m16B6399CDD706A0A3714334F3C5F87196103AC9E(__this, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:102>
 		goto IL_000c;
 	}
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:115>
 		StringBuilder_t* L_13 = __this->____buffer;
 		NullCheck(L_13);
 		StringBuilder_t* L_14;
 		L_14 = StringBuilder_Clear_m2D76F6533574F40A4E3E2DC4E730277CBD0AF8F6(L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:116>
 		StringBuilder_t* L_15 = __this->____buffer;
 		String_t* L_16 = V_0;
 		NullCheck(L_15);
 		StringBuilder_t* L_17;
 		L_17 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:117>
 		return;
 	}
 }
-// Method Definition Index: 129959
+// Method Definition Index: 130513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_ProcessLine_m16B6399CDD706A0A3714334F3C5F87196103AC9E (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, String_t* ___0_line, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9179,7 +9179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_ProcessLine_m16B6399CDD
 	String_t* V_1 = NULL;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:125>
 		String_t* L_0 = ___0_line;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -9189,15 +9189,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_ProcessLine_m16B6399CDD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:127>
 		SseStreamHandler_DispatchEvent_m72169E57884685459FB4613C65EF443E15B1E682(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:128>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:132>
 		String_t* L_2 = ___0_line;
 		NullCheck(L_2);
 		bool L_3;
@@ -9208,19 +9208,19 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:133>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:136>
 		String_t* L_4 = ___0_line;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966(L_4, ((int32_t)58), NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:140>
 		int32_t L_6 = V_0;
 		if ((((int32_t)L_6) < ((int32_t)0)))
 		{
@@ -9228,21 +9228,21 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:142>
 		String_t* L_7 = ___0_line;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		String_t* L_9;
 		L_9 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_7, 0, L_8, NULL);
 		V_1 = L_9;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:143>
 		String_t* L_10 = ___0_line;
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
 		String_t* L_12;
 		L_12 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_10, ((int32_t)il2cpp_codegen_add(L_11, 1)), NULL);
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:145>
 		String_t* L_13 = V_2;
 		NullCheck(L_13);
 		int32_t L_14;
@@ -9263,7 +9263,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:146>
 		String_t* L_17 = V_2;
 		NullCheck(L_17);
 		String_t* L_18;
@@ -9274,10 +9274,10 @@ IL_001d:
 
 IL_005b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:150>
 		String_t* L_19 = ___0_line;
 		V_1 = L_19;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:151>
 		String_t* L_20 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_2 = L_20;
 	}
@@ -9307,18 +9307,18 @@ IL_0063:
 
 IL_007e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:157>
 		String_t* L_25 = V_2;
 		int32_t L_26;
 		L_26 = SseEvent_ParseWireName_m1370D97F0D4D25CEAFFED4D2EDA4BB432538AFE1(L_25, NULL);
 		__this->____currentEventType = L_26;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:158>
 		return;
 	}
 
 IL_008b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:160>
 		bool L_27 = __this->____hasData;
 		if (!L_27)
 		{
@@ -9326,7 +9326,7 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:161>
 		StringBuilder_t* L_28 = __this->____currentData;
 		NullCheck(L_28);
 		StringBuilder_t* L_29;
@@ -9335,19 +9335,19 @@ IL_008b:
 
 IL_00a1:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:162>
 		StringBuilder_t* L_30 = __this->____currentData;
 		String_t* L_31 = V_2;
 		NullCheck(L_30);
 		StringBuilder_t* L_32;
 		L_32 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_30, L_31, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:163>
 		__this->____hasData = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:167>
 		return;
 	}
 }
-// Method Definition Index: 129960
+// Method Definition Index: 130514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_DispatchEvent_m72169E57884685459FB4613C65EF443E15B1E682 (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 V_0;
@@ -9360,7 +9360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_DispatchEvent_m72169E57
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B6_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B5_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:175>
 		bool L_0 = __this->____hasData;
 		if (L_0)
 		{
@@ -9368,19 +9368,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_DispatchEvent_m72169E57
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:177>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:177>
 		SseStreamHandler_ResetEventState_m161BB361C5B8FC4A2682842CD7F0A7D6BA5EBB1D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:178>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:181>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:182>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:183>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:184>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:185>
 		il2cpp_codegen_initobj((&V_1), sizeof(SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60));
 		int32_t L_1 = __this->____currentEventType;
 		(&V_1)->___EventType = L_1;
@@ -9392,7 +9392,7 @@ IL_000f:
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Data), (void*)L_3);
 		SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 L_4 = V_1;
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:187>
 		int32_t L_5;
 		L_5 = SseStreamHandler_get_EventsReceived_m746372C20C3C0D63B5BD029C586280DAC743E63E_inline(__this, NULL);
 		V_2 = L_5;
@@ -9401,12 +9401,12 @@ IL_000f:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:191>
 		Action_1_t1FB60C038B261D14874D1A9180D0E7E14FBC88BD* L_7 = __this->____onEventReceived;
 		SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60 L_8 = V_0;
 		NullCheck(L_7);
 		Action_1_Invoke_m1B2F9B3B75FD15D5C80A2E1991671BC5E4A6F2DF_inline(L_7, L_8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:192>
 		goto IL_007a;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -9423,9 +9423,9 @@ CATCH_0056:
 	{
 		{
 			Exception_t* L_9 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:193>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:193>
 			V_3 = L_9;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:195>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:195>
 			Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_10 = __this->____onError;
 			Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_11 = L_10;
 			if (L_11)
@@ -9453,7 +9453,7 @@ IL_0063:
 
 IL_0078:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:196>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:196>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_007a;
 		}
@@ -9461,26 +9461,26 @@ IL_0078:
 
 IL_007a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:198>
 		SseStreamHandler_ResetEventState_m161BB361C5B8FC4A2682842CD7F0A7D6BA5EBB1D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:199>
 		return;
 	}
 }
-// Method Definition Index: 129961
+// Method Definition Index: 130515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_ResetEventState_m161BB361C5B8FC4A2682842CD7F0A7D6BA5EBB1D (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:206>
 		__this->____currentEventType = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:207>
 		StringBuilder_t* L_0 = __this->____currentData;
 		NullCheck(L_0);
 		StringBuilder_t* L_1;
 		L_1 = StringBuilder_Clear_m2D76F6533574F40A4E3E2DC4E730277CBD0AF8F6(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:208>
 		__this->____hasData = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:209>
 		return;
 	}
 }
@@ -9492,7 +9492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SseStreamHandler_ResetEventState_m161BB3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129962
+// Method Definition Index: 130516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6043* AgentBridgeCoreService_SendPromptAsync_mD9FC8ED79C4C590AD4E0FB987AED47E8826958CC (String_t* ___0_prompt, CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___1_caller, List_1_t60780973EC9D51451BEDC6010D1B18354917C72E* ___2_images, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___3_cancellationToken, String_t* ___4_systemPrompt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9543,7 +9543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t824317F4B958F7512E8F7300511752937A6C6
 		return L_8;
 	}
 }
-// Method Definition Index: 129963
+// Method Definition Index: 130517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* AgentBridgeCoreService_GetConversationHistory_m7A3F67E0D109E0326FB91A96D889C86EA7D34ABD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9557,7 +9557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:74>
 		Func_1_tFF83A61E23529734E39E7ACCC76E44D3EA77621D* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetConversationHistoryDelegate;
 		if (L_0)
 		{
@@ -9565,10 +9565,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:76>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:77>
 		List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* L_1 = (List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1*)il2cpp_codegen_object_new(List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1_il2cpp_TypeInfo_var);
 		List_1__ctor_m5CD1015EE294D046B68B8B44CA6223A275A9DA2F(L_1, List_1__ctor_m5CD1015EE294D046B68B8B44CA6223A275A9DA2F_RuntimeMethod_var);
 		return L_1;
@@ -9576,7 +9576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E3
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:79>
 		Func_1_tFF83A61E23529734E39E7ACCC76E44D3EA77621D* L_2 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetConversationHistoryDelegate;
 		NullCheck(L_2);
 		List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* L_3;
@@ -9584,7 +9584,7 @@ IL_0017:
 		return L_3;
 	}
 }
-// Method Definition Index: 129964
+// Method Definition Index: 130518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* AgentBridgeCoreService_GetConversationHistoryForCaller_m7AFBC4D16B0FAC0367E6BDC26E0FBF4F3692563F (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9598,7 +9598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:87>
 		Func_2_t140E9ECCC075C46C50E56CDA6A0B7E0541AC9A49* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetConversationHistoryForCallerDelegate;
 		if (L_0)
 		{
@@ -9606,10 +9606,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E3
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:89>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:90>
 		List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1* L_1 = (List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1*)il2cpp_codegen_object_new(List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E36F1_il2cpp_TypeInfo_var);
 		List_1__ctor_m5CD1015EE294D046B68B8B44CA6223A275A9DA2F(L_1, List_1__ctor_m5CD1015EE294D046B68B8B44CA6223A275A9DA2F_RuntimeMethod_var);
 		return L_1;
@@ -9617,7 +9617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t4DA5C56EC857EDEBAC4D12E105693521B19E3
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:92>
 		Func_2_t140E9ECCC075C46C50E56CDA6A0B7E0541AC9A49* L_2 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetConversationHistoryForCallerDelegate;
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_3 = ___0_caller;
 		NullCheck(L_2);
@@ -9626,7 +9626,7 @@ IL_0017:
 		return L_4;
 	}
 }
-// Method Definition Index: 129965
+// Method Definition Index: 130519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_ClearConversation_mDC6712A755E78683A37BD6A3B076930F65DFC061 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9638,7 +9638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_ClearConversation
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:100>
 		Action_1_t960B4ADF8AC574429A53ED483906C5A6AFAAE9E8* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___ClearConversationDelegate;
 		if (L_0)
 		{
@@ -9646,25 +9646,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_ClearConversation
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:102>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:103>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:105>
 		Action_1_t960B4ADF8AC574429A53ED483906C5A6AFAAE9E8* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___ClearConversationDelegate;
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_2 = ___0_caller;
 		NullCheck(L_1);
 		Action_1_Invoke_mC1C5F061943B52FCDDC32847623ABB5FB48AE412_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 129966
+// Method Definition Index: 130520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* AgentBridgeCoreService_CancelCurrentOperationAsync_m0772B957051816E4446D9523163C797F6A991971 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9701,7 +9701,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 129967
+// Method Definition Index: 130521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeCoreService_IsProcessing_mC2CF58C4A5635A890D4C5C6F5730AA68EA4E4659 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9713,7 +9713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeCoreService_IsProcessing_mC2C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:126>
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___IsProcessingDelegate;
 		if (L_0)
 		{
@@ -9721,16 +9721,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeCoreService_IsProcessing_mC2C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:128>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:129>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:131>
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___IsProcessingDelegate;
 		NullCheck(L_1);
 		bool L_2;
@@ -9738,7 +9738,7 @@ IL_0013:
 		return L_2;
 	}
 }
-// Method Definition Index: 129968
+// Method Definition Index: 130522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeCoreService_HasActiveSession_m7247A03F156605ACF34735EFA6F5BB6C66CCD97A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9750,7 +9750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeCoreService_HasActiveSession_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:139>
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___HasActiveSessionDelegate;
 		if (L_0)
 		{
@@ -9758,16 +9758,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AgentBridgeCoreService_HasActiveSession_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:142>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:144>
 		Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___HasActiveSessionDelegate;
 		NullCheck(L_1);
 		bool L_2;
@@ -9775,7 +9775,7 @@ IL_0013:
 		return L_2;
 	}
 }
-// Method Definition Index: 129969
+// Method Definition Index: 130523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetLastError_mE412B1041EC81ABA3B5F3FF314056E64B1E71EBD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9787,7 +9787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetLastError
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:152>
 		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetLastErrorDelegate;
 		if (L_0)
 		{
@@ -9795,16 +9795,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetLastError
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:154>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:155>
 		return (String_t*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:157>
 		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetLastErrorDelegate;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -9812,7 +9812,7 @@ IL_0013:
 		return L_2;
 	}
 }
-// Method Definition Index: 129970
+// Method Definition Index: 130524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_ClearError_mF65E95873A44B8997F3926C9059B09C349BDE4F6 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9824,7 +9824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_ClearError_mF65E9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:165>
 		Action_1_t960B4ADF8AC574429A53ED483906C5A6AFAAE9E8* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___ClearErrorDelegate;
 		if (L_0)
 		{
@@ -9832,25 +9832,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_ClearError_mF65E9
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:168>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:170>
 		Action_1_t960B4ADF8AC574429A53ED483906C5A6AFAAE9E8* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___ClearErrorDelegate;
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_2 = ___0_caller;
 		NullCheck(L_1);
 		Action_1_Invoke_mC1C5F061943B52FCDDC32847623ABB5FB48AE412_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:171>
 		return;
 	}
 }
-// Method Definition Index: 129971
+// Method Definition Index: 130525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetCurrentServiceName_m8AA3B3D29B37D792186BAED7F3D11BC562F5B714 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9863,7 +9863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetCurrentSe
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:178>
 		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetCurrentServiceNameDelegate;
 		if (L_0)
 		{
@@ -9871,16 +9871,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetCurrentSe
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:180>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:181>
 		return _stringLiteral548D93DDB2AC6B24373148B19D9A625571AB2318;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:183>
 		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetCurrentServiceNameDelegate;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -9888,7 +9888,7 @@ IL_0017:
 		return L_2;
 	}
 }
-// Method Definition Index: 129972
+// Method Definition Index: 130526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetSessionId_m2F56493E25065F55D190BDEAAE72594331E49CFE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9900,7 +9900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetSessionId
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:192>
 		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetSessionIdDelegate;
 		if (L_0)
 		{
@@ -9908,17 +9908,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetSessionId
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:194>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:195>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_1;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:197>
 		Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* L_2 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetSessionIdDelegate;
 		NullCheck(L_2);
 		String_t* L_3;
@@ -9926,7 +9926,7 @@ IL_0017:
 		return L_3;
 	}
 }
-// Method Definition Index: 129973
+// Method Definition Index: 130527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetSessionIdForCaller_m92B74E069A80CD12AD307B06C64C60666DAEFA3B (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9938,7 +9938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetSessionId
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:206>
 		Func_2_t3EC72078B17C6A05A09AD6413532B8EDD61D25F4* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetSessionIdForCallerDelegate;
 		if (L_0)
 		{
@@ -9946,17 +9946,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetSessionId
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:208>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:209>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_1;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:211>
 		Func_2_t3EC72078B17C6A05A09AD6413532B8EDD61D25F4* L_2 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetSessionIdForCallerDelegate;
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_3 = ___0_caller;
 		NullCheck(L_2);
@@ -9965,7 +9965,7 @@ IL_0017:
 		return L_4;
 	}
 }
-// Method Definition Index: 129974
+// Method Definition Index: 130528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C* AgentBridgeCoreService_GetUsageForCaller_m4C6D38152B9C599153C167AE7EB88FE2B678569A (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9978,7 +9978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:220>
 		Func_2_tF371A4E1464FEFDC018C50A4263E436C844016D3* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetUsageForCallerDelegate;
 		if (L_0)
 		{
@@ -9986,10 +9986,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:222>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:223>
 		UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C* L_1 = (UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C*)il2cpp_codegen_object_new(UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C_il2cpp_TypeInfo_var);
 		UsageTotals__ctor_mB9AD3CF244FA3AA6BFAC9B2E472D74EE530E3B91(L_1, NULL);
 		return L_1;
@@ -9997,7 +9997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:225>
 		Func_2_tF371A4E1464FEFDC018C50A4263E436C844016D3* L_2 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetUsageForCallerDelegate;
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_3 = ___0_caller;
 		NullCheck(L_2);
@@ -10006,7 +10006,7 @@ IL_0017:
 		return L_4;
 	}
 }
-// Method Definition Index: 129975
+// Method Definition Index: 130529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetResumeCommandForCaller_m0B27CAA0A2505356A169614B06E7DE7058E855BA (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* ___0_caller, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10018,7 +10018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetResumeCom
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:234>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:234>
 		Func_2_t3EC72078B17C6A05A09AD6413532B8EDD61D25F4* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetResumeCommandForCallerDelegate;
 		if (L_0)
 		{
@@ -10026,16 +10026,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AgentBridgeCoreService_GetResumeCom
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:236>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:237>
 		return (String_t*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:239>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:239>
 		Func_2_t3EC72078B17C6A05A09AD6413532B8EDD61D25F4* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___GetResumeCommandForCallerDelegate;
 		CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_2 = ___0_caller;
 		NullCheck(L_1);
@@ -10044,7 +10044,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 129976
+// Method Definition Index: 130530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_OpenTerminalWithCommand_mB359D12858F99831B544DCF7EBB563C8AE61D279 (String_t* ___0_command, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10056,7 +10056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_OpenTerminalWithC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:247>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:247>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___OpenTerminalWithCommandDelegate;
 		if (L_0)
 		{
@@ -10064,25 +10064,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_OpenTerminalWithC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:249>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:250>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:252>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___OpenTerminalWithCommandDelegate;
 		String_t* L_2 = ___0_command;
 		NullCheck(L_1);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:253>
 		return;
 	}
 }
-// Method Definition Index: 129977
+// Method Definition Index: 130531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_EnsureServiceInitialized_mFE2B464987A49F60352A0F693E4FE32BD0B6A8F9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10094,7 +10094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_EnsureServiceInit
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:261>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:261>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___EnsureServiceInitializedDelegate;
 		if (L_0)
 		{
@@ -10102,20 +10102,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AgentBridgeCoreService_EnsureServiceInit
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:263>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:264>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:266>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___EnsureServiceInitializedDelegate;
 		NullCheck(L_1);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:267>
 		return;
 	}
 }
@@ -10127,7 +10127,7 @@ IL_0012:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129978
+// Method Definition Index: 130532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelCurrentOperationAsyncU3Ed__20_MoveNext_m1D88F1229DE3D3FC7F094A299693204C8728EF4E (U3CCancelCurrentOperationAsyncU3Ed__20_tAD35938F67FF42CD506D3AF7D4EC435AEED7D7EA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10159,7 +10159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelCurrentOperationAsyncU3Ed__20_M
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:113>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:113>
 			Func_2_t8B1685C46125AF400FE39ECE54FE9932AF3CC6D4* L_2 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___CancelCurrentOperationAsyncDelegate;
 			if (L_2)
 			{
@@ -10167,16 +10167,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelCurrentOperationAsyncU3Ed__20_M
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:115>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:115>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:116>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:116>
 			goto IL_0098;
 		}
 
 IL_001d_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:118>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:118>
 			Func_2_t8B1685C46125AF400FE39ECE54FE9932AF3CC6D4* L_3 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___CancelCurrentOperationAsyncDelegate;
 			CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_4 = __this->___caller;
 			NullCheck(L_3);
@@ -10248,7 +10248,7 @@ CATCH_0081:
 
 IL_0098:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:119>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_17 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -10267,7 +10267,7 @@ IL2CPP_EXTERN_C  void U3CCancelCurrentOperationAsyncU3Ed__20_MoveNext_m1D88F1229
 	_thisAdjusted = reinterpret_cast<U3CCancelCurrentOperationAsyncU3Ed__20_tAD35938F67FF42CD506D3AF7D4EC435AEED7D7EA*>(__this + _offset);
 	U3CCancelCurrentOperationAsyncU3Ed__20_MoveNext_m1D88F1229DE3D3FC7F094A299693204C8728EF4E(_thisAdjusted, method);
 }
-// Method Definition Index: 129979
+// Method Definition Index: 130533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCancelCurrentOperationAsyncU3Ed__20_SetStateMachine_m67FB1C86EB6229446454520369B556D8BBDB2835 (U3CCancelCurrentOperationAsyncU3Ed__20_tAD35938F67FF42CD506D3AF7D4EC435AEED7D7EA* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10300,7 +10300,7 @@ IL2CPP_EXTERN_C  void U3CCancelCurrentOperationAsyncU3Ed__20_SetStateMachine_m67
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129980
+// Method Definition Index: 130534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__16_MoveNext_mC91B36FB65AB194FA1648105DCC866489A4E01FB (U3CSendPromptAsyncU3Ed__16_t10F638CCF96BA1759DBD5D67E6AD6C8059531F1F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10337,7 +10337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__16_MoveNext_mC91
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:61>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:61>
 			Func_6_t1B6490A97745685B59481449A6CF2D8AC8E0CC92* L_2 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___SendPromptAsyncDelegate;
 			if (L_2)
 			{
@@ -10345,17 +10345,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__16_MoveNext_mC91
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:63>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:63>
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral82F3E165BD7833247DB45E3372558F3DB4C525E8, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:64>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:64>
 			V_1 = (bool)0;
 			goto IL_00b6;
 		}
 
 IL_0022_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:66>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:66>
 			Func_6_t1B6490A97745685B59481449A6CF2D8AC8E0CC92* L_3 = ((AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_StaticFields*)il2cpp_codegen_static_fields_for(AgentBridgeCoreService_t6F7B683103FB45B7ACEEB01A9E51EF2DD884B714_il2cpp_TypeInfo_var))->___SendPromptAsyncDelegate;
 			String_t* L_4 = __this->___prompt;
 			CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* L_5 = __this->___caller;
@@ -10433,7 +10433,7 @@ CATCH_009f:
 
 IL_00b6:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/AgentBridgeCoreService.cs:67>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA* L_22 = (AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA*)(&__this->___U3CU3Et__builder);
 		bool L_23 = V_1;
@@ -10453,7 +10453,7 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__16_MoveNext_mC91B36FB65AB194FA1648
 	_thisAdjusted = reinterpret_cast<U3CSendPromptAsyncU3Ed__16_t10F638CCF96BA1759DBD5D67E6AD6C8059531F1F*>(__this + _offset);
 	U3CSendPromptAsyncU3Ed__16_MoveNext_mC91B36FB65AB194FA1648105DCC866489A4E01FB(_thisAdjusted, method);
 }
-// Method Definition Index: 129981
+// Method Definition Index: 130535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSendPromptAsyncU3Ed__16_SetStateMachine_m256557D546B1B51C391A2878DF793F4F3EA6A61D (U3CSendPromptAsyncU3Ed__16_t10F638CCF96BA1759DBD5D67E6AD6C8059531F1F* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10487,16 +10487,16 @@ IL2CPP_EXTERN_C  void U3CSendPromptAsyncU3Ed__16_SetStateMachine_m256557D546B1B5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129982
+// Method Definition Index: 130536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CallerIdentity_get_Id_m95577762461706FD5962F9F49FA6239B21E2AB1F (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/CallerIdentity.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/CallerIdentity.cs:32>
 		String_t* L_0 = __this->___U3CIdU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 129983
+// Method Definition Index: 130537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallerIdentity__ctor_m6484D0BF8A0F4F357DDEF003842432FEDDA79E39 (CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	String_t* G_B2_0 = NULL;
@@ -10504,9 +10504,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallerIdentity__ctor_m6484D0BF8A0F4F357D
 	String_t* G_B1_0 = NULL;
 	CallerIdentity_tEE43E558671C79344AEB4B9898118BC8819E92EA* G_B1_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/CallerIdentity.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/CallerIdentity.cs:37>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/CallerIdentity.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/CallerIdentity.cs:39>
 		String_t* L_0 = ___0_id;
 		String_t* L_1 = L_0;
 		if (L_1)
@@ -10529,7 +10529,7 @@ IL_0011:
 		NullCheck(G_B2_1);
 		G_B2_1->___U3CIdU3Ek__BackingField = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___U3CIdU3Ek__BackingField), (void*)G_B2_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/CallerIdentity.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/CallerIdentity.cs:40>
 		return;
 	}
 }
@@ -10541,7 +10541,7 @@ IL_0011:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129984
+// Method Definition Index: 130538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_add_MessageAdded_m38094343CE19F461318AF79DFA1F9AB9B133C556 (Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10585,7 +10585,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129985
+// Method Definition Index: 130539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_remove_MessageAdded_mFA4F290B8140AB00909470CB48589DFF4D4EFDBD (Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10629,7 +10629,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129986
+// Method Definition Index: 130540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_add_ConversationCleared_mC5E395ACA2AF369CB4ABD7A55DA86E830A8F140B (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10673,7 +10673,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129987
+// Method Definition Index: 130541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_remove_ConversationCleared_mCC07F7459A9E0386AE79B800055F6CFA28DCF066 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10717,7 +10717,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129988
+// Method Definition Index: 130542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_add_ProcessingStateChanged_m9EBED68406958F51A2EAF617E74F0ABEAA2AD094 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10761,7 +10761,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129989
+// Method Definition Index: 130543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_remove_ProcessingStateChanged_m7D64C0ECB3E2F77C0312492DB16BCD6E5170329E (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10805,7 +10805,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129990
+// Method Definition Index: 130544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_add_SessionIdChanged_m83D87CF58910A1511385D4D3D7EFADD87A9B1647 (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10849,7 +10849,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129991
+// Method Definition Index: 130545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_remove_SessionIdChanged_m3A886C71EDB812BC8C9E51462887855E96CC318B (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10893,7 +10893,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 129992
+// Method Definition Index: 130546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseMessageAdded_mAF9F5B01ECA088AD964F4998FDC618D8862E6CB4 (ConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10905,7 +10905,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseMessageAdde
 	Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* G_B2_0 = NULL;
 	Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:61>
 		Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* L_0 = ((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___MessageAdded;
 		Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15* L_1 = L_0;
 		if (L_1)
@@ -10924,11 +10924,11 @@ IL_000a:
 		ConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7* L_2 = ___0_message;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_mF4B31FDF55ACE6ABF721C26C739DD584DB9E2471_inline(G_B2_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 129993
+// Method Definition Index: 130547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseConversationCleared_m59DCCDE811C259727BCA245A53DACE3972B3649D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10940,7 +10940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseConversatio
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:69>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___ConversationCleared;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = L_0;
 		if (L_1)
@@ -10958,11 +10958,11 @@ IL_000a:
 	{
 		NullCheck(G_B2_0);
 		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(G_B2_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 129994
+// Method Definition Index: 130548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseProcessingStateChanged_m9168C2C0A9F0340CAE7FBAD40EAAE92DD972B36A (bool ___0_isProcessing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10974,7 +10974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseProcessingS
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B2_0 = NULL;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:77>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_0 = ((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___ProcessingStateChanged;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_1 = L_0;
 		if (L_1)
@@ -10993,11 +10993,11 @@ IL_000a:
 		bool L_2 = ___0_isProcessing;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline(G_B2_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:78>
 		return;
 	}
 }
-// Method Definition Index: 129995
+// Method Definition Index: 130549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseSessionIdChanged_m7589BF060EA71FD31FF7E989EDACA66079C316E9 (String_t* ___0_sessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11009,7 +11009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_RaiseSessionIdCh
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B2_0 = NULL;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:85>
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_0 = ((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___SessionIdChanged;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0;
 		if (L_1)
@@ -11028,11 +11028,11 @@ IL_000a:
 		String_t* L_2 = ___0_sessionId;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 129996
+// Method Definition Index: 130550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_ClearAllSubscriptions_m1EB68D09BDCE2AEDA6A1E4AB449DB451ECB3CCA1 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11042,19 +11042,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_ClearAllSubscrip
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:93>
 		((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___MessageAdded = (Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___MessageAdded), (void*)(Action_1_tECFB9DB5E563BD18BCEE6965C139224EA08C4A15*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:94>
 		((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___ConversationCleared = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___ConversationCleared), (void*)(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:95>
 		((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___ProcessingStateChanged = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___ProcessingStateChanged), (void*)(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:96>
 		((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___SessionIdChanged = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_StaticFields*)il2cpp_codegen_static_fields_for(ConversationEventBroker_t82AB03D22B2B802BBA2A33BF299929A41BD214B1_il2cpp_TypeInfo_var))->___SessionIdChanged), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationEventBroker.cs:97>
 		return;
 	}
 }
@@ -11066,39 +11066,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationEventBroker_ClearAllSubscrip
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129997
+// Method Definition Index: 130551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationMessage__ctor_m33E832933738E4F9F5CBEED914C342616E0C0F48 (ConversationMessage_t40C0F43BB611FF30890D203A22673E6C112E4DE7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:38>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___MessageId = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MessageId), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:43>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___MessageType = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MessageType), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:48>
 		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Content = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Content), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:53>
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___ToolName = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ToolName), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:58>
 		String_t* L_4 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Method = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Method), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:63>
 		String_t* L_5 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Target = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Target), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:68>
 		String_t* L_6 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Rationale = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Rationale), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ConversationMessage.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ConversationMessage.cs:91>
 		String_t* L_7 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___CallerId = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CallerId), (void*)L_7);
@@ -11114,19 +11114,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConversationMessage__ctor_m33E832933738E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129998
+// Method Definition Index: 130552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageAttachment__ctor_m4E784333F08900D28E7AFA8815FB0B16D64D0C61 (ImageAttachment_t0F80EC001DA15D5FF4E666191C0BF75A866DF126* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ImageAttachment.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ImageAttachment.cs:36>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Filename = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filename), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ImageAttachment.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ImageAttachment.cs:41>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Data = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Data), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/ImageAttachment.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/ImageAttachment.cs:46>
 		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___MediaType = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MediaType), (void*)L_2);
@@ -11142,11 +11142,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageAttachment__ctor_m4E784333F08900D28
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 129999
+// Method Definition Index: 130553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentStatus__ctor_mFBE6DF87398F67887399E8591572821E2169C789 (RemoteAgentStatus_tCDC1931B34B583C9B3300CC67BCD26488286E9A4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteAgentStatus.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteAgentStatus.cs:47>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___ServiceName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ServiceName), (void*)L_0);
@@ -11162,7 +11162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteAgentStatus__ctor_mFBE6DF87398F678
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130000
+// Method Definition Index: 130554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteOperationResult__ctor_m362B46884DCD3E4CDEC7FC436BEA23F0DF33437E (RemoteOperationResult_t57F629CB22C88207B33401B99B29C8CAC8AAF3E4* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11179,7 +11179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteOperationResult__ctor_m362B46884DC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130001
+// Method Definition Index: 130555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteProcessingState__ctor_m963EA4DC1894D336A222E1EAB6BFA5E7A33B0C91 (RemoteProcessingState_t3E50B27947EE73013E686C4355EE49F9D5991513* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11196,7 +11196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteProcessingState__ctor_m963EA4DC189
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130002
+// Method Definition Index: 130556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemotePromptRequest__ctor_mB216902FC60D0BA6E155853BE60C9C8BFA2A9739 (RemotePromptRequest_tB7599577400C60F4F02AFE8B62942808EBA3D443* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11206,11 +11206,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemotePromptRequest__ctor_mB216902FC60D0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteRequests.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteRequests.cs:35>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Prompt = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Prompt), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteRequests.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteRequests.cs:38>
 		__this->___CallerId = _stringLiteral9DFE625ECA7CF0A07555E4DBBB90BBBF23B8E121;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CallerId), (void*)_stringLiteral9DFE625ECA7CF0A07555E4DBBB90BBBF23B8E121);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -11225,7 +11225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemotePromptRequest__ctor_mB216902FC60D0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130003
+// Method Definition Index: 130557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteCallerRequest__ctor_m6F1F7072A05BD7B61FA1B6BE9E4CD531A0273F41 (RemoteCallerRequest_tC354FF1BE45F38548D22405565CAE56F9D1CBA56* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11235,7 +11235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteCallerRequest__ctor_m6F1F7072A05BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteRequests.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteRequests.cs:52>
 		__this->___CallerId = _stringLiteral9DFE625ECA7CF0A07555E4DBBB90BBBF23B8E121;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CallerId), (void*)_stringLiteral9DFE625ECA7CF0A07555E4DBBB90BBBF23B8E121);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -11250,11 +11250,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteCallerRequest__ctor_m6F1F7072A05BD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130004
+// Method Definition Index: 130558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSseConnected__ctor_mC3AE01E673389E3E686A515B7F8E92D83E9DB57E (RemoteSseConnected_tB36E06F53D353DA4F0E2FF35F8B22A8CB1EED41F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:37>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___ClientId = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ClientId), (void*)L_0);
@@ -11270,7 +11270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSseConnected__ctor_mC3AE01E673389E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130005
+// Method Definition Index: 130559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSsePing__ctor_mA3CE40AADB9CF5DB83E70510D8B0A837CD57BA84 (RemoteSsePing_t4E5B193659C1220621B803106F5B4E62AF5BB96F* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11287,7 +11287,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSsePing__ctor_mA3CE40AADB9CF5DB83E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130006
+// Method Definition Index: 130560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSseCleared__ctor_m82A025C077580B8E47D1DCD926327563E3FB2240 (RemoteSseCleared_t4E42FCC6B17F01E18E1AD08559EFBFF80D89AC09* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11304,11 +11304,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSseCleared__ctor_m82A025C077580B8E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130007
+// Method Definition Index: 130561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteErrorResponse__ctor_mB59D80DA46E35CCE88AE55A9CE0A82A51C42FC5E (RemoteErrorResponse_t0CE86F8C06D588C894993036457ADDBEA5F66246* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:76>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Error = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Error), (void*)L_0);
@@ -11324,7 +11324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteErrorResponse__ctor_mB59D80DA46E35
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130008
+// Method Definition Index: 130562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSseError__ctor_m1FE5625A40C556AA6D9F1AB40A3D92E898273978 (RemoteSseError_tA227A6435A018557DF48977BAE55B29BD8FA9C6A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11334,14 +11334,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RemoteSseError__ctor_m1FE5625A40C556AA6D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:94>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:94>
 		__this->___Code = _stringLiteral8BD8EBBF9AAADE3A1911E0372AF7DEEFC2B7800D;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Code), (void*)_stringLiteral8BD8EBBF9AAADE3A1911E0372AF7DEEFC2B7800D);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:99>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___Message = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Message), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/RemoteSseEvents.cs:109>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___CallerId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CallerId), (void*)L_1);
@@ -11401,11 +11401,11 @@ IL2CPP_EXTERN_C void SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60_marshal_
 	il2cpp_codegen_marshal_free_bstring(marshaled.___Data);
 	marshaled.___Data = NULL;
 }
-// Method Definition Index: 130009
+// Method Definition Index: 130563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SseEvent_get_WireEventName_m521E7278CF518AA2DC6B2B2D97E0AB356162C3D3 (SseEvent_tA9D9BF71B8DE099CB4CF90E58DCAD61DD195DC60* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:65>
 		int32_t L_0 = __this->___EventType;
 		String_t* L_1;
 		L_1 = SseEvent_ToWireName_mA83AB8AB5AE8F5390AE4F891CAA98C12068A418B(L_0, NULL);
@@ -11421,7 +11421,7 @@ IL2CPP_EXTERN_C  String_t* SseEvent_get_WireEventName_m521E7278CF518AA2DC6B2B2D9
 	_returnValue = SseEvent_get_WireEventName_m521E7278CF518AA2DC6B2B2D97E0AB356162C3D3(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 130010
+// Method Definition Index: 130564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SseEvent_ToWireName_mA83AB8AB5AE8F5390AE4F891CAA98C12068A418B (int32_t ___0_eventType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11438,16 +11438,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SseEvent_ToWireName_mA83AB8AB5AE8F5
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:68>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:69>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:70>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:71>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:72>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:73>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:74>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:75>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:76>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:77>
 		int32_t L_0 = ___0_eventType;
 		switch (L_0)
 		{
@@ -11483,49 +11483,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SseEvent_ToWireName_mA83AB8AB5AE8F5
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:70>
 		V_0 = _stringLiteral872832AF3EB23DF490D84F89198394B33CB88A29;
 		goto IL_0056;
 	}
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:71>
 		V_0 = _stringLiteralAD2BBC5DEC8245A45FBFBFF88DC127E3874E61B2;
 		goto IL_0056;
 	}
 
 IL_0030:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:72>
 		V_0 = _stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964;
 		goto IL_0056;
 	}
 
 IL_0038:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:73>
 		V_0 = _stringLiteralFD4706B02823C71252FBF63A74CF03433A8DADF0;
 		goto IL_0056;
 	}
 
 IL_0040:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:74>
 		V_0 = _stringLiteralF0B41345DD19648DE2EF756E53D4438A6B79CA1E;
 		goto IL_0056;
 	}
 
 IL_0048:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:75>
 		V_0 = _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2;
 		goto IL_0056;
 	}
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:76>
 		V_0 = _stringLiteral2C3323E6A37819D4C4AC310608DA4CF7FB13A968;
 	}
 
@@ -11535,7 +11535,7 @@ IL_0056:
 		return L_1;
 	}
 }
-// Method Definition Index: 130011
+// Method Definition Index: 130565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SseEvent_ParseWireName_m1370D97F0D4D25CEAFFED4D2EDA4BB432538AFE1 (String_t* ___0_wireName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11551,16 +11551,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SseEvent_ParseWireName_m1370D97F0D4D2
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:80>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:81>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:82>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:83>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:84>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:85>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:86>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:87>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:88>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:89>
 		String_t* L_0 = ___0_wireName;
 		bool L_1;
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteral872832AF3EB23DF490D84F89198394B33CB88A29, NULL);
@@ -11620,49 +11620,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SseEvent_ParseWireName_m1370D97F0D4D2
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:82>
 		V_0 = 0;
 		goto IL_006a;
 	}
 
 IL_0054:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:83>
 		V_0 = 1;
 		goto IL_006a;
 	}
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:84>
 		V_0 = 2;
 		goto IL_006a;
 	}
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:85>
 		V_0 = 3;
 		goto IL_006a;
 	}
 
 IL_0060:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:86>
 		V_0 = 4;
 		goto IL_006a;
 	}
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:87>
 		V_0 = 5;
 		goto IL_006a;
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Remote/SseEvent.cs:88>
 		V_0 = 6;
 	}
 
@@ -11680,17 +11680,17 @@ IL_006a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130012
+// Method Definition Index: 130566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t UsageTotals_get_TotalTokens_m7A55A10FC811665DF3AA8C4E1ED81E76BE9653DD (UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/UsageTotals.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/UsageTotals.cs:50>
 		int64_t L_0 = __this->___InputTokens;
 		int64_t L_1 = __this->___OutputTokens;
 		return ((int64_t)il2cpp_codegen_add(L_0, L_1));
 	}
 }
-// Method Definition Index: 130013
+// Method Definition Index: 130567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTotals__ctor_mB9AD3CF244FA3AA6BFAC9B2E472D74EE530E3B91 (UsageTotals_t1FC6BECB5CD1C3FFE93142E96F0B574A1C95739C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11707,7 +11707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UsageTotals__ctor_mB9AD3CF244FA3AA6BFAC9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130014
+// Method Definition Index: 130568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Info_m64A92FC7353E17202AAF65E3DBADCBAC6EB3FCF7 (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11719,7 +11719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Info_m64A92FC7353E17202AAF65E3DBADCB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:38>
 		bool L_0 = ((Log_tD1C2691789E3D1D5F75A208F73BE7106F9DF09D4_StaticFields*)il2cpp_codegen_static_fields_for(Log_tD1C2691789E3D1D5F75A208F73BE7106F9DF09D4_il2cpp_TypeInfo_var))->___VerboseLogging;
 		il2cpp_codegen_memory_barrier();
 		if (!L_0)
@@ -11728,7 +11728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Info_m64A92FC7353E17202AAF65E3DBADCB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:38>
 		String_t* L_1 = ___0_message;
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE0371AC37470F9E434A2040376540CE7B6695B9D, L_1, NULL);
@@ -11738,11 +11738,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Info_m64A92FC7353E17202AAF65E3DBADCB
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 130015
+// Method Definition Index: 130569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Warning_m08E4EEDF4664389E3238409480EA4F3F70D02E2B (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11754,7 +11754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Warning_m08E4EEDF4664389E3238409480E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:44>
 		bool L_0 = ((Log_tD1C2691789E3D1D5F75A208F73BE7106F9DF09D4_StaticFields*)il2cpp_codegen_static_fields_for(Log_tD1C2691789E3D1D5F75A208F73BE7106F9DF09D4_il2cpp_TypeInfo_var))->___VerboseLogging;
 		il2cpp_codegen_memory_barrier();
 		if (!L_0)
@@ -11763,7 +11763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Warning_m08E4EEDF4664389E3238409480E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:44>
 		String_t* L_1 = ___0_message;
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE0371AC37470F9E434A2040376540CE7B6695B9D, L_1, NULL);
@@ -11773,11 +11773,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Warning_m08E4EEDF4664389E3238409480E
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 130016
+// Method Definition Index: 130570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Error_m701B2D8BC797A36BA4E4CB01769D2AC391289184 (String_t* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11788,13 +11788,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Log_Error_m701B2D8BC797A36BA4E4CB01769D2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:49>
 		String_t* L_0 = ___0_message;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE0371AC37470F9E434A2040376540CE7B6695B9D, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Shared/Utils/Log.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Shared/Utils/Log.cs:50>
 		return;
 	}
 }
@@ -11808,16 +11808,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 129904
+// Method Definition Index: 130458
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* RemoteAgentBridgeClient_get_AccessToken_mF4582880823DB8F12470E106D8AC735E822919C0_inline (RemoteAgentBridgeClient_tA347F8376C5E3D4CD1D8CCD2A931FF4D86744AC1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/RemoteAgentBridgeClient.cs:106>
 		String_t* L_0 = __this->___U3CAccessTokenU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 126115
+// Method Definition Index: 126664
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E* HttpMethod_get_Get_mAD94BF07B40B20DAF42CBEEC2E910FC5CE0DA670_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11833,7 +11833,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpMethod_t9AB9E2BAC0D02F479F462
 		return L_0;
 	}
 }
-// Method Definition Index: 126150
+// Method Definition Index: 126699
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HttpResponseMessage_get_StatusCode_m63BE26E4C79137B35F3066C6BA6A5FF5F3D16AAA_inline (HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11842,7 +11842,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HttpResponseMessage_get_S
 		return L_0;
 	}
 }
-// Method Definition Index: 126143
+// Method Definition Index: 126692
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpContent_tD09737BB27CB151BC9688882F785208620211E1C* HttpResponseMessage_get_Content_m2350C12EA59DAD014A59B17398E5B50F62202AF6_inline (HttpResponseMessage_t5D2737606E4036A6E3E50FB0D651D3F76C61A970* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11851,7 +11851,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpContent_tD09737BB27CB151BC968
 		return L_0;
 	}
 }
-// Method Definition Index: 126117
+// Method Definition Index: 126666
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpMethod_t9AB9E2BAC0D02F479F4624271A4F79E70221258E* HttpMethod_get_Post_mEDC84247B73445A6922B43A065A10740C2F690CF_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11867,7 +11867,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HttpMethod_t9AB9E2BAC0D02F479F462
 		return L_0;
 	}
 }
-// Method Definition Index: 126130
+// Method Definition Index: 126679
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HttpRequestMessage_set_Content_m522F62E997874DA5A3F77BD4DD7A1C7CA2629DC9_inline (HttpRequestMessage_t74681B0588D722488483789091C3CF356C729DF2* __this, HttpContent_tD09737BB27CB151BC9688882F785208620211E1C* ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11878,20 +11878,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HttpRequestMessage_set_Conte
 		return;
 	}
 }
-// Method Definition Index: 129951
+// Method Definition Index: 130505
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t SseStreamHandler_get_BytesReceived_m6E2FCF58A891104B8A0D8F0BB01EF033DBD2ED42_inline (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
 		int64_t L_0 = __this->___U3CBytesReceivedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 129952
+// Method Definition Index: 130506
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SseStreamHandler_set_BytesReceived_m4088AE7AD76653FB131FB60734191FE0A0ABEED2_inline (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:47>
 		int64_t L_0 = ___0_value;
 		__this->___U3CBytesReceivedU3Ek__BackingField = L_0;
 		return;
@@ -11906,20 +11906,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 129953
+// Method Definition Index: 130507
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SseStreamHandler_get_EventsReceived_m746372C20C3C0D63B5BD029C586280DAC743E63E_inline (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
 		int32_t L_0 = __this->___U3CEventsReceivedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 129954
+// Method Definition Index: 130508
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SseStreamHandler_set_EventsReceived_m582231FFDA5B7F027CC44BA42EF9732A3B5A3073_inline (SseStreamHandler_t1EFF8C5DF038739320E1F4259517EFF3F8E937D0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/AgentBridge/Runtime/Remote/SseStreamHandler.cs:52>
 		int32_t L_0 = ___0_value;
 		__this->___U3CEventsReceivedU3Ek__BackingField = L_0;
 		return;

@@ -378,7 +378,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132922
+// Method Definition Index: 133489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46 (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -422,7 +422,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 132923
+// Method Definition Index: 133490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -466,7 +466,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 132924
+// Method Definition Index: 133491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993 (RuntimeObject* ___0_customConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -477,17 +477,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_SetupAllConfig_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:65>
 		RuntimeObject* L_0 = ___0_customConfig;
 		RuntimeObject* L_1 = L_0;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_2 = (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F*)il2cpp_codegen_object_new(GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D(L_2, L_1, (intptr_t)((void*)GetInterfaceMethodInfo(L_1, 0, ICustomIntegrationConfig_tFCD8804FF3B4DD9472013D5B6899DD36C0651D11_il2cpp_TypeInfo_var)), NULL);
 		CustomIntegrationConfig_add_GetCameraHandler_m2CB915911752F24CE3A0DD370DBBF04BF4153C46(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 132925
+// Method Definition Index: 133492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C (RuntimeObject* ___0_customConfig, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -498,17 +498,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfig_ClearAllConfig_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:74>
 		RuntimeObject* L_0 = ___0_customConfig;
 		RuntimeObject* L_1 = L_0;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_2 = (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F*)il2cpp_codegen_object_new(GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F_il2cpp_TypeInfo_var);
 		GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D(L_2, L_1, (intptr_t)((void*)GetInterfaceMethodInfo(L_1, 0, ICustomIntegrationConfig_tFCD8804FF3B4DD9472013D5B6899DD36C0651D11_il2cpp_TypeInfo_var)), NULL);
 		CustomIntegrationConfig_remove_GetCameraHandler_m3819BC074331701ED3D3EC09BCCC1A5468D2F2EA(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 132926
+// Method Definition Index: 133493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* CustomIntegrationConfig_GetCamera_mEDE04EC5F6A566321B919F4A733F84D6F10A3454 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -520,7 +520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* G_B2_0 = NULL;
 	GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:83>
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_0 = ((CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_StaticFields*)il2cpp_codegen_static_fields_for(CustomIntegrationConfig_tF7050084DC0103CFC864B66B453FE6C1D3D4D1EF_il2cpp_TypeInfo_var))->___GetCameraHandler;
 		GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* L_1 = L_0;
 		if (L_1)
@@ -573,7 +573,7 @@ Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_Invoke_mF0C2
 	typedef Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(method);
 }
-// Method Definition Index: 132927
+// Method Definition Index: 133494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetCameraDelegate__ctor_mBE95805D1E07B8515BB1A1BEC6E722FA6048140D (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -603,21 +603,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetCameraDelegate__ctor_mBE95805D1E07B85
 	}
 	__this->___extra_arg = (intptr_t)&GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_Multicast;
 }
-// Method Definition Index: 132928
+// Method Definition Index: 133495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824 (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 132929
+// Method Definition Index: 133496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GetCameraDelegate_BeginInvoke_mE9E25AA56311EF957EBC18156E9A5135AB26CDF9 (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 132930
+// Method Definition Index: 133497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_EndInvoke_mD131D65511047387210FB3C809F61257AA6A947F (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -655,7 +655,7 @@ Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetLeftControllerTransformD
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(method);
 }
-// Method Definition Index: 132931
+// Method Definition Index: 133498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetLeftControllerTransformDelegate__ctor_m47B5A3B60F77255EE4ED73F869D0505B86FB3649 (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -685,21 +685,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetLeftControllerTransformDelegate__ctor
 	}
 	__this->___extra_arg = (intptr_t)&GetLeftControllerTransformDelegate_Invoke_mBDD7372DA04E645773D618511F3EA0BD4F84DA6C_Multicast;
 }
-// Method Definition Index: 132932
+// Method Definition Index: 133499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetLeftControllerTransformDelegate_Invoke_mBDD7372DA04E645773D618511F3EA0BD4F84DA6C (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 132933
+// Method Definition Index: 133500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GetLeftControllerTransformDelegate_BeginInvoke_mDD3FC86531E7771FB1C1665165728A94C12EBC6A (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 132934
+// Method Definition Index: 133501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetLeftControllerTransformDelegate_EndInvoke_m837CB988C9C82D71C7BB6F02170CAC63B22D3838 (GetLeftControllerTransformDelegate_t3E242C6D8768FC9FC65FEF1CEB27278B9E14CA4D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -737,7 +737,7 @@ Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetRightControllerTransform
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(method);
 }
-// Method Definition Index: 132935
+// Method Definition Index: 133502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetRightControllerTransformDelegate__ctor_mA50C965B2E8F5E1CDE853B7947B870191C52ECB7 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -767,21 +767,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GetRightControllerTransformDelegate__cto
 	}
 	__this->___extra_arg = (intptr_t)&GetRightControllerTransformDelegate_Invoke_mA3E03A6AC793BBE9DC6B974E93429F6F70635CA9_Multicast;
 }
-// Method Definition Index: 132936
+// Method Definition Index: 133503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetRightControllerTransformDelegate_Invoke_mA3E03A6AC793BBE9DC6B974E93429F6F70635CA9 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 132937
+// Method Definition Index: 133504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GetRightControllerTransformDelegate_BeginInvoke_mEAC2B78E3E654314CBCA928BD7258629930C6729 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	void *__d_args[1] = {0};
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
-// Method Definition Index: 132938
+// Method Definition Index: 133505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetRightControllerTransformDelegate_EndInvoke_m3C9814263CB05AD4AF37D9E0735334EDB9CBCBC7 (GetRightControllerTransformDelegate_t05D09FB2276D34E3CCD477BD774DA92286498DF0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -796,35 +796,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132940
+// Method Definition Index: 133507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase_Awake_mE343DD448130865AD3706C93DFBB62E0D5F4CD78 (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:109>
 		CustomIntegrationConfig_SetupAllConfig_m44E2A1766C87194074F81B59D3835F8F38194993(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 132941
+// Method Definition Index: 133508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase_OnDestroy_mB07679E1AA9B42D79B1E3D30192010B56F0640CC (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:114>
 		CustomIntegrationConfig_ClearAllConfig_mD56C62AD1DD7E8DD0FE78F7100C238E851888F9C(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:115>
 		return;
 	}
 }
-// Method Definition Index: 132942
+// Method Definition Index: 133509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* CustomIntegrationConfigBase_GetCamera_m00168AB60C2B28A6286AF3D29FA7ED81F24E4EAB (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/CustomIntegrationConfig.cs:125>
 		return (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
 	}
 }
-// Method Definition Index: 132943
+// Method Definition Index: 133510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase__ctor_mE96705B31E26A03C2FEDA28BCE42594BA3E59993 (CustomIntegrationConfigBase_tA2D5A7EC89347EEAC98055070E9D360EC4715BDC* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -849,7 +849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomIntegrationConfigBase__ctor_mE9670
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132944
+// Method Definition Index: 133511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugDecorativeText__ctor_m99EA5F24B91A75A6FB24C288575B1222EB0403C2 (DebugDecorativeText_t4C5C01A1A722DA11B04A59A4B802C4AB076B83A4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -860,10 +860,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugDecorativeText__ctor_m99EA5F24B91A7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:46>
 		__this->___Content = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Content), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:54>
 		__this->___Style = _stringLiteralB6F0795DD4F409C92875D0327F58FDEA357047F1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Style), (void*)_stringLiteralB6F0795DD4F409C92875D0327F58FDEA357047F1);
 		PreserveAttribute__ctor_mF9E65066D9317F56C6F4AE274A1E2D55D6A62F96(__this, NULL);
@@ -878,7 +878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugDecorativeText__ctor_m99EA5F24B91A7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132945
+// Method Definition Index: 133512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m23524BF378E4EA831123889D02C9A659855D65EA (DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* __this, int32_t ___0_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -889,17 +889,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m23524BF378E4EA8311238
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:108>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
 		__this->___Color = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:115>
 		__this->___Tweakable = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:123>
 		__this->___Max = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:145>
 		PreserveAttribute__ctor_mF9E65066D9317F56C6F4AE274A1E2D55D6A62F96(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var);
 		Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6* L_1 = ((DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_StaticFields*)il2cpp_codegen_static_fields_for(DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A_il2cpp_TypeInfo_var))->___ParsedColors;
 		int32_t L_2 = ___0_color;
@@ -907,11 +907,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m23524BF378E4EA8311238
 		NullCheck(L_1);
 		bool L_4;
 		L_4 = Dictionary_2_TryGetValue_mFCCDCFAC6FB39BCAE4E7830446913C2218C4F9C2(L_1, L_2, L_3, Dictionary_2_TryGetValue_mFCCDCFAC6FB39BCAE4E7830446913C2218C4F9C2_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:148>
 		return;
 	}
 }
-// Method Definition Index: 132946
+// Method Definition Index: 133513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m48F4B79CA4CCA8D15EAC6BE1D5903E2D3AF636D2 (DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* __this, String_t* ___0_colorString, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
@@ -922,17 +922,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m48F4B79CA4CCA8D15EAC6
 	memset((&G_B4_0), 0, sizeof(G_B4_0));
 	DebugMember_tF9F428EB2AB116C284A469FDBF48467B7BB9708A* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:108>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
 		__this->___Color = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:115>
 		__this->___Tweakable = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:123>
 		__this->___Max = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:155>
 		PreserveAttribute__ctor_mF9E65066D9317F56C6F4AE274A1E2D55D6A62F96(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:157>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:157>
 		String_t* L_1 = ___0_colorString;
 		bool L_2;
 		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
@@ -942,7 +942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__ctor_m48F4B79CA4CCA8D15EAC6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:159>
 		String_t* L_3 = ___0_colorString;
 		bool L_4;
 		L_4 = ColorUtility_TryParseHtmlString_m8E4DF912AF247EE6893655537CDF0FB47BFE563D(L_3, (&V_0), NULL);
@@ -976,11 +976,11 @@ IL_003e:
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:161>
 		return;
 	}
 }
-// Method Definition Index: 132947
+// Method Definition Index: 133514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__cctor_mCDE94112D1AD0353A21B35FC7D2A1DD84FA62566 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -993,11 +993,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__cctor_mCDE94112D1AD0353A21B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:88>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:89>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:90>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:91>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:92>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:91>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/Interface/DebugAttributes.cs:92>
 		Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6* L_0 = (Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6*)il2cpp_codegen_object_new(Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mBAA4ED6CC042ECFC8C0082003BABEE36BCCE12F4(L_0, Dictionary_2__ctor_mBAA4ED6CC042ECFC8C0082003BABEE36BCCE12F4_RuntimeMethod_var);
 		Dictionary_2_tFB050FB91677DA51BF54AE7DAB9B3CEB02ED2AF6* L_1 = L_0;
@@ -1026,14 +1026,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugMember__cctor_mCDE94112D1AD0353A21B
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 132928
+// Method Definition Index: 133495
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetCameraDelegate_Invoke_mF0C2BD16291F0805BBD5D813330332389CF75824_inline (GetCameraDelegate_t6656012307EDCA92ED0C70BC60F9690D39C4793F* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	typedef Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 66072
+// Method Definition Index: 60950
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_red_mA2E53E7173FDC97E68E335049AB0FAAEE43A844D_inline (const RuntimeMethod* method) 
 {
 	{
@@ -1044,7 +1044,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 66038
+// Method Definition Index: 60916
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
 {
 	{

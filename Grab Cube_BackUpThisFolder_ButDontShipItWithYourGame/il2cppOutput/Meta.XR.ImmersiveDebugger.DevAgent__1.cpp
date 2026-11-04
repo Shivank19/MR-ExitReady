@@ -386,7 +386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 123765
+// Method Definition Index: 124314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mD3B524A95D20D05B4E5C288E27667AF469022A2F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -404,7 +404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_mD3B524A95D20D05B4E5C288E
 		return;
 	}
 }
-// Method Definition Index: 123766
+// Method Definition Index: 124315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m24C0A75127462746815FB17410898F9358A33380 (U3CU3Ec_tA54D2934FA14D7F1AA09B86D38A8D4E17EA14382* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -413,7 +413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m24C0A75127462746815FB1741
 		return;
 	}
 }
-// Method Definition Index: 123767
+// Method Definition Index: 124316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CAwakeU3Eb__14_1_m14CF31EC2E64EDAC8DD5E19F50AD31433E66BDDF (U3CU3Ec_tA54D2934FA14D7F1AA09B86D38A8D4E17EA14382* __this, String_t* ___0__, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -424,8 +424,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CAwakeU3Eb__14_1_m14CF31EC2E64
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:88>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:89>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralF72F222E0CC68A9EA1811E1544FF0B1E68806E5C, NULL);
 		return;
@@ -439,7 +439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CAwakeU3Eb__14_1_m14CF31EC2E64
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 123768
+// Method Definition Index: 124317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureAfterInitializationU3Ed__16__ctor_m9F2AD0A255859F3E7BA46E0B7EB183FC3B9208A2 (U3CConfigureAfterInitializationU3Ed__16_t2E3C37442F0E09D9F39A8501DE54328B763472D1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -450,7 +450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureAfterInitializationU3Ed__16_
 		return;
 	}
 }
-// Method Definition Index: 123769
+// Method Definition Index: 124318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureAfterInitializationU3Ed__16_System_IDisposable_Dispose_m28D0232EF3CAC53D3B6FB954E44A8DDBF84E3FE5 (U3CConfigureAfterInitializationU3Ed__16_t2E3C37442F0E09D9F39A8501DE54328B763472D1* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -458,7 +458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureAfterInitializationU3Ed__16_
 		return;
 	}
 }
-// Method Definition Index: 123770
+// Method Definition Index: 124319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CConfigureAfterInitializationU3Ed__16_MoveNext_mB83E76630ACF473B0556F7168C92AE3455C7B9D5 (U3CConfigureAfterInitializationU3Ed__16_t2E3C37442F0E09D9F39A8501DE54328B763472D1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -497,7 +497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CConfigureAfterInitializationU3Ed__16_
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:130>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_4 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_4, NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -509,11 +509,11 @@ IL_0017:
 IL_0032:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:132>
 		VoiceSetupController_t67BD280CA91C1EC82F96C648590E2BD05A94D55F* L_5 = V_1;
 		NullCheck(L_5);
 		VoiceSetupController_ConfigureDictationExperience_mEF0C581EE143E61BA41919C6BD67E0A9E28BFD85(L_5, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:134>
 		VoiceSetupController_t67BD280CA91C1EC82F96C648590E2BD05A94D55F* L_6 = V_1;
 		VoiceSetupController_t67BD280CA91C1EC82F96C648590E2BD05A94D55F* L_7 = V_1;
 		NullCheck(L_7);
@@ -524,7 +524,7 @@ IL_0032:
 		NullCheck(L_6);
 		L_6->____dictationController = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->____dictationController), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:135>
 		VoiceSetupController_t67BD280CA91C1EC82F96C648590E2BD05A94D55F* L_10 = V_1;
 		NullCheck(L_10);
 		DictationController_tE59F0A21C5BBAF71A0E90FE785B5D4216A2B20E4* L_11 = L_10->____dictationController;
@@ -534,7 +534,7 @@ IL_0032:
 		NullCheck(L_11);
 		L_11->___experience = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___experience), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:138>
 		VoiceSetupController_t67BD280CA91C1EC82F96C648590E2BD05A94D55F* L_14 = V_1;
 		NullCheck(L_14);
 		Action_1_t9A0B6D4CAE4110A6611432A5D9B822FBF73A373E* L_15 = L_14->___OnDictationControllerReady;
@@ -561,11 +561,11 @@ IL_006d:
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/ImmersiveDebugger/DevAgent/Voice/VoiceSetupController.cs:139>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 123771
+// Method Definition Index: 124320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CConfigureAfterInitializationU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m06D756099F30E49750E6328F2159BBE178437191 (U3CConfigureAfterInitializationU3Ed__16_t2E3C37442F0E09D9F39A8501DE54328B763472D1* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -574,7 +574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CConfigureAfterInitializatio
 		return L_0;
 	}
 }
-// Method Definition Index: 123772
+// Method Definition Index: 124321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureAfterInitializationU3Ed__16_System_Collections_IEnumerator_Reset_m816BC0A703B02854D1A39E6172C2E6BE480065E1 (U3CConfigureAfterInitializationU3Ed__16_t2E3C37442F0E09D9F39A8501DE54328B763472D1* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -584,7 +584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConfigureAfterInitializationU3Ed__16_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CConfigureAfterInitializationU3Ed__16_System_Collections_IEnumerator_Reset_m816BC0A703B02854D1A39E6172C2E6BE480065E1_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 123773
+// Method Definition Index: 124322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CConfigureAfterInitializationU3Ed__16_System_Collections_IEnumerator_get_Current_m043CF0CF88302F819E2F7088636C6431A1DD7CAA (U3CConfigureAfterInitializationU3Ed__16_t2E3C37442F0E09D9F39A8501DE54328B763472D1* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

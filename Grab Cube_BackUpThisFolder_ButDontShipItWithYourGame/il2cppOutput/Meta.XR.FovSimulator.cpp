@@ -1242,7 +1242,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132174
+// Method Definition Index: 132728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OverlayActive_m677E5D8F1033209F47E409B202362FB0241419A9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1252,7 +1252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OverlayActive_m677E5D8F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:93>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:93>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____overlayObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1260,11 +1260,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OverlayActive_m677E5D8F
 		return L_1;
 	}
 }
-// Method Definition Index: 132175
+// Method Definition Index: 132729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OverlayActive_mC1D03D135C88A955F89303CF11E7B63B835CB553 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:96>
 		bool L_0 = ___0_value;
 		if (!L_0)
 		{
@@ -1272,29 +1272,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OverlayActive_mC1D03D13
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:98>
 		FovSimulator_Build_mFEF1C67908056D282CF8C2EA5C399CCE6D2D4509(__this, NULL);
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:102>
 		FovSimulator_Teardown_mFAEA11052B4C558FAEFBD20B1FC901C88E97AB9F(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:104>
 		return;
 	}
 }
-// Method Definition Index: 132176
+// Method Definition Index: 132730
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_TopFovDegrees_mBF07B38E3E59D49D0E1E27743E8472FE6CA8B853 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:109>
 		float L_0 = __this->____topFovDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132177
+// Method Definition Index: 132731
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopFovDegrees_m1667862DB78B63DBF1E3B8C72E38F95F911AE984 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1305,28 +1305,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopFovDegrees_m1667862D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:110>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteral61ED06A90B26134C635B58DE7FB19AB53FEC3C74, NULL);
 		__this->____topFovDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:110>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 132178
+// Method Definition Index: 132732
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_BottomFovDegrees_m7FE6972EDD5685BF4E5D84631FE26930582A96D2 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:115>
 		float L_0 = __this->____bottomFovDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132179
+// Method Definition Index: 132733
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomFovDegrees_m51B425B5F2F706015590710FC2743BDC1E3328F5 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1337,28 +1337,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomFovDegrees_m51B42
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:116>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteral063E16FD4D32D92A5C6EA1DCAE4075DA088D629C, NULL);
 		__this->____bottomFovDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:116>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 132180
+// Method Definition Index: 132734
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_InnerFovDegrees_mB850EFF84ED491E926C371973A95514CBD54853D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:121>
 		float L_0 = __this->____innerFovDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132181
+// Method Definition Index: 132735
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerFovDegrees_mDA5EC5F125C60806C4494461AB23FDD53159CD7D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1369,28 +1369,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerFovDegrees_mDA5EC5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:122>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteral99239C3BDE5C798078B298202FA2584E835A41DE, NULL);
 		__this->____innerFovDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:122>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:122>
 		return;
 	}
 }
-// Method Definition Index: 132182
+// Method Definition Index: 132736
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_OuterFovDegrees_m559E0C13CD577C9F035F43B1FD7E83F806E80F2B (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:127>
 		float L_0 = __this->____outerFovDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132183
+// Method Definition Index: 132737
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterFovDegrees_m2D25F0280027856E161B5C0A8C92A8A7DE0A008E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1401,28 +1401,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterFovDegrees_m2D25F0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:128>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteral125A425076BFCB3B3A3A1867CAC426071519B7AA, NULL);
 		__this->____outerFovDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:128>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:128>
 		return;
 	}
 }
-// Method Definition Index: 132184
+// Method Definition Index: 132738
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_Alpha_m9ED4C4CFD39BDD3266FBDE2C3C3873745A87E842 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:133>
 		float L_0 = __this->____alpha;
 		return L_0;
 	}
 }
-// Method Definition Index: 132185
+// Method Definition Index: 132739
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Alpha_m385F3056B2E3421B5373FE2D564719B1007D4DD9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1433,31 +1433,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Alpha_m385F3056B2E3421B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:136>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		FovSimulator_ThrowIfNaN_m6DD774F25DB6C2256247FFA361E0115680C6AA4D(L_0, _stringLiteral4CF83EF9C835E8180C7A24EE907EAF9AAF67CADD, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:137>
 		float L_1 = ___0_value;
 		float L_2;
 		L_2 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_1, NULL);
 		__this->____alpha = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:138>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:139>
 		return;
 	}
 }
-// Method Definition Index: 132186
+// Method Definition Index: 132740
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_CornerRadius_m8AAABE3F22B6C68797AFD8876DB5643AA5B36245 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:144>
 		float L_0 = __this->____cornerRadius;
 		return L_0;
 	}
 }
-// Method Definition Index: 132187
+// Method Definition Index: 132741
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CornerRadius_m0485CAF765C25CE821FB0BE8E8C3EEB271135E2E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1468,54 +1468,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CornerRadius_m0485CAF76
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:147>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		FovSimulator_ThrowIfNaN_m6DD774F25DB6C2256247FFA361E0115680C6AA4D(L_0, _stringLiteralF137D415BAB8B82926E2291747600DE73F3AA177, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:148>
 		float L_1 = ___0_value;
 		float L_2;
 		L_2 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_1, (0.0f), (0.5f), NULL);
 		__this->____cornerRadius = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:149>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:150>
 		return;
 	}
 }
-// Method Definition Index: 132188
+// Method Definition Index: 132742
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_AutoIpd_m658C277640C967C41E3A962A7E4525D6172B226C (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:155>
 		bool L_0 = __this->____autoIpd;
 		return L_0;
 	}
 }
-// Method Definition Index: 132189
+// Method Definition Index: 132743
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_AutoIpd_mBCB85416FC13868704A304B37F1A6A0575FB4AB6 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:156>
 		bool L_0 = ___0_value;
 		__this->____autoIpd = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:156>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:156>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 132190
+// Method Definition Index: 132744
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_Ipd_mA91A1CC77B1F1EA6D756EDF68C2AC912814B6D27 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:161>
 		float L_0;
 		L_0 = FovSimulator_ResolveIpdMeters_m5DF20354FEE708999B6B8E24BB79AEB1E22DAD13(__this, NULL);
 		return ((float)il2cpp_codegen_multiply(L_0, (1000.0f)));
 	}
 }
-// Method Definition Index: 132191
+// Method Definition Index: 132745
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Ipd_mACAB5B2F5499B1565B4FE8C27C73BEA0F06D0C0E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1526,55 +1526,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Ipd_mACAB5B2F5499B1565B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:164>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		FovSimulator_ThrowIfNaN_m6DD774F25DB6C2256247FFA361E0115680C6AA4D(L_0, _stringLiteralF60558D85251CF9DAFE0DF25CB2CF05B6530B049, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:165>
 		float L_1 = ___0_value;
 		float L_2;
 		L_2 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_1, (50.0f), (75.0f), NULL);
 		__this->____manualIpdMillimeters = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:167>
 		__this->____autoIpd = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:168>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:168>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:169>
 		return;
 	}
 }
-// Method Definition Index: 132192
+// Method Definition Index: 132746
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OuterFrameEnabled_mA727DC6BDB01932E12B541A6394DDA094900D31D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:174>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:174>
 		bool L_0 = __this->____outerFrameEnabled;
 		return L_0;
 	}
 }
-// Method Definition Index: 132193
+// Method Definition Index: 132747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterFrameEnabled_mB0225798F1B8A91E47F5006617F1CC035467CBA2 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:175>
 		bool L_0 = ___0_value;
 		__this->____outerFrameEnabled = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:175>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:175>
 		return;
 	}
 }
-// Method Definition Index: 132194
+// Method Definition Index: 132748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_TopOuterFrameDegrees_mD30A5D9389D0FCA2127C99D9CF0F3D3AC9EF4E24 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:180>
 		float L_0 = __this->____topOuterFrameDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132195
+// Method Definition Index: 132749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopOuterFrameDegrees_mC5FEDF65E6AB983432877B5AD1E4539A76D199C9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1585,28 +1585,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopOuterFrameDegrees_mC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:181>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteral1CF6D3C48106067F3BEA515FC092331DF55D40FD, NULL);
 		__this->____topOuterFrameDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:181>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:181>
 		return;
 	}
 }
-// Method Definition Index: 132196
+// Method Definition Index: 132750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_BottomOuterFrameDegrees_mFB3E37B59AD5A5C90012882F094A8E9F6FEAD762 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:186>
 		float L_0 = __this->____bottomOuterFrameDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132197
+// Method Definition Index: 132751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomOuterFrameDegrees_m4E34FF797E502E1A60CC0E0664BD3F38FA960828 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1617,28 +1617,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomOuterFrameDegrees
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:187>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteral3E39E28C2E41B3BA2A02ECE230596FCCDDFBD161, NULL);
 		__this->____bottomOuterFrameDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:187>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:187>
 		return;
 	}
 }
-// Method Definition Index: 132198
+// Method Definition Index: 132752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_InnerOuterFrameDegrees_mA03EC6C5D0C1B2CB4074C387873743AEC21EFCBB (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:192>
 		float L_0 = __this->____innerOuterFrameDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132199
+// Method Definition Index: 132753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerOuterFrameDegrees_mCB07F024E99AFC3DA06D4E5B334BF8AD70979983 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1649,28 +1649,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerOuterFrameDegrees_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:193>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteral7017365FC65D476F9807786131C47268B61513FE, NULL);
 		__this->____innerOuterFrameDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:193>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 132200
+// Method Definition Index: 132754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_OuterOuterFrameDegrees_mAE89A989607C7BE3D497BE91045AE061F141DDE9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:198>
 		float L_0 = __this->____outerOuterFrameDegrees;
 		return L_0;
 	}
 }
-// Method Definition Index: 132201
+// Method Definition Index: 132755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterOuterFrameDegrees_m90F403DB5B7B9089445DF3A2919A41248DC24D8A (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1681,28 +1681,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterOuterFrameDegrees_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:199>
 		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		float L_1;
 		L_1 = FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03(L_0, _stringLiteralEB6804202FA220069DB8ABF7E64D4A28573176A1, NULL);
 		__this->____outerOuterFrameDegrees = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:199>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:199>
 		return;
 	}
 }
-// Method Definition Index: 132202
+// Method Definition Index: 132756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FovSimulator_get_CompositionDepth_mBCA9CE3D62C6EEA87FE1D0E4CC9313AFF4181083 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:204>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:204>
 		int32_t L_0 = __this->____compositionDepth;
 		return L_0;
 	}
 }
-// Method Definition Index: 132203
+// Method Definition Index: 132757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CompositionDepth_mAD41BDE7BEAFD539D0C24C4B03609A11E61DB39D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1712,10 +1712,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CompositionDepth_mAD41B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:207>
 		int32_t L_0 = ___0_value;
 		__this->____compositionDepth = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:208>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_1 = __this->____overlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -1726,7 +1726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CompositionDepth_mAD41B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:210>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:210>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_3 = __this->____overlay;
 		int32_t L_4 = ___0_value;
 		NullCheck(L_3);
@@ -1735,69 +1735,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CompositionDepth_mAD41B
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:212>
 		return;
 	}
 }
-// Method Definition Index: 132204
+// Method Definition Index: 132758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ResetToDefaults_mB28C0397ECD831770AE3E0A412908F6743EEB29B (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:217>
 		__this->____topFovDegrees = (25.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:218>
 		__this->____bottomFovDegrees = (41.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:219>
 		__this->____innerFovDegrees = (35.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:220>
 		__this->____outerFovDegrees = (35.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:221>
 		__this->____topOuterFrameDegrees = (41.5f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:222>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:222>
 		__this->____bottomOuterFrameDegrees = (44.5499992f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:223>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:223>
 		__this->____innerOuterFrameDegrees = (48.9000015f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:224>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:224>
 		__this->____outerOuterFrameDegrees = (51.7000008f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:225>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:225>
 		__this->____alpha = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:226>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:226>
 		__this->____cornerRadius = (0.119999997f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:227>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:227>
 		__this->____outerFrameEnabled = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:228>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:228>
 		__this->____autoIpd = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:229>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:229>
 		__this->____manualIpdMillimeters = (62.5f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:230>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:230>
 		FovSimulator_set_CompositionDepth_mAD41BDE7BEAFD539D0C24C4B03609A11E61DB39D(__this, ((int32_t)-1000), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:231>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:232>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:232>
 		return;
 	}
 }
-// Method Definition Index: 132205
+// Method Definition Index: 132759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Awake_m35DF073158441B6811054BFD2FE707A52B6FA4FE (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:236>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:236>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:237>
 		return;
 	}
 }
-// Method Definition Index: 132206
+// Method Definition Index: 132760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDestroy_m1BD916B22C8B2503990F5A76313F420108D7DE60 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:241>
 		FovSimulator_Teardown_mFAEA11052B4C558FAEFBD20B1FC901C88E97AB9F(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:242>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:242>
 		return;
 	}
 }
-// Method Definition Index: 132207
+// Method Definition Index: 132761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDisable_m22EA9734249A1DB2E881DD60D69351BA591AAA7A (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1807,7 +1807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDisable_m22EA9734249A1DB2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:246>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_0 = __this->____overlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1818,7 +1818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDisable_m22EA9734249A1DB2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:248>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_2 = __this->____overlay;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)0, NULL);
@@ -1826,11 +1826,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDisable_m22EA9734249A1DB2
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:250>
 		return;
 	}
 }
-// Method Definition Index: 132208
+// Method Definition Index: 132762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnEnable_m98EB03089ED995713F2C7C4639056980678F9EB0 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1840,7 +1840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnEnable_m98EB03089ED995713
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:254>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_0 = __this->____overlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1851,7 +1851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnEnable_m98EB03089ED995713
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:256>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:256>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
 		L_2 = FovSimulator_ResolveMainCamera_mDE157C9D06340084DFEFFD591418D5697D986373(__this, NULL);
 		FovSimulator_EnsureOverlayCamera_m244AD5B1DC7787EA1F46E0EF904B32E3C5625DDC(__this, L_2, NULL);
@@ -1859,11 +1859,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnEnable_m98EB03089ED995713
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:258>
 		return;
 	}
 }
-// Method Definition Index: 132209
+// Method Definition Index: 132763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Build_mFEF1C67908056D282CF8C2EA5C399CCE6D2D4509 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1891,7 +1891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Build_mFEF1C67908056D282CF8
 	float V_4 = 0.0f;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:262>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:262>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____overlayObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1902,16 +1902,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Build_mFEF1C67908056D282CF8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:264>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:266>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:267>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:268>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:266>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:267>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:269>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_2 = __this->____leftRenderTexture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -1954,17 +1954,17 @@ IL_000e:
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:271>
 		FovSimulator_Teardown_mFAEA11052B4C558FAEFBD20B1FC901C88E97AB9F(__this, NULL);
 	}
 
 IL_004c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:274>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:274>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_10;
 		L_10 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		V_0 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:275>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -1975,34 +1975,34 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:277>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:277>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:278>
 		__this->____cachedMainCamera = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedMainCamera), (void*)(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:279>
 		int32_t L_13;
 		L_13 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		__this->____nextMainCameraLookupFrame = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:280>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:280>
 		return;
 	}
 
 IL_0075:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:282>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:282>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_14 = V_0;
 		__this->____cachedMainCamera = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedMainCamera), (void*)L_14);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:283>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:283>
 		int32_t L_15;
 		L_15 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		__this->____nextMainCameraLookupFrame = ((int32_t)il2cpp_codegen_add(L_15, ((int32_t)30)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:285>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:285>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_16;
 		L_16 = Resources_Load_TisShader_tADC867D36B7876EE22427FAA2CE485105F4EE692_m378804064185FA25C41237187B3CCEA095C05946(_stringLiteral2B51D882203209E08EA550F277759FB1C2B0DBD4, Resources_Load_TisShader_tADC867D36B7876EE22427FAA2CE485105F4EE692_m378804064185FA25C41237187B3CCEA095C05946_RuntimeMethod_var);
 		V_1 = L_16;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:286>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:286>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_17 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -2013,7 +2013,7 @@ IL_0075:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:288>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_19;
 		L_19 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteral0AF6FE7554E2BD835FDAAAB326623F153BC15E41, NULL);
 		V_1 = L_19;
@@ -2021,7 +2021,7 @@ IL_0075:
 
 IL_00a9:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:290>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:290>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_20 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -2032,14 +2032,14 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:292>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:293>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:294>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:292>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:293>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:294>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral20B5608F6A944760AC243125CD0EE5C9BCC030E9, __this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:295>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:296>
 		return;
 	}
 
@@ -2048,55 +2048,55 @@ IL_00c5:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:301>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:301>
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_22;
 		L_22 = FovSimulator_CreateRenderTexture_mC1DA459F3D8143C140E83105B643324DD3FE4392(_stringLiteral3D794D06B5F64882AFCD4F06CD0923E09168D49B, NULL);
 		__this->____leftRenderTexture = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftRenderTexture), (void*)L_22);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:302>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:302>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_23;
 		L_23 = FovSimulator_CreateRenderTexture_mC1DA459F3D8143C140E83105B643324DD3FE4392(_stringLiteralFD9C62084AC02212F815D14E1C86CACFB065A211, NULL);
 		__this->____rightRenderTexture = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rightRenderTexture), (void*)L_23);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:303>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:303>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_24 = V_1;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_25, L_24, NULL);
 		__this->____leftMaterial = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftMaterial), (void*)L_25);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:304>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:304>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_26 = __this->____leftMaterial;
 		int32_t L_27 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___IsRightId;
 		NullCheck(L_26);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_26, L_27, (0.0f), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:305>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_28 = V_1;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_29, L_28, NULL);
 		__this->____rightMaterial = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rightMaterial), (void*)L_29);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:306>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_30 = __this->____rightMaterial;
 		int32_t L_31 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___IsRightId;
 		NullCheck(L_30);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_30, L_31, (1.0f), NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:308>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_32, _stringLiteralEB24F261FDE5D2BBC63FB118FDC8299BC85F09E5, NULL);
 		__this->____overlayObject = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____overlayObject), (void*)L_32);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:309>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_33 = V_0;
 		FovSimulator_AttachOverlayToCamera_mF5005D2C63D3E965D5012F312E688BCC883721E1(__this, L_33, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:311>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:311>
 		float L_34;
 		L_34 = tanf((1.13446403f));
 		V_2 = L_34;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:312>
 		float L_35 = V_2;
 		V_3 = ((float)il2cpp_codegen_multiply((4.0f), L_35));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:313>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->____overlayObject;
 		NullCheck(L_36);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
@@ -2108,54 +2108,54 @@ IL_00c5:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_40), L_38, L_39, (1.0f), NULL);
 		NullCheck(L_37);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_37, L_40, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:314>
 		float L_41 = V_2;
 		V_4 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((2.0f), L_41)), (0.0299999993f)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:315>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:315>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_42 = __this->____leftMaterial;
 		int32_t L_43 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___UvScaleId;
 		float L_44 = V_4;
 		NullCheck(L_42);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_42, L_43, L_44, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:316>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:316>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_45 = __this->____rightMaterial;
 		int32_t L_46 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___UvScaleId;
 		float L_47 = V_4;
 		NullCheck(L_45);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_45, L_46, L_47, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:318>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_48 = __this->____overlayObject;
 		NullCheck(L_48);
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_49;
 		L_49 = GameObject_AddComponent_TisOVROverlay_t236C8597A48845938E1DE1D591224817058AC43D_m0C68826E4AEEDB7AF4C2684A66A1886B9FD4D26A(L_48, GameObject_AddComponent_TisOVROverlay_t236C8597A48845938E1DE1D591224817058AC43D_m0C68826E4AEEDB7AF4C2684A66A1886B9FD4D26A_RuntimeMethod_var);
 		__this->____overlay = L_49;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____overlay), (void*)L_49);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:319>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:319>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_50 = __this->____overlay;
 		NullCheck(L_50);
 		L_50->___currentOverlayType = 2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:320>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:320>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_51 = __this->____overlay;
 		NullCheck(L_51);
 		L_51->___currentOverlayShape = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:321>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:321>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_52 = __this->____overlay;
 		NullCheck(L_52);
 		L_52->___noDepthBufferTesting = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:322>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:322>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_53 = __this->____overlay;
 		NullCheck(L_53);
 		L_53->___isDynamic = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:323>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:323>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_54 = __this->____overlay;
 		NullCheck(L_54);
 		L_54->___isAlphaPremultiplied = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:324>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_55 = __this->____overlay;
 		int32_t L_56 = __this->____compositionDepth;
 		NullCheck(L_55);
 		L_55->___compositionDepth = L_56;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:325>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:325>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_57 = __this->____overlay;
 		NullCheck(L_57);
 		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_58 = L_57->___textures;
@@ -2163,7 +2163,7 @@ IL_00c5:
 		NullCheck(L_58);
 		ArrayElementTypeCheck (L_58, L_59);
 		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(0), (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)L_59);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:326>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_60 = __this->____overlay;
 		NullCheck(L_60);
 		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_61 = L_60->___textures;
@@ -2171,11 +2171,11 @@ IL_00c5:
 		NullCheck(L_61);
 		ArrayElementTypeCheck (L_61, L_62);
 		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(1), (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)L_62);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:328>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:328>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:329>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:329>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:330>
 		goto IL_0242;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -2191,23 +2191,23 @@ IL_00c5:
 CATCH_0234:
 	{
 		Exception_t* L_63 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:333>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:333>
 		FovSimulator_Teardown_mFAEA11052B4C558FAEFBD20B1FC901C88E97AB9F(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:334>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:334>
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogException_mD4CF3A9C64D8D4BA0570D529E705D134A9A5E498(L_63, __this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:335>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0242;
 	}
 
 IL_0242:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:336>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:336>
 		return;
 	}
 }
-// Method Definition Index: 132210
+// Method Definition Index: 132764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Teardown_mFAEA11052B4C558FAEFBD20B1FC901C88E97AB9F (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2219,7 +2219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Teardown_mFAEA11052B4C558FA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:340>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:340>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_0 = __this->____overlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2230,11 +2230,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Teardown_mFAEA11052B4C558FA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:342>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_2 = __this->____overlay;
 		NullCheck(L_2);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:343>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:343>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_3 = __this->____overlay;
 		NullCheck(L_3);
 		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_4 = L_3->___textures;
@@ -2244,7 +2244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Teardown_mFAEA11052B4C558FA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:345>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:345>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_5 = __this->____overlay;
 		NullCheck(L_5);
 		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_6 = L_5->___textures;
@@ -2255,7 +2255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Teardown_mFAEA11052B4C558FA
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:347>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:347>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_7 = __this->____overlay;
 		NullCheck(L_7);
 		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_8 = L_7->___textures;
@@ -2266,7 +2266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Teardown_mFAEA11052B4C558FA
 
 IL_0043:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:349>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:349>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_9 = __this->____overlay;
 		NullCheck(L_9);
 		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_10 = L_9->___textures;
@@ -2277,7 +2277,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:351>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:351>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_11 = __this->____overlay;
 		NullCheck(L_11);
 		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_12 = L_11->___textures;
@@ -2288,7 +2288,7 @@ IL_0043:
 
 IL_0061:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:355>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:355>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->____overlayObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -2299,7 +2299,7 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:357>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:357>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->____overlayObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_15, NULL);
@@ -2307,43 +2307,43 @@ IL_0061:
 
 IL_007a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:359>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:359>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_16 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)(&__this->____leftRenderTexture);
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		FovSimulator_ReleaseRenderTexture_mDB0DC93D72592716550C42319F4FD5CAC2D027C9(L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:360>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:360>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_17 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)(&__this->____rightRenderTexture);
 		FovSimulator_ReleaseRenderTexture_mDB0DC93D72592716550C42319F4FD5CAC2D027C9(L_17, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:361>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:361>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** L_18 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3**)(&__this->____leftMaterial);
 		FovSimulator_DestroyObject_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_m965F4D1689FA8146A595A8C99D95787EEC50114A(L_18, FovSimulator_DestroyObject_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_m965F4D1689FA8146A595A8C99D95787EEC50114A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:362>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:362>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** L_19 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3**)(&__this->____rightMaterial);
 		FovSimulator_DestroyObject_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_m965F4D1689FA8146A595A8C99D95787EEC50114A(L_19, FovSimulator_DestroyObject_TisMaterial_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_m965F4D1689FA8146A595A8C99D95787EEC50114A_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:364>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:364>
 		__this->____overlayObject = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____overlayObject), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:365>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:365>
 		__this->____overlay = (OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____overlay), (void*)(OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:366>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:366>
 		__this->____dynamicFrames = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:367>
 		__this->____cachedMainCamera = (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedMainCamera), (void*)(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:368>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:368>
 		__this->____nextMainCameraLookupFrame = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:369>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:369>
 		__this->____lastAppliedIpdMeters = (std::numeric_limits<float>::quiet_NaN());
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:370>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:370>
 		__this->____nextAutoIpdRefreshFrame = 0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:371>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:371>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:372>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:372>
 		return;
 	}
 }
-// Method Definition Index: 132211
+// Method Definition Index: 132765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* FovSimulator_CreateRenderTexture_mC1DA459F3D8143C140E83105B643324DD3FE4392 (String_t* ___0_textureName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2354,12 +2354,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 	}
 	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:376>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:377>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:378>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:379>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:380>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:377>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:378>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:379>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:380>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:381>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_0 = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)il2cpp_codegen_object_new(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var);
 		RenderTexture__ctor_m53215A8EDDE262932758186108347685F6A512C4(L_0, ((int32_t)2048), ((int32_t)2048), 0, 0, NULL);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = L_0;
@@ -2373,7 +2373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 		NullCheck(L_4);
 		Texture_set_wrapMode_m1F74A690E3883EC9C5C371D502D09642F15D0F7E(L_4, 1, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:382>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:382>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5 = V_0;
 		NullCheck(L_5);
 		bool L_6;
@@ -2396,12 +2396,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29F
 
 IL_0037:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:384>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:384>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_9 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:385>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:386>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:385>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:386>
 		String_t* L_10 = ___0_textureName;
 		String_t* L_11;
 		L_11 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7887400958180D1220A8334A490B1D717568AA85)), L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC7A7939E82BEFEF8DDB755713442AA62963F09F8)), NULL);
@@ -2412,12 +2412,12 @@ IL_0037:
 
 IL_0053:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:388>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:388>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_13 = V_0;
 		return L_13;
 	}
 }
-// Method Definition Index: 132212
+// Method Definition Index: 132766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ReleaseRenderTexture_mDB0DC93D72592716550C42319F4FD5CAC2D027C9 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** ___0_texture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2427,7 +2427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ReleaseRenderTexture_mDB0DC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:393>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:393>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_0 = ___0_texture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_1 = *((RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)L_0);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -2439,31 +2439,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ReleaseRenderTexture_mDB0DC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:395>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:395>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:397>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:397>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_3 = ___0_texture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4 = *((RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)L_3);
 		NullCheck(L_4);
 		RenderTexture_Release_mE7399D6187A0E38945D2913D0FFB41247143AB1E(L_4, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:398>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:398>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_5 = ___0_texture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_6 = *((RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)L_5);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:399>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:399>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** L_7 = ___0_texture;
 		*((RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)L_7) = (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27**)L_7, (void*)(RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:400>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:400>
 		return;
 	}
 }
-// Method Definition Index: 132214
+// Method Definition Index: 132768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2475,11 +2475,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshMask_mDB769AB23B8309
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:413>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:414>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:415>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:416>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:417>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:413>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:414>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:415>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:417>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____overlayObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2532,47 +2532,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshMask_mDB769AB23B8309
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:419>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:419>
 		return;
 	}
 
 IL_0047:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:422>
 		float L_10;
 		L_10 = FovSimulator_ResolveIpdMeters_m5DF20354FEE708999B6B8E24BB79AEB1E22DAD13(__this, NULL);
 		V_0 = L_10;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:423>
 		float L_11 = V_0;
 		__this->____lastAppliedIpdMeters = L_11;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:424>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:424>
 		int32_t L_12;
 		L_12 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		__this->____nextAutoIpdRefreshFrame = ((int32_t)il2cpp_codegen_add(L_12, ((int32_t)30)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:425>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:425>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13 = __this->____leftMaterial;
 		float L_14 = V_0;
 		FovSimulator_ApplyMaskParameters_m925245E1B0375CEBD5A68E86C9721473B521CB55(__this, L_13, (bool)0, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:426>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:426>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15 = __this->____rightMaterial;
 		float L_16 = V_0;
 		FovSimulator_ApplyMaskParameters_m925245E1B0375CEBD5A68E86C9721473B521CB55(__this, L_15, (bool)1, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:427>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:427>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_17 = __this->____leftRenderTexture;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_18 = __this->____leftMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F((Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL, L_17, L_18, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:428>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:428>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_19 = __this->____rightRenderTexture;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = __this->____rightMaterial;
 		Graphics_Blit_m8DFE1C855FA028398E5072592582721D5DA6253F((Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700*)NULL, L_19, L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:430>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:430>
 		FovSimulator_MarkMaskDynamic_m76042E3D6D8D0C87C2AF4A3605DF2D67ED23FC1E(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:431>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:431>
 		return;
 	}
 }
-// Method Definition Index: 132215
+// Method Definition Index: 132769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_MarkMaskDynamic_m76042E3D6D8D0C87C2AF4A3605DF2D67ED23FC1E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2582,7 +2582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_MarkMaskDynamic_m76042E3D6D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:435>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:435>
 		bool L_0;
 		L_0 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(__this, NULL);
 		if (L_0)
@@ -2591,15 +2591,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_MarkMaskDynamic_m76042E3D6D
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:437>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:437>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:440>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:440>
 		__this->____dynamicFrames = 4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:441>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:441>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_1 = __this->____overlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -2610,7 +2610,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:443>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:443>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_3 = __this->____overlay;
 		NullCheck(L_3);
 		L_3->___isDynamic = (bool)1;
@@ -2618,21 +2618,21 @@ IL_0009:
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:445>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:445>
 		return;
 	}
 }
-// Method Definition Index: 132216
+// Method Definition Index: 132770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Update_m15F80EB660003E92A0F0FDD56DA1B2F9B9BDB870 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:449>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:449>
 		FovSimulator_UpdateOverlayState_m08542E4C7BD958A13D14974E523E4B739E366013(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:450>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:450>
 		return;
 	}
 }
-// Method Definition Index: 132217
+// Method Definition Index: 132771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_UpdateOverlayState_m08542E4C7BD958A13D14974E523E4B739E366013 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2642,7 +2642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_UpdateOverlayState_m08542E4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:454>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:454>
 		int32_t L_0 = __this->____dynamicFrames;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
@@ -2650,10 +2650,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_UpdateOverlayState_m08542E4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:456>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:456>
 		int32_t L_1 = __this->____dynamicFrames;
 		__this->____dynamicFrames = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:457>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:457>
 		int32_t L_2 = __this->____dynamicFrames;
 		if (L_2)
 		{
@@ -2671,7 +2671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_UpdateOverlayState_m08542E4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:459>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:459>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_5 = __this->____overlay;
 		NullCheck(L_5);
 		L_5->___isDynamic = (bool)0;
@@ -2679,17 +2679,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_UpdateOverlayState_m08542E4
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:463>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:463>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6;
 		L_6 = FovSimulator_ResolveMainCamera_mDE157C9D06340084DFEFFD591418D5697D986373(__this, NULL);
 		FovSimulator_EnsureOverlayCamera_m244AD5B1DC7787EA1F46E0EF904B32E3C5625DDC(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:464>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:464>
 		FovSimulator_RefreshAutoIpdIfNeeded_mAF0047167D0A00D303EBDBF0391C864C6574FA4A(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:465>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:465>
 		return;
 	}
 }
-// Method Definition Index: 132218
+// Method Definition Index: 132772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* FovSimulator_ResolveMainCamera_mDE157C9D06340084DFEFFD591418D5697D986373 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2699,8 +2699,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:469>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:470>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:469>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:470>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->____cachedMainCamera;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2720,28 +2720,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:472>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:472>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4 = __this->____cachedMainCamera;
 		return L_4;
 	}
 
 IL_0021:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:475>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:475>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5;
 		L_5 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		__this->____cachedMainCamera = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedMainCamera), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:476>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:476>
 		int32_t L_6;
 		L_6 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		__this->____nextMainCameraLookupFrame = ((int32_t)il2cpp_codegen_add(L_6, ((int32_t)30)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:477>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:477>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_7 = __this->____cachedMainCamera;
 		return L_7;
 	}
 }
-// Method Definition Index: 132219
+// Method Definition Index: 132773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_IsUsableMainCamera_m41B00C6E70CB281BBE81FC78D464069452A96F7A (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2752,7 +2752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_IsUsableMainCamera_m41B00C6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:481>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:481>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_camera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2785,7 +2785,7 @@ IL_001d:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 132220
+// Method Definition Index: 132774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_EnsureOverlayCamera_m244AD5B1DC7787EA1F46E0EF904B32E3C5625DDC (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2795,7 +2795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_EnsureOverlayCamera_m244AD5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:485>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:485>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = ___0_camera;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2806,7 +2806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_EnsureOverlayCamera_m244AD5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:487>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:487>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_2 = __this->____overlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -2817,7 +2817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_EnsureOverlayCamera_m244AD5
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:489>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:489>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_4 = __this->____overlay;
 		NullCheck(L_4);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_4, (bool)0, NULL);
@@ -2825,13 +2825,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_EnsureOverlayCamera_m244AD5
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:491>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:491>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:494>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:494>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____overlayObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -2842,15 +2842,15 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:496>
 		FovSimulator_Build_mFEF1C67908056D282CF8C2EA5C399CCE6D2D4509(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:497>
 		return;
 	}
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:500>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:500>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->____overlayObject;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -2871,14 +2871,14 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:502>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:502>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13 = ___0_camera;
 		FovSimulator_AttachOverlayToCamera_mF5005D2C63D3E965D5012F312E688BCC883721E1(__this, L_13, NULL);
 	}
 
 IL_005d:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:504>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:504>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_14 = __this->____overlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -2889,7 +2889,7 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:506>
 		OVROverlay_t236C8597A48845938E1DE1D591224817058AC43D* L_16 = __this->____overlay;
 		NullCheck(L_16);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_16, (bool)1, NULL);
@@ -2897,11 +2897,11 @@ IL_005d:
 
 IL_0077:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:508>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:508>
 		return;
 	}
 }
-// Method Definition Index: 132221
+// Method Definition Index: 132775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshAutoIpdIfNeeded_mAF0047167D0A00D303EBDBF0391C864C6574FA4A (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2911,8 +2911,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshAutoIpdIfNeeded_mAF0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:512>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:513>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:512>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:513>
 		bool L_0 = __this->____autoIpd;
 		if (!L_0)
 		{
@@ -2941,20 +2941,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshAutoIpdIfNeeded_mAF0
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:515>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:515>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:518>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:518>
 		float L_5;
 		L_5 = FovSimulator_ResolveIpdMeters_m5DF20354FEE708999B6B8E24BB79AEB1E22DAD13(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:519>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:519>
 		int32_t L_6;
 		L_6 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		__this->____nextAutoIpdRefreshFrame = ((int32_t)il2cpp_codegen_add(L_6, ((int32_t)30)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:520>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:520>
 		float L_7 = __this->____lastAppliedIpdMeters;
 		bool L_8;
 		L_8 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_5, L_7, NULL);
@@ -2964,21 +2964,21 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:522>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:522>
 		FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE(__this, NULL);
 	}
 
 IL_004b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:524>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:524>
 		return;
 	}
 }
-// Method Definition Index: 132222
+// Method Definition Index: 132776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_AttachOverlayToCamera_mF5005D2C63D3E965D5012F312E688BCC883721E1 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:528>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:528>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____overlayObject;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -2989,7 +2989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_AttachOverlayToCamera_mF500
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_2, NULL);
 		NullCheck(L_1);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_1, L_3, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:529>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:529>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____overlayObject;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -2999,7 +2999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_AttachOverlayToCamera_mF500
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), (0.0f), (0.0f), (2.0f), NULL);
 		NullCheck(L_5);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_5, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:530>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:530>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->____overlayObject;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -3008,11 +3008,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_AttachOverlayToCamera_mF500
 		L_9 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_8);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_8, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:531>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:531>
 		return;
 	}
 }
-// Method Definition Index: 132223
+// Method Definition Index: 132777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_ResolveIpdMeters_m5DF20354FEE708999B6B8E24BB79AEB1E22DAD13 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3024,7 +3024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_ResolveIpdMeters_m5DF20354
 	float V_0 = 0.0f;
 	float G_B3_0 = 0.0f;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:535>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:535>
 		bool L_0 = __this->____autoIpd;
 		if (L_0)
 		{
@@ -3048,9 +3048,9 @@ IL_0016:
 IL_001b:
 	{
 		V_0 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:536>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:537>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:538>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:536>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:537>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:538>
 		float L_3 = V_0;
 		bool L_4;
 		L_4 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_3, NULL);
@@ -3076,18 +3076,18 @@ IL_001b:
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:540>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:540>
 		V_0 = (0.0625f);
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:542>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:542>
 		float L_7 = V_0;
 		return L_7;
 	}
 }
-// Method Definition Index: 132224
+// Method Definition Index: 132778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ApplyMaskParameters_m925245E1B0375CEBD5A68E86C9721473B521CB55 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_isRight, float ___2_ipdMeters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3112,11 +3112,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ApplyMaskParameters_m925245
 	int32_t G_B6_1 = 0;
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B6_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:547>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:548>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:549>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:550>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:551>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:547>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:548>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:549>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:550>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:551>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___InnerBoundsId;
@@ -3128,11 +3128,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ApplyMaskParameters_m925245
 		L_6 = FovSimulator_CreateBounds_m2F91B3D57F2A8AFEA769D0FA9CAD3EF8C37E99EA(L_2, L_3, L_4, L_5, NULL);
 		NullCheck(L_0);
 		Material_SetVector_m44CD02D4555E2AF391C30700F0AEC36BA04CFEA7(L_0, L_1, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:552>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:553>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:554>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:555>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:556>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:552>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:553>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:554>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:555>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:556>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = ___0_material;
 		int32_t L_8 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___OuterBoundsId;
 		float L_9 = __this->____outerOuterFrameDegrees;
@@ -3143,19 +3143,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ApplyMaskParameters_m925245
 		L_13 = FovSimulator_CreateBounds_m2F91B3D57F2A8AFEA769D0FA9CAD3EF8C37E99EA(L_9, L_10, L_11, L_12, NULL);
 		NullCheck(L_7);
 		Material_SetVector_m44CD02D4555E2AF391C30700F0AEC36BA04CFEA7(L_7, L_8, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:557>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:557>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = ___0_material;
 		int32_t L_15 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___AlphaId;
 		float L_16 = __this->____alpha;
 		NullCheck(L_14);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_14, L_15, L_16, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:558>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:558>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17 = ___0_material;
 		int32_t L_18 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___CornerRadiusId;
 		float L_19 = __this->____cornerRadius;
 		NullCheck(L_17);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(L_17, L_18, L_19, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:559>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:559>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_20 = ___0_material;
 		int32_t L_21 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___EnableOuterFrameId;
 		bool L_22 = __this->____outerFrameEnabled;
@@ -3186,10 +3186,10 @@ IL_008c:
 	{
 		NullCheck(G_B3_2);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(G_B3_2, G_B3_1, G_B3_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:561>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:561>
 		float L_23 = ___2_ipdMeters;
 		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_23, (0.5f))), (0.0149999997f)));
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:562>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:562>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = ___0_material;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		int32_t L_25 = ((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___EyeOffsetXId;
@@ -3223,19 +3223,19 @@ IL_00ad:
 	{
 		NullCheck(G_B6_2);
 		Material_SetFloat_m3ECFD92072347A8620254F014865984FA68211A8(G_B6_2, G_B6_1, G_B6_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:563>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:563>
 		return;
 	}
 }
-// Method Definition Index: 132225
+// Method Definition Index: 132779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 FovSimulator_CreateBounds_m2F91B3D57F2A8AFEA769D0FA9CAD3EF8C37E99EA (float ___0_leftDegrees, float ___1_rightDegrees, float ___2_bottomDegrees, float ___3_topDegrees, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:571>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:572>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:573>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:574>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:575>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:571>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:572>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:573>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:574>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:575>
 		float L_0 = ___0_leftDegrees;
 		float L_1;
 		L_1 = tanf(((float)il2cpp_codegen_multiply(L_0, (0.0174532924f))));
@@ -3254,7 +3254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 		return L_8;
 	}
 }
-// Method Definition Index: 132226
+// Method Definition Index: 132780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03 (float ___0_value, String_t* ___1_parameterName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3264,23 +3264,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_ClampHalfAngle_mEAC1AD7FF7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:580>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:580>
 		float L_0 = ___0_value;
 		String_t* L_1 = ___1_parameterName;
 		il2cpp_codegen_runtime_class_init_inline(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var);
 		FovSimulator_ThrowIfNaN_m6DD774F25DB6C2256247FFA361E0115680C6AA4D(L_0, L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:581>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:581>
 		float L_2 = ___0_value;
 		float L_3;
 		L_3 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_2, (0.0f), (65.0f), NULL);
 		return L_3;
 	}
 }
-// Method Definition Index: 132227
+// Method Definition Index: 132781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ThrowIfNaN_m6DD774F25DB6C2256247FFA361E0115680C6AA4D (float ___0_value, String_t* ___1_parameterName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:586>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:586>
 		float L_0 = ___0_value;
 		bool L_1;
 		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
@@ -3290,7 +3290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ThrowIfNaN_m6DD774F25DB6C22
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:588>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:588>
 		String_t* L_2 = ___1_parameterName;
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_3 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral63D5A374DB9B1D171AC79DA59138E2744B963051)), L_2, NULL);
@@ -3299,47 +3299,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ThrowIfNaN_m6DD774F25DB6C22
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:590>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:590>
 		return;
 	}
 }
-// Method Definition Index: 132228
+// Method Definition Index: 132782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__ctor_m1593BD6315D47BAAA7BF5C3C26B1AD1652561EB2 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:55>
 		__this->____topFovDegrees = (25.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:56>
 		__this->____bottomFovDegrees = (41.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:57>
 		__this->____innerFovDegrees = (35.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:58>
 		__this->____outerFovDegrees = (35.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:59>
 		__this->____topOuterFrameDegrees = (41.5f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:60>
 		__this->____bottomOuterFrameDegrees = (44.5499992f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:61>
 		__this->____innerOuterFrameDegrees = (48.9000015f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:62>
 		__this->____outerOuterFrameDegrees = (51.7000008f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:63>
 		__this->____alpha = (1.0f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:64>
 		__this->____cornerRadius = (0.119999997f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:66>
 		__this->____autoIpd = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:67>
 		__this->____manualIpdMillimeters = (62.5f);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:68>
 		__this->____compositionDepth = ((int32_t)-1000);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:79>
 		__this->____lastAppliedIpdMeters = (std::numeric_limits<float>::quiet_NaN());
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 132229
+// Method Definition Index: 132783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__cctor_m54B670F84204B22F710F81957AE1E7299061B174 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3357,35 +3357,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__cctor_m54B670F84204B22F710
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:82>
 		int32_t L_0;
 		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral543A3459F8FA3169F94C80708FCA0A190EC0ACA3, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___InnerBoundsId = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:83>
 		int32_t L_1;
 		L_1 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral7031777FFA65641A023A6EF117B2E13F41D8653E, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___OuterBoundsId = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:84>
 		int32_t L_2;
 		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralCB14659CB03507C756FB26DFDC1D82D6AE87A527, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___AlphaId = L_2;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:85>
 		int32_t L_3;
 		L_3 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteralB268D87B466D5046670B551C5598F372E52E5B4E, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___IsRightId = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:86>
 		int32_t L_4;
 		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral5F97F76E9ECAEDE4287B149E7D0B66E2F4DB5B07, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___EnableOuterFrameId = L_4;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:87>
 		int32_t L_5;
 		L_5 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral64258F40D504FC21BE84754D5DBFFBA17D2BD62B, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___EyeOffsetXId = L_5;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:88>
 		int32_t L_6;
 		L_6 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral468A16C13633F231CBBD099F02BE14CAF93EBF0E, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___UvScaleId = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulator.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulator.cs:89>
 		int32_t L_7;
 		L_7 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral550486D6086A29AB5597F09F71112056E6B2FBD5, NULL);
 		((FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_il2cpp_TypeInfo_var))->___CornerRadiusId = L_7;
@@ -3400,46 +3400,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__cctor_m54B670F84204B22F710
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132230
+// Method Definition Index: 132784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoaderOwnedObject_get_DestroyScheduled_m16811A0AB6B69B7E71769A1318D202B035E4085E (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
 		bool L_0 = __this->___U3CDestroyScheduledU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 132231
+// Method Definition Index: 132785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_set_DestroyScheduled_m7BD58C65788FCC5541F838C22F3E4AAFA7FECEBB (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
 		bool L_0 = ___0_value;
 		__this->___U3CDestroyScheduledU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 132232
+// Method Definition Index: 132786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_Awake_mD0F344652913A0A822F262A5C03E81A423C15659 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:33>
 		FovSimulatorLoader_RegisterOwnedObject_m7E33636966FBD72F631F6BB5D30C9CAAAC03B50F(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 132233
+// Method Definition Index: 132787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_OnDestroy_mE3B3991AD0785C87211F481001F593DAFCA4B3F8 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:38>
 		FovSimulatorLoader_UnregisterOwnedObject_mA7E6EAAEF14871A11215EE03390726E577411354(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 132234
+// Method Definition Index: 132788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject__ctor_m8AD2CF7784CB7F114F69A74B954B8633D9CFF726 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3456,36 +3456,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject__ctor_m8AD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132235
+// Method Definition Index: 132789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoaderActivationMonitor_get_IsCancelled_mB3485AAB0FAE566DAD90FD0AB94C3BC4EEEB2DCF (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:48>
 		bool L_0 = __this->____cancelled;
 		return L_0;
 	}
 }
-// Method Definition Index: 132236
+// Method Definition Index: 132790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Begin_m2979027984CA6F2A01AD0DDA1810AA3A60170869 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, String_t* ___1_environment, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:52>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_0 = ___0_simulator;
 		__this->____simulator = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____simulator), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:53>
 		String_t* L_1 = ___1_environment;
 		__this->____environment = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____environment), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:54>
 		__this->____cancelled = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:55>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 132237
+// Method Definition Index: 132791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_CompleteIfActive_m361B09B431B4E80A162486562496D3BB92BD553F (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3495,7 +3495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Comp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:60>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_0 = __this->____simulator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3518,13 +3518,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Comp
 
 IL_001b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:62>
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:65>
 		String_t* L_4 = ___0_environment;
 		if (L_4)
 		{
@@ -3538,20 +3538,20 @@ IL_001c:
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:66>
 		FovSimulatorLoaderActivationMonitor_Cancel_mAEBB555DC4EE179BBB99506EB3CB6370E2A3FA71(__this, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:67>
 		String_t* L_6 = ___0_environment;
 		OVRFovSimulationTelemetry_SendRuntimeStarted_m9F8DD4DA75306CCD74FCF6505FD6538B7D254D09(L_6, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:68>
 		return;
 	}
 }
-// Method Definition Index: 132238
+// Method Definition Index: 132792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Cancel_mAEBB555DC4EE179BBB99506EB3CB6370E2A3FA71 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:72>
 		bool L_0 = __this->____cancelled;
 		if (!L_0)
 		{
@@ -3559,37 +3559,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Canc
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:74>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:77>
 		__this->____cancelled = (bool)1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:78>
 		__this->____simulator = (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____simulator), (void*)(FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:79>
 		__this->____environment = (String_t*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____environment), (void*)(String_t*)NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:80>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 132239
+// Method Definition Index: 132793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Update_mA21A37B6AC587CD302CC8689EA30C274D8564E89 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:85>
 		FovSimulatorLoaderActivationMonitor_CompleteIfActive_m361B09B431B4E80A162486562496D3BB92BD553F(__this, (String_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 132240
+// Method Definition Index: 132794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor__ctor_m1D54B2A2E61CFECA04B1B0D559B2F070C0478C51 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3606,7 +3606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor__cto
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 132241
+// Method Definition Index: 132795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_RegisterOwnedObject_m7E33636966FBD72F631F6BB5D30C9CAAAC03B50F (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* ___0_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3617,7 +3617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_RegisterOwnedObject_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:95>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:95>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_0 = ((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3640,7 +3640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_RegisterOwnedObject_m
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:97>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_4 = ___0_ownership;
 		((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject), (void*)L_4);
@@ -3648,11 +3648,11 @@ IL_0019:
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 132242
+// Method Definition Index: 132796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_UnregisterOwnedObject_mA7E6EAAEF14871A11215EE03390726E577411354 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* ___0_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3663,7 +3663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_UnregisterOwnedObject
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:103>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_0 = ((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject;
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_1 = ___0_ownership;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -3675,18 +3675,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_UnregisterOwnedObject
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:105>
 		((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject = (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject), (void*)(FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82*)NULL);
 	}
 
 IL_0013:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 132243
+// Method Definition Index: 132797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Bootstrap_mC3068F52AFBEF8381DE5F9B1AD513B0435FB402F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3698,32 +3698,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Bootstrap_mC3068F52AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:113>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_0 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, NULL, (intptr_t)((void*)FovSimulatorLoader_OnSceneLoaded_mD7DF848EA5564DA9E82D563C0E092294D26510E7_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:114>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_1 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_1, NULL, (intptr_t)((void*)FovSimulatorLoader_OnSceneLoaded_mD7DF848EA5564DA9E82D563C0E092294D26510E7_RuntimeMethod_var), NULL);
 		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:115>
 		FovSimulatorLoader_ApplyAndroidSetting_mDE354E265BB96A7590C6A27A41192E29EAFE2036(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 132244
+// Method Definition Index: 132798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_OnSceneLoaded_mD7DF848EA5564DA9E82D563C0E092294D26510E7 (Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:120>
 		FovSimulatorLoader_ApplyAndroidSetting_mDE354E265BB96A7590C6A27A41192E29EAFE2036(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:121>
 		return;
 	}
 }
-// Method Definition Index: 132245
+// Method Definition Index: 132799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ApplyAndroidSetting_mDE354E265BB96A7590C6A27A41192E29EAFE2036 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3736,12 +3736,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ApplyAndroidSetting_m
 	}
 	OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:125>
 		il2cpp_codegen_runtime_class_init_inline(OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1_il2cpp_TypeInfo_var);
 		OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* L_0;
 		L_0 = OVRRuntimeSettings_get_Instance_m8CD25F2CAE356BD7F51C6E701A7609F4795EF659(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:126>
 		OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -3752,35 +3752,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ApplyAndroidSetting_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:128>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:131>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:132>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:133>
 		OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* L_3 = V_0;
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = OVRRuntimeSettings_get_FovSimulationEnabled_mC9AF57E5A37637930443607C5BA467114DB848E9_inline(L_3, NULL);
 		FovSimulatorLoader_Apply_m8917BFB7554DF044BB76689CB3D103D32D750570(L_4, _stringLiteral940FB4B43F1DB758BF6397ADAF6422591EFA018D, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:134>
 		return;
 	}
 }
-// Method Definition Index: 132246
+// Method Definition Index: 132800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ApplyConfiguredSetting_m6CC00F2DA96DAEBF102B3B717A7DDC557C648AF1 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:140>
 		FovSimulatorLoader_ApplyAndroidSetting_mDE354E265BB96A7590C6A27A41192E29EAFE2036(NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 132247
+// Method Definition Index: 132801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Apply_m8917BFB7554DF044BB76689CB3D103D32D750570 (bool ___0_enabled, String_t* ___1_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3810,7 +3810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Apply_m8917BFB7554DF0
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B7_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:152>
 		bool L_0 = ___0_enabled;
 		if (L_0)
 		{
@@ -3818,25 +3818,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Apply_m8917BFB7554DF0
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:154>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:154>
 		String_t* L_1 = ___1_environment;
 		FovSimulatorLoader_DisableAll_m5B680109284031282B13CA3A57F8515832B6D87B(L_1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:155>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:155>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:158>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:158>
 		String_t* L_2 = ___1_environment;
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_3;
 		L_3 = FovSimulatorLoader_FindCanonicalSimulator_m2342AB8BE430B6C89D5B0AC3A0C5600935F203F9(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:159>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:159>
 		V_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:160>
 		V_2 = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:161>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -3849,10 +3849,10 @@ IL_000a:
 	try
 	{
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:165>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:166>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:167>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:168>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:165>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:166>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:167>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:168>
 			il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 			OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_6;
 			L_6 = OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline(NULL);
@@ -3900,7 +3900,7 @@ IL_0042_1:
 IL_004c_1:
 		{
 			V_4 = G_B7_0;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:169>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:169>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_4;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_14;
@@ -3911,43 +3911,43 @@ IL_004c_1:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:171>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:171>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 			GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_15, _stringLiteralAC86F3E15021535B359241C17DEACA4EEED7DD57, NULL);
 			V_1 = L_15;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:172>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:173>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:172>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:173>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_1;
 			NullCheck(L_16);
 			FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_17;
 			L_17 = GameObject_AddComponent_TisFovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82_m415AA2B5CD69CF361E3F54BF9CE702C10DDAEA81(L_16, GameObject_AddComponent_TisFovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82_m415AA2B5CD69CF361E3F54BF9CE702C10DDAEA81_RuntimeMethod_var);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:174>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:174>
 			NullCheck(L_17);
 			Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_17, 2, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:175>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:175>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_1;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_18, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:176>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:176>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_1;
 			V_4 = L_19;
 		}
 
 IL_0078_1:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:179>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:179>
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = V_4;
 			NullCheck(L_20);
 			FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_21;
 			L_21 = GameObject_AddComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m37B3602C09BF57CC8EB467CB99378214BFF67945(L_20, GameObject_AddComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m37B3602C09BF57CC8EB467CB99378214BFF67945_RuntimeMethod_var);
 			V_0 = L_21;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:180>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:180>
 			FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_22 = V_0;
 			il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 			bool L_23;
 			L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 			V_2 = L_23;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:181>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:181>
 			goto IL_00ad;
 		}
 	}
@@ -3964,32 +3964,32 @@ IL_0078_1:
 CATCH_008a:
 	{
 		Exception_t* L_24 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:182>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:182>
 		V_5 = L_24;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:184>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_25 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_1;
 		bool L_27 = V_2;
 		FovSimulatorLoader_DestroyCreatedSimulator_m0AF9DA99AFD123FC7431147E3A2D9B74D8CBB647(L_25, L_26, L_27, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:185>
 		Exception_t* L_28 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_28, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:186>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:187>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:188>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:187>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:189>
 		String_t* L_29 = ___1_environment;
 		Exception_t* L_30 = V_5;
 		OVRFovSimulationTelemetry_SendRuntimeStartFailed_m82F923B823B6FFA9D6E5E29EAD1551D117A804AE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDBE69CF281E0E78AC548F9725F14DC4E8006A2F1)), L_29, L_30, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:190>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0192;
 	}
 
 IL_00ad:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:192>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_31 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -4000,26 +4000,26 @@ IL_00ad:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:194>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:194>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_33 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = V_1;
 		bool L_35 = V_2;
 		FovSimulatorLoader_DestroyCreatedSimulator_m0AF9DA99AFD123FC7431147E3A2D9B74D8CBB647(L_33, L_34, L_35, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:195>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralACEEA6DDA0F908D1D1BB64CF3AFB17BBAC5C01D1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:196>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:197>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:198>
 		String_t* L_36 = ___1_environment;
 		OVRFovSimulationTelemetry_SendRuntimeStartFailed_m82F923B823B6FFA9D6E5E29EAD1551D117A804AE(_stringLiteralDBE69CF281E0E78AC548F9725F14DC4E8006A2F1, L_36, (Exception_t*)NULL, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:199>
 		return;
 	}
 
 IL_00d5:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:203>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:203>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_37 = V_0;
 		NullCheck(L_37);
 		bool L_38;
@@ -4030,13 +4030,13 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:205>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:205>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:206>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_39 = V_0;
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_40;
 		L_40 = FovSimulatorLoader_FindPendingActivationMonitor_m6F44D330E56650E9504D253A70D48B157C4669DB(L_39, NULL);
 		V_6 = L_40;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:207>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:207>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_41 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_42;
@@ -4047,7 +4047,7 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:209>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:209>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_43 = V_6;
 		String_t* L_44 = ___1_environment;
 		NullCheck(L_43);
@@ -4056,37 +4056,37 @@ IL_00d5:
 
 IL_00f7:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:211>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:211>
 		return;
 	}
 
 IL_00f8:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:214>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:214>
 		V_3 = (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0*)NULL;
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:217>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:217>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_45 = V_0;
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_46;
 		L_46 = FovSimulatorLoader_GetOrCreateActivationMonitor_mB4C70628387F7196502A2364E9E4F846EF515210(L_45, NULL);
 		V_3 = L_46;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:218>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:218>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_47 = V_3;
 		NullCheck(L_47);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_47, 2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:219>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:219>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_48 = V_3;
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_49 = V_0;
 		String_t* L_50 = ___1_environment;
 		NullCheck(L_48);
 		FovSimulatorLoaderActivationMonitor_Begin_m2979027984CA6F2A01AD0DDA1810AA3A60170869(L_48, L_49, L_50, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:220>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:220>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_51 = V_0;
 		NullCheck(L_51);
 		FovSimulator_set_OverlayActive_mC1D03D135C88A955F89303CF11E7B63B835CB553(L_51, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:221>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:221>
 		goto IL_014b;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -4103,9 +4103,9 @@ CATCH_0119:
 	{
 		{
 			Exception_t* L_52 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:222>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:222>
 			V_7 = L_52;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:224>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:224>
 			FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_53 = V_3;
 			if (!L_53)
 			{
@@ -4120,28 +4120,28 @@ CATCH_0119:
 
 IL_0124:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:225>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:225>
 			FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_55 = V_0;
 			String_t* L_56 = ___1_environment;
 			bool L_57;
 			L_57 = FovSimulatorLoader_TryDeactivate_mC38E8085B7022015B2A8B0FFCF01BE2DCB806E5D(L_55, L_56, (bool)0, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:226>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:226>
 			FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_58 = V_0;
 			GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = V_1;
 			bool L_60 = V_2;
 			FovSimulatorLoader_DestroyCreatedSimulator_m0AF9DA99AFD123FC7431147E3A2D9B74D8CBB647(L_58, L_59, L_60, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:227>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:227>
 			Exception_t* L_61 = V_7;
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_61, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:228>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:229>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:230>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:231>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:228>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:229>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:230>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:231>
 			String_t* L_62 = ___1_environment;
 			Exception_t* L_63 = V_7;
 			OVRFovSimulationTelemetry_SendRuntimeStartFailed_m82F923B823B6FFA9D6E5E29EAD1551D117A804AE(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral578873EB1F6B3D926C3F1FC0707CC294D843E724)), L_62, L_63, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:232>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:232>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0192;
 		}
@@ -4149,7 +4149,7 @@ IL_0124:
 
 IL_014b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:235>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:235>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_64 = V_0;
 		NullCheck(L_64);
 		bool L_65;
@@ -4160,18 +4160,18 @@ IL_014b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:237>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_66 = V_3;
 		String_t* L_67 = ___1_environment;
 		NullCheck(L_66);
 		FovSimulatorLoaderActivationMonitor_CompleteIfActive_m361B09B431B4E80A162486562496D3BB92BD553F(L_66, L_67, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:238>
 		return;
 	}
 
 IL_015b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:241>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:241>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_68 = V_0;
 		NullCheck(L_68);
 		bool L_69;
@@ -4182,44 +4182,44 @@ IL_015b:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:243>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:243>
 		return;
 	}
 
 IL_0164:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:246>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_70 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteralC404E6EE967F45D958D485E1A3A1C35A5A75C10C, L_70, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:247>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:247>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_71 = V_3;
 		NullCheck(L_71);
 		FovSimulatorLoaderActivationMonitor_Cancel_mAEBB555DC4EE179BBB99506EB3CB6370E2A3FA71(L_71, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:248>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:248>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_72 = V_0;
 		String_t* L_73 = ___1_environment;
 		bool L_74;
 		L_74 = FovSimulatorLoader_TryDeactivate_mC38E8085B7022015B2A8B0FFCF01BE2DCB806E5D(L_72, L_73, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:249>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:249>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_75 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_76 = V_1;
 		bool L_77 = V_2;
 		FovSimulatorLoader_DestroyCreatedSimulator_m0AF9DA99AFD123FC7431147E3A2D9B74D8CBB647(L_75, L_76, L_77, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:250>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:251>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:250>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:251>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:252>
 		String_t* L_78 = ___1_environment;
 		OVRFovSimulationTelemetry_SendRuntimeStartFailed_m82F923B823B6FFA9D6E5E29EAD1551D117A804AE(_stringLiteralBDD4FF447FFEA849C52030499B4502394A6F73D3, L_78, (Exception_t*)NULL, NULL);
 	}
 
 IL_0192:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:253>
 		return;
 	}
 }
-// Method Definition Index: 132248
+// Method Definition Index: 132802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* FovSimulatorLoader_FindCanonicalSimulator_m2342AB8BE430B6C89D5B0AC3A0C5600935F203F9 (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4234,12 +4234,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE033539
 	FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* V_1 = NULL;
 	FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:257>
 		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_0;
 		L_0 = OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline(NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:258>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:258>
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -4263,13 +4263,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE033539
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:260>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:260>
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_6 = V_0;
 		NullCheck(L_6);
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_7;
 		L_7 = Component_GetComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m4199A231394035F7019423D3CEA56CAEC83671C6(L_6, Component_GetComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m4199A231394035F7019423D3CEA56CAEC83671C6_RuntimeMethod_var);
 		V_2 = L_7;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:261>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:261>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_8 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -4280,22 +4280,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE033539
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:263>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:263>
 		String_t* L_10 = ___0_environment;
 		FovSimulatorLoader_DestroyLoaderOwnedObjects_mEB6A83CEC8656A30DA17061E8A5652846DCF1310(L_10, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:264>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_11 = V_2;
 		return L_11;
 	}
 
 IL_0034:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:268>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:268>
 		String_t* L_12 = ___0_environment;
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_13;
 		L_13 = FovSimulatorLoader_FindLoaderOwnedSimulator_m8C2A8AC7A79E9182CC3394C2EE207B0EA8E86872(L_12, NULL);
 		V_1 = L_13;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:269>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:269>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -4306,18 +4306,18 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:271>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:271>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_16 = V_1;
 		return L_16;
 	}
 
 IL_0046:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:273>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:273>
 		return (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C*)NULL;
 	}
 }
-// Method Definition Index: 132249
+// Method Definition Index: 132803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* FovSimulatorLoader_FindLoaderOwnedSimulator_m8C2A8AC7A79E9182CC3394C2EE207B0EA8E86872 (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4331,10 +4331,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE033539
 	FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* V_0 = NULL;
 	FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:278>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_0 = ((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:279>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -4357,19 +4357,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE033539
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:281>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:281>
 		return (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C*)NULL;
 	}
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:284>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:284>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_5 = V_0;
 		NullCheck(L_5);
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_6;
 		L_6 = Component_GetComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m4199A231394035F7019423D3CEA56CAEC83671C6(L_5, Component_GetComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m4199A231394035F7019423D3CEA56CAEC83671C6_RuntimeMethod_var);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:285>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:285>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_7 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -4395,21 +4395,21 @@ IL_0019:
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:287>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:287>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_12 = V_0;
 		FovSimulatorLoader_ScheduleDestroy_m33F8ED1EE4A3502CB4C9F9E0F58E5745F1A1BFFE(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:288>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:288>
 		return (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C*)NULL;
 	}
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:290>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:290>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_13 = V_1;
 		return L_13;
 	}
 }
-// Method Definition Index: 132250
+// Method Definition Index: 132804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DisableAll_m5B680109284031282B13CA3A57F8515832B6D87B (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4429,16 +4429,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DisableAll_m5B6801092
 	FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* G_B3_0 = NULL;
 	FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* G_B8_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:295>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:295>
 		V_0 = (bool)0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:296>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:296>
 		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_0;
 		L_0 = OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline(NULL);
 		V_1 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:297>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:298>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:299>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:297>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:298>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:299>
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_1 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -4465,7 +4465,7 @@ IL_0014:
 IL_001a:
 	{
 		V_2 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:300>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:300>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_5 = V_2;
 		String_t* L_6 = ___0_environment;
 		bool L_7;
@@ -4476,18 +4476,18 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:302>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:302>
 		V_0 = (bool)1;
 	}
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:305>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:305>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_8 = ((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject;
 		V_3 = L_8;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:306>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:307>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:308>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:306>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:307>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:308>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_9 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -4514,7 +4514,7 @@ IL_0039:
 IL_003f:
 	{
 		V_4 = G_B8_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:309>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:309>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_13 = V_4;
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_14 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4526,10 +4526,10 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:311>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:312>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:313>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:314>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:311>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:312>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:313>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:314>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_16 = V_4;
 		String_t* L_17 = ___0_environment;
 		bool L_18 = V_0;
@@ -4539,14 +4539,14 @@ IL_003f:
 
 IL_0058:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:316>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:316>
 		String_t* L_20 = ___0_environment;
 		FovSimulatorLoader_DestroyLoaderOwnedObjects_mEB6A83CEC8656A30DA17061E8A5652846DCF1310(L_20, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:317>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:317>
 		return;
 	}
 }
-// Method Definition Index: 132251
+// Method Definition Index: 132805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_DisableSimulator_m80F83379F7A57392AA1767CD000D895DB65DD5EB (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, String_t* ___1_environment, bool ___2_reportFailure, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4558,7 +4558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_DisableSimulator_m80F
 	FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* G_B4_0 = NULL;
 	FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:324>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:324>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_0 = ___0_simulator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4569,18 +4569,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_DisableSimulator_m80F
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:326>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:326>
 		return (bool)1;
 	}
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:329>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:329>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:330>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_2 = ___0_simulator;
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_3;
 		L_3 = FovSimulatorLoader_FindPendingActivationMonitor_m6F44D330E56650E9504D253A70D48B157C4669DB(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:331>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:331>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_4 = L_3;
 		if (L_4)
 		{
@@ -4601,7 +4601,7 @@ IL_0017:
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:332>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:332>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_5 = ___0_simulator;
 		String_t* L_6 = ___1_environment;
 		bool L_7 = ___2_reportFailure;
@@ -4610,7 +4610,7 @@ IL_001c:
 		return L_8;
 	}
 }
-// Method Definition Index: 132252
+// Method Definition Index: 132806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* FovSimulatorLoader_GetOrCreateActivationMonitor_mB4C70628387F7196502A2364E9E4F846EF515210 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4623,16 +4623,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulatorLoaderActivationMonitor_t345F0324
 	}
 	FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:338>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:339>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:338>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:339>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_0 = ___0_simulator;
 		NullCheck(L_0);
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_1;
 		L_1 = Component_GetComponent_TisFovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0_m0DF44B39C457EB4F9EED279B76AADDC2077454CE(L_0, Component_GetComponent_TisFovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0_m0DF44B39C457EB4F9EED279B76AADDC2077454CE_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:340>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:341>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:340>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:341>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:342>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -4659,7 +4659,7 @@ IL_001c:
 		return L_7;
 	}
 }
-// Method Definition Index: 132253
+// Method Definition Index: 132807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* FovSimulatorLoader_FindPendingActivationMonitor_m6F44D330E56650E9504D253A70D48B157C4669DB (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4671,14 +4671,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulatorLoaderActivationMonitor_t345F0324
 	}
 	FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:348>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:349>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:348>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:349>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_0 = ___0_simulator;
 		NullCheck(L_0);
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_1;
 		L_1 = Component_GetComponent_TisFovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0_m0DF44B39C457EB4F9EED279B76AADDC2077454CE(L_0, Component_GetComponent_TisFovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0_m0DF44B39C457EB4F9EED279B76AADDC2077454CE_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:350>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:350>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -4710,7 +4710,7 @@ IL_001a:
 		return L_6;
 	}
 }
-// Method Definition Index: 132254
+// Method Definition Index: 132808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyLoaderOwnedObjects_mEB6A83CEC8656A30DA17061E8A5652846DCF1310 (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4724,10 +4724,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyLoaderOwnedObj
 	FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* V_0 = NULL;
 	FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* V_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:355>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:355>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_0 = ((FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_StaticFields*)il2cpp_codegen_static_fields_for(FovSimulatorLoader_t7FF7AA614A26DB00EB449C87C80CE40385ABB268_il2cpp_TypeInfo_var))->____ownedObject;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:356>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:356>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -4750,19 +4750,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyLoaderOwnedObj
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:358>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:358>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:361>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:361>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_5 = V_0;
 		NullCheck(L_5);
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_6;
 		L_6 = Component_GetComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m4199A231394035F7019423D3CEA56CAEC83671C6(L_5, Component_GetComponent_TisFovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C_m4199A231394035F7019423D3CEA56CAEC83671C6_RuntimeMethod_var);
 		V_1 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:362>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:362>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_7 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -4773,7 +4773,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:364>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:364>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_9 = V_1;
 		String_t* L_10 = ___0_environment;
 		bool L_11;
@@ -4782,14 +4782,14 @@ IL_0018:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:366>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:366>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_12 = V_0;
 		FovSimulatorLoader_ScheduleDestroy_m33F8ED1EE4A3502CB4C9F9E0F58E5745F1A1BFFE(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:367>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:367>
 		return;
 	}
 }
-// Method Definition Index: 132255
+// Method Definition Index: 132809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_TryDeactivate_mC38E8085B7022015B2A8B0FFCF01BE2DCB806E5D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, String_t* ___1_environment, bool ___2_reportFailure, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4802,7 +4802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_TryDeactivate_mC38E80
 	Exception_t* V_1 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:374>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:374>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_0 = ___0_simulator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4813,7 +4813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_TryDeactivate_mC38E80
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:376>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:376>
 		return (bool)1;
 	}
 
@@ -4822,11 +4822,11 @@ IL_000b:
 	}
 	try
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:381>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:381>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_2 = ___0_simulator;
 		NullCheck(L_2);
 		FovSimulator_set_OverlayActive_mC1D03D135C88A955F89303CF11E7B63B835CB553(L_2, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:382>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:382>
 		V_0 = (bool)1;
 		goto IL_0031;
 	}
@@ -4844,13 +4844,13 @@ CATCH_0017:
 	{
 		{
 			Exception_t* L_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:384>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:384>
 			V_1 = L_3;
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:386>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:386>
 			Exception_t* L_4 = V_1;
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_4, NULL);
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:387>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:387>
 			bool L_5 = ___2_reportFailure;
 			if (!L_5)
 			{
@@ -4858,10 +4858,10 @@ CATCH_0017:
 			}
 		}
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:389>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:390>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:391>
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:392>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:389>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:390>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:391>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:392>
 			String_t* L_6 = ___1_environment;
 			Exception_t* L_7 = V_1;
 			OVRFovSimulationTelemetry_SendRuntimeStopFailed_m39682CDA267DD4F056D0C2D3547B5D88777D6710(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF0A0A654EE1C3F75365E59A8FD4A82F550257621)), L_6, L_7, NULL);
@@ -4869,7 +4869,7 @@ CATCH_0017:
 
 IL_002d:
 		{
-			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:394>
+			//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:394>
 			V_0 = (bool)0;
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0031;
@@ -4878,12 +4878,12 @@ IL_002d:
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:396>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:396>
 		bool L_8 = V_0;
 		return L_8;
 	}
 }
-// Method Definition Index: 132256
+// Method Definition Index: 132810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ScheduleDestroy_m33F8ED1EE4A3502CB4C9F9E0F58E5745F1A1BFFE (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* ___0_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4895,7 +4895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ScheduleDestroy_m33F8
 	}
 	FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:400>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:400>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_0 = ___0_ownership;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4918,24 +4918,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ScheduleDestroy_m33F8
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:402>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:402>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:405>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:405>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_4 = ___0_ownership;
 		NullCheck(L_4);
 		FovSimulatorLoaderOwnedObject_set_DestroyScheduled_m7BD58C65788FCC5541F838C22F3E4AAFA7FECEBB_inline(L_4, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:406>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:407>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:406>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:407>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_5 = ___0_ownership;
 		NullCheck(L_5);
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_6;
 		L_6 = Component_GetComponent_TisFovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0_m0DF44B39C457EB4F9EED279B76AADDC2077454CE(L_5, Component_GetComponent_TisFovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0_m0DF44B39C457EB4F9EED279B76AADDC2077454CE_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:408>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:408>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -4946,7 +4946,7 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:410>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:410>
 		FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* L_9 = V_0;
 		NullCheck(L_9);
 		FovSimulatorLoaderActivationMonitor_Cancel_mAEBB555DC4EE179BBB99506EB3CB6370E2A3FA71(L_9, NULL);
@@ -4954,17 +4954,17 @@ IL_0012:
 
 IL_002f:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:412>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:412>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_10 = ___0_ownership;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
 		FovSimulatorLoader_DestroyInCurrentMode_m7AC4240FB74216E45BCFE43F561DD461649342D9(L_11, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:413>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:413>
 		return;
 	}
 }
-// Method Definition Index: 132257
+// Method Definition Index: 132811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyCreatedSimulator_m0AF9DA99AFD123FC7431147E3A2D9B74D8CBB647 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_createdGameObject, bool ___2_createdComponent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4976,7 +4976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyCreatedSimulat
 	}
 	FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:420>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:420>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___1_createdGameObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4987,14 +4987,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyCreatedSimulat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:422>
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:423>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:422>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:423>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = ___1_createdGameObject;
 		NullCheck(L_2);
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_3;
 		L_3 = GameObject_GetComponent_TisFovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82_m66408DA73D511003980991D363F98B7A89C36741(L_2, GameObject_GetComponent_TisFovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82_m66408DA73D511003980991D363F98B7A89C36741_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:424>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:424>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -5005,7 +5005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyCreatedSimulat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:426>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:426>
 		FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* L_6 = V_0;
 		NullCheck(L_6);
 		FovSimulatorLoaderOwnedObject_set_DestroyScheduled_m7BD58C65788FCC5541F838C22F3E4AAFA7FECEBB_inline(L_6, (bool)1, NULL);
@@ -5013,7 +5013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyCreatedSimulat
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:428>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:428>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___1_createdGameObject;
 		FovSimulatorLoader_DestroyInCurrentMode_m7AC4240FB74216E45BCFE43F561DD461649342D9(L_7, NULL);
 		return;
@@ -5021,7 +5021,7 @@ IL_0020:
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:430>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:430>
 		bool L_8 = ___2_createdComponent;
 		if (!L_8)
 		{
@@ -5039,18 +5039,18 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:432>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:432>
 		FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* L_11 = ___0_simulator;
 		FovSimulatorLoader_DestroyInCurrentMode_m7AC4240FB74216E45BCFE43F561DD461649342D9(L_11, NULL);
 	}
 
 IL_0039:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:434>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:434>
 		return;
 	}
 }
-// Method Definition Index: 132258
+// Method Definition Index: 132812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyInCurrentMode_m7AC4240FB74216E45BCFE43F561DD461649342D9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5061,7 +5061,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyInCurrentMode_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:438>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:438>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -5071,7 +5071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyInCurrentMode_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:440>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:440>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_1 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_1, NULL);
@@ -5080,18 +5080,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyInCurrentMode_
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:444>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:444>
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_2 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:446>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:446>
 		return;
 	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 66353
+// Method Definition Index: 61231
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -5145,7 +5145,7 @@ IL_002d:
 		return L_5;
 	}
 }
-// Method Definition Index: 66351
+// Method Definition Index: 61229
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -5202,7 +5202,7 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 66200
+// Method Definition Index: 61078
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
@@ -5219,7 +5219,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 66358
+// Method Definition Index: 61236
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5257,7 +5257,7 @@ IL_0035:
 		return L_10;
 	}
 }
-// Method Definition Index: 66276
+// Method Definition Index: 61154
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5272,7 +5272,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 2465
+// Method Definition Index: 2472
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -5283,7 +5283,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// Method Definition Index: 66472
+// Method Definition Index: 61350
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
@@ -5303,25 +5303,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 		return;
 	}
 }
-// Method Definition Index: 132230
+// Method Definition Index: 132784
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FovSimulatorLoaderOwnedObject_get_DestroyScheduled_m16811A0AB6B69B7E71769A1318D202B035E4085E_inline (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
 		bool L_0 = __this->___U3CDestroyScheduledU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 28019
+// Method Definition Index: 28028
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OVRRuntimeSettings_get_FovSimulationEnabled_mC9AF57E5A37637930443607C5BA467114DB848E9_inline (OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/OVRRuntimeSettings.cs:160>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/OVRRuntimeSettings.cs:160>
 		bool L_0 = __this->___fovSimulationEnabled;
 		return L_0;
 	}
 }
-// Method Definition Index: 26027
+// Method Definition Index: 26036
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5331,32 +5331,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRManager_t21429E69CA88C5E9C6EE3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/OVRManager.cs:246>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/OVRManager.cs:246>
 		il2cpp_codegen_runtime_class_init_inline(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var);
 		OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* L_0 = ((OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_StaticFields*)il2cpp_codegen_static_fields_for(OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4_il2cpp_TypeInfo_var))->___U3CinstanceU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 132235
+// Method Definition Index: 132789
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FovSimulatorLoaderActivationMonitor_get_IsCancelled_mB3485AAB0FAE566DAD90FD0AB94C3BC4EEEB2DCF_inline (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:48>
 		bool L_0 = __this->____cancelled;
 		return L_0;
 	}
 }
-// Method Definition Index: 132231
+// Method Definition Index: 132785
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_set_DestroyScheduled_m7BD58C65788FCC5541F838C22F3E4AAFA7FECEBB_inline (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.core@d4cd875f54ee/Scripts/Util/FovSimulator/FovSimulatorLoader.cs:29>
 		bool L_0 = ___0_value;
 		__this->___U3CDestroyScheduledU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 66335
+// Method Definition Index: 61213
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
