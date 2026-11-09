@@ -138,17 +138,21 @@ namespace MRExitReady.Debugging
                 }
 #endif
 
-                // Space Setup is a system app: when it closes we get control back before the XR
-                // session has input focus again, and a scene query issued then fails. Wait for
-                // focus, let tracking settle, and retry the failures that are known to be transient.
+                // Space Setup is a system app, so give the app focus (and tracking) back before
+                // querying. The query is retried, alternating between the original (V1) scene
+                // model and the high-fidelity one (V2 with V1 fallback): which of them the
+                // device has stored depends on the Horizon OS version.
+                LogDiagnostics();
                 MRUK.LoadDeviceResult result = MRUK.LoadDeviceResult.Failure;
                 for (var attempt = 1; attempt <= maxLoadAttempts; attempt++)
                 {
                     await WaitForFocus();
                     await WaitSeconds(attempt == 1 ? settleSeconds : retryDelaySeconds * (attempt - 1));
 
-                    ScanLog.Info($"Loading scene from device (attempt {attempt}/{maxLoadAttempts})...");
-                    result = await mruk.LoadSceneFromDevice(requestSceneCaptureIfNoDataFound: !openSpaceSetup && !HasFinished, removeMissingRooms: true);
+                    var model = attempt % 2 == 1 ? MRUK.SceneModel.V1 : MRUK.SceneModel.V2FallbackV1;
+                    ScanLog.Info($"Loading scene from device (attempt {attempt}/{maxLoadAttempts}, model {model})...");
+                    result = await mruk.LoadSceneFromDevice(requestSceneCaptureIfNoDataFound: !openSpaceSetup && !HasFinished,
+                        removeMissingRooms: true, sceneModel: model);
                     ScanLog.Info($"LoadSceneFromDevice -> {result} ({(int)result})");
 
                     if (result == MRUK.LoadDeviceResult.Success || !IsRetryable(result) || attempt == maxLoadAttempts)
@@ -197,6 +201,16 @@ namespace MRExitReady.Debugging
             mruk.RoomRemovedEvent.RemoveListener(OnRoomRemoved);
         }
 
+        private static void LogDiagnostics()
+        {
+#if !UNITY_EDITOR && UNITY_ANDROID
+            ScanLog.Info($"Diagnostics: OVRPlugin.initialized={OVRPlugin.initialized}, " +
+                         $"xrSession={(OVRPlugin.GetNativeOpenXRSession() != 0 ? "ok" : "MISSING")}, " +
+                         $"scenePermission={Permission.HasUserAuthorizedPermission(OVRPermissionsRequester.ScenePermission)}, " +
+                         $"hasInputFocus={OVRManager.hasInputFocus}, appFocused={Application.isFocused}.");
+#endif
+        }
+
         private static bool IsRetryable(MRUK.LoadDeviceResult result) => result switch
         {
             MRUK.LoadDeviceResult.Failure => true,
@@ -221,7 +235,7 @@ namespace MRExitReady.Debugging
             MRUK.LoadDeviceResult.FailureTooBright => "The room is too bright for tracking.",
             MRUK.LoadDeviceResult.FailureRateLimited => "The system is rate limiting scene queries.",
             MRUK.LoadDeviceResult.StorageAtCapacity => "Spatial data storage is full. Delete old spaces in Settings.",
-            _ => "Generic failure, usually because the app did not have focus yet after Space Setup.",
+            _ => "Generic failure: MRUK maps several native errors to this. Check the full Unity log (not just ExitReady lines) for a line from the MRUK native library.",
         };
 
         /// <summary>Waits until the app (and the XR session) has focus again after a system UI.</summary>
