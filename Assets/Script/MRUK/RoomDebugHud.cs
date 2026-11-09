@@ -39,12 +39,15 @@ namespace MRExitReady.Debugging
 
         [Header("Panel")]
         [Tooltip("Panel size in millimetres (the canvas is scaled to metres).")]
-        [SerializeField] private Vector2 panelSize = new Vector2(640f, 560f);
+        [SerializeField] private Vector2 panelSize = new Vector2(640f, 760f);
 
         [SerializeField] private float textSize = 20f;
 
         [Tooltip("Toggle this panel by clicking the left thumbstick.")]
         [SerializeField] private bool allowVisibilityToggle = true;
+
+        [Tooltip("How many of the latest room-scan log lines to show at the bottom of the panel.")]
+        [SerializeField] private int scanLogLines = 8;
 
         [Header("Logging")]
         [Tooltip("Write a log line whenever the detected room changes.")]
@@ -179,6 +182,7 @@ namespace MRExitReady.Debugging
             if (mruk == null)
             {
                 _sb.AppendLine("<color=#ff6b6b>No MRUK instance in the scene.</color>");
+                AppendScanLog();
                 _text.text = _sb.ToString();
                 return;
             }
@@ -191,6 +195,7 @@ namespace MRExitReady.Debugging
             if (rooms.Count == 0)
             {
                 _sb.AppendLine("<color=#ffd166>Waiting for scene data. Run Space Setup on the headset, then relaunch.</color>");
+                AppendScanLog();
                 _text.text = _sb.ToString();
                 return;
             }
@@ -240,10 +245,33 @@ namespace MRExitReady.Debugging
                 AppendNearestSurfaces(nativeRoom, headPosition);
             }
 
+            AppendScanLog();
+
             _sb.AppendLine();
             _sb.AppendLine("<size=80%>R-stick click: meshes on/off   B/Y: recentre menu   L-stick click: this panel</size>");
 
             _text.text = _sb.ToString();
+        }
+
+        private void AppendScanLog()
+        {
+            var lines = ScanLog.Recent;
+            if (lines.Count == 0)
+            {
+                return;
+            }
+
+            _sb.AppendLine();
+            _sb.AppendLine("<b>Scan log</b>");
+            _sb.Append("<size=75%>");
+            for (var i = Mathf.Max(0, lines.Count - scanLogLines); i < lines.Count; i++)
+            {
+                // The panel does not wrap; the full line is always in logcat.
+                var line = lines[i];
+                _sb.AppendLine(line.Length > 80 ? line.Substring(0, 79) + "…" : line);
+            }
+
+            _sb.AppendLine("</size>");
         }
 
         private void AppendAnchorCensus(MRUKRoom room)

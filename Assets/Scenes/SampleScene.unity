@@ -24139,6 +24139,7 @@ GameObject:
   - component: {fileID: 1672833460}
   - component: {fileID: 1672833459}
   - component: {fileID: 1672833458}
+  - component: {fileID: 1672833470}
   m_Layer: 0
   m_Name: MRUK
   m_TagString: Untagged
@@ -24202,7 +24203,7 @@ MonoBehaviour:
     RoomIndex: -1
     RoomPrefabs: []
     SceneJsons: []
-    LoadSceneOnStartup: 1
+    LoadSceneOnStartup: 0
     EnableHighFidelityScene: 0
     SeatWidth: 0.6
     SceneJson: 
@@ -24225,6 +24226,20 @@ MonoBehaviour:
   installationRoutineCheckpoint:
     _installationRoutineId: 
     _installationVariants: []
+--- !u!114 &1672833470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672833456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0d7e2a9c3f4e18a6d41f7c82b9e3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alwaysScan: 1
+  permissionTimeout: 60
 --- !u!4 &1672833460
 Transform:
   m_ObjectHideFlags: 0
@@ -30663,7 +30678,8 @@ MonoBehaviour:
   verticalOffset: -0.3
   deadZoneAngle: 30
   followSpeed: 3
-  panelSize: {x: 640, y: 560}
+  panelSize: {x: 640, y: 760}
+  scanLogLines: 8
   textSize: 20
   allowVisibilityToggle: 1
   logRoomTransitions: 1
