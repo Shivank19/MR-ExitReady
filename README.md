@@ -61,9 +61,10 @@ The already-correct settings worth not breaking:
 | --- | --- |
 | `[BuildingBlock] Camera Rig` | `OVRCameraRig` + `OVRManager`. Floor-level tracking origin. |
 | `[BuildingBlock] Passthrough` | `OVRPassthroughLayer`, the passthrough underlay. |
-| `MRUK` | The `MRUK` singleton. Loads scene data from the device on startup, all rooms. |
+| `MRUK` | The `MRUK` singleton, plus `StartupRoomScan`, which opens Space Setup at launch and then loads every room. MRUK's own *Load Scene On Startup* is **off** so the two don't race. |
+| `FireDrill` | `DrillGameManager`, which runs the v1 fire drill (see below). Everything it shows is built at runtime. |
 | `[BuildingBlock] EffectMesh` | Generates a mesh per scene anchor. One of these, not two. |
-| `MR Debug Tools` | `SceneLabelColorizer` + `RoomDebugHud` (see below). |
+| `MR Debug Tools` | `SceneLabelColorizer` + `RoomDebugHud` (see below). Both start hidden in v1. |
 | `[BuildingBlock] Scene Debugger` | MRUK's own debug menu, plus `DebugPanelPlacer`. |
 | `Cube` | The plain floating cube from milestone 2, 1.5 m ahead at 1.2 m. |
 
@@ -73,10 +74,50 @@ an earlier assignment. They are switched off, not deleted, so that history stays
 
 ---
 
+## v1: the room-exit fire drill
+
+The app scans your room, starts a fire on your own furniture, and scores how you get out.
+
+1. **Scan.** Space Setup opens at launch. Scan the room, including its doors, then confirm.
+2. **Briefing.** A head-following panel explains the controls. Press **A** to start.
+3. **Drill (90 s).** After a 3-second countdown, a fire burns on the furniture nearest one
+   door, and that door is *hot*. Smoke banks down from the ceiling. The panel shows the timer,
+   what to do next and a checklist.
+4. **Debrief.** You get a readiness score out of 100, a grade, each point earned or lost, and up
+   to two tips. Press **A** to run it again.
+
+| Do this | How |
+| --- | --- |
+| Pull the fire alarm | Controller on the red box next to the safe exit, then **trigger** |
+| Check a door | Hold a controller on the door for 1 s, pressing nothing. A strong buzz and red frame mean HOT; a soft buzz and blue frame mean cool |
+| Pick up the extinguisher | **Grip** near it, and keep holding grip to carry it |
+| Spray | **Trigger** while holding it; aim at the base of the flames. 10 s of charge |
+| Leave | **Grip** with a hand on a door. Through a cool door you escape; through the hot door the drill fails |
+| Stay out of the smoke | Crouch. The view goes dark while your head is inside the smoke layer |
+
+Scoring (weights are in the `DrillGameManager` Inspector): escape +40, alarm +15 (+5 if within
+10 s), door checked +15, speed bonus up to +15, small fire put out +10. Penalties: hot door −30,
+up to −15 for time standing in smoke, −10 for spraying a large fire for more than 8 s instead of
+leaving.
+
+If the scan has no doors, a virtual exit is placed on the far wall. With no furniture, the fire
+burns on the floor.
+
+**Live logs:** `adb logcat -s Unity | grep -E "ExitReady-(Scan|Drill)"` streams the scan and every
+drill event (phase changes, alarm, door checks, smoke in/out, score).
+
+The props are placeholders made from primitives, and the fire, smoke and sounds are generated in
+code ([ProceduralAssets.cs](Assets/Script/Drill/ProceduralAssets.cs)). Swap in real models
+without touching the gameplay code. Fire is not occluded by real furniture yet (Environment Depth
+is not set up).
+
+---
+
 ## In-headset controls
 
 | Input | Effect |
 | --- | --- |
+| **A / X** | Fire drill: start / try again |
 | Right thumbstick **click** | Show/hide all debug meshes |
 | **B / Y** | Re-summon MRUK's Scene Debugger menu in front of you |
 | Left thumbstick **click** | Show/hide the room-info HUD |
@@ -84,12 +125,31 @@ an earlier assignment. They are switched off, not deleted, so that history stays
 
 ---
 
-## Our code — `Assets/Script/MRUK/`
+## Our code
+
+### `Assets/Script/Drill/`: the fire drill
+
+| Script | Role |
+| --- | --- |
+| [DrillGameManager.cs](Assets/Script/Drill/DrillGameManager.cs) | Match flow: wait for scan → briefing → countdown → timed drill → debrief. |
+| [IDrillScenario.cs](Assets/Script/Drill/IDrillScenario.cs) | The contract new scenarios implement, plus `ScenarioSettings` tuning. |
+| [RoomExitScenario.cs](Assets/Script/Drill/RoomExitScenario.cs) | v1 scenario: decides from the scan where the fire, the hot and safe doors, the alarm and the extinguisher go; drives instructions and the checklist. |
+| [FireHazard.cs](Assets/Script/Drill/FireHazard.cs), [SmokeLayer.cs](Assets/Script/Drill/SmokeLayer.cs) | Growing fire (particles, light, crackle) and a descending smoke layer with an in-smoke view tint. |
+| [FireAlarmStation.cs](Assets/Script/Drill/FireAlarmStation.cs), [FireExtinguisher.cs](Assets/Script/Drill/FireExtinguisher.cs), [ExitDoor.cs](Assets/Script/Drill/ExitDoor.cs) | The interactable tools: pull station with siren and strobe, carry-and-spray extinguisher, doors with the hot-door check. |
+| [DrillScorer.cs](Assets/Script/Drill/DrillScorer.cs), [DrillHud.cs](Assets/Script/Drill/DrillHud.cs), [DrillLog.cs](Assets/Script/Drill/DrillLog.cs) | Readiness score and debrief, the player panel, and the live log. |
+
+### `Assets/Script/Common/`
+
+`HeadLocator` (headset/controller lookup), `HeadFollowPanel` (the lazy-follow text panel used
+by both HUDs) and `TaggedLog` (the ring buffer behind `ScanLog` and `DrillLog`).
+
+### `Assets/Script/MRUK/`: room understanding and debug tools
 
 | Script | Why it exists |
 | --- | --- |
 | [SceneLabelColorizer.cs](Assets/Script/MRUK/SceneLabelColorizer.cs) | `EffectMesh` can only apply one material to every anchor. This re-skins each generated mesh with a translucent colour per semantic label, so walls / floor / ceiling / doors / windows / furniture are each distinguishable with passthrough still visible behind them. |
 | [RoomDebugHud.cs](Assets/Script/MRUK/RoomDebugHud.cs) | A head-following panel showing room count, which room MRUK thinks you are in, the geometric containment answer for comparison, the anchor census, nearest wall/door, and world-lock state. Built from code, nothing to wire up. |
+| [StartupRoomScan.cs](Assets/Script/MRUK/StartupRoomScan.cs) | Runs Space Setup at launch, loads the result into MRUK, logs every step (`ScanLog`), and raises `ScanFinished` for the drill. |
 | [DebugPanelPlacer.cs](Assets/Script/MRUK/DebugPanelPlacer.cs) | MRUK's `SceneDebugger` places its canvas in front of you but never sets its rotation, so the menu ends up facing world +Z — edge-on unless you happened to be facing +Z at launch. This sets position *and* a yaw-only rotation, and lets you re-summon the panel. |
 
 Everything else under `Assets/Script/` (`A3TalkingCube`, `AIGatewayHelpers`,
@@ -105,6 +165,7 @@ Everything else under `Assets/Script/` (`A3TalkingCube`, `AIGatewayHelpers`,
 | 2 | Passthrough with a floating cube, deployed to the headset | done |
 | 3 | Space Setup scan loaded through MRUK, rendered as translucent debug meshes | done — see [docs/scene-fixes.md](docs/scene-fixes.md) for what was broken |
 | 4 | Multiple connected rooms, current-room detection, doorway drift | tooling in place, measurements pending — see [docs/mruk-multiroom.md](docs/mruk-multiroom.md) |
+| 5 | v1 skeleton: one scenario (room exit), timer, tools, readiness score | built on `feature/v1`, needs on-headset testing — see [docs/v1-pitch.md](docs/v1-pitch.md) |
 
 ---
 

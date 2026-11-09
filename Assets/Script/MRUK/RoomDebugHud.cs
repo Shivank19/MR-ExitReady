@@ -4,9 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Meta.XR.MRUtilityKit;
-using TMPro;
+using MRExitReady.Common;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace MRExitReady.Debugging
 {
@@ -46,6 +45,9 @@ namespace MRExitReady.Debugging
         [Tooltip("Toggle this panel by clicking the left thumbstick.")]
         [SerializeField] private bool allowVisibilityToggle = true;
 
+        [Tooltip("Start with the panel hidden (the fire drill HUD is the main panel).")]
+        [SerializeField] private bool startHidden;
+
         [Tooltip("How many of the latest room-scan log lines to show at the bottom of the panel.")]
         [SerializeField] private int scanLogLines = 8;
 
@@ -53,30 +55,35 @@ namespace MRExitReady.Debugging
         [Tooltip("Write a log line whenever the detected room changes.")]
         [SerializeField] private bool logRoomTransitions = true;
 
-        private Transform _head;
-        private RectTransform _panel;
-        private TextMeshProUGUI _text;
+        private HeadFollowPanel _panel;
         private readonly StringBuilder _sb = new();
         private readonly Dictionary<Guid, int> _roomIndices = new();
 
         private Guid _lastNativeRoom = Guid.Empty;
         private int _transitions;
         private float _nextRefresh;
-        private bool _placed;
 
         private void Awake()
         {
-            BuildPanel();
+            _panel = new HeadFollowPanel(transform, panelSize, textSize, new Color(0.03f, 0.05f, 0.08f, 0.78f))
+            {
+                Distance = distance,
+                VerticalOffset = verticalOffset,
+                DeadZoneAngle = deadZoneAngle,
+                FollowSpeed = followSpeed,
+            };
+            _panel.Text.text = "MRUK debug HUD starting...";
+            _panel.Visible = !startHidden;
         }
 
         private void Update()
         {
             if (allowVisibilityToggle && OVRInput.GetDown(OVRInput.RawButton.LThumbstick))
             {
-                _panel.gameObject.SetActive(!_panel.gameObject.activeSelf);
+                _panel.Visible = !_panel.Visible;
             }
 
-            Follow();
+            _panel.Follow();
 
             // Four refreshes a second is plenty and keeps the string building off the hot path.
             if (Time.unscaledTime < _nextRefresh)
@@ -86,91 +93,6 @@ namespace MRExitReady.Debugging
 
             _nextRefresh = Time.unscaledTime + 0.25f;
             Refresh();
-        }
-
-        private void BuildPanel()
-        {
-            var canvasGo = new GameObject("RoomDebugHudCanvas", typeof(Canvas), typeof(CanvasScaler));
-            var canvas = canvasGo.GetComponent<Canvas>();
-            canvas.renderMode = RenderMode.WorldSpace;
-
-            _panel = canvasGo.GetComponent<RectTransform>();
-            _panel.SetParent(transform, false);
-            _panel.sizeDelta = panelSize;
-            _panel.localScale = Vector3.one * 0.001f;
-
-            var bgGo = new GameObject("Background", typeof(Image));
-            var bgRect = bgGo.GetComponent<RectTransform>();
-            bgRect.SetParent(_panel, false);
-            bgRect.anchorMin = Vector2.zero;
-            bgRect.anchorMax = Vector2.one;
-            bgRect.offsetMin = Vector2.zero;
-            bgRect.offsetMax = Vector2.zero;
-            bgGo.GetComponent<Image>().color = new Color(0.03f, 0.05f, 0.08f, 0.78f);
-
-            var textGo = new GameObject("Text", typeof(TextMeshProUGUI));
-            var textRect = textGo.GetComponent<RectTransform>();
-            textRect.SetParent(_panel, false);
-            textRect.anchorMin = Vector2.zero;
-            textRect.anchorMax = Vector2.one;
-            textRect.offsetMin = new Vector2(18f, 18f);
-            textRect.offsetMax = new Vector2(-18f, -18f);
-
-            _text = textGo.GetComponent<TextMeshProUGUI>();
-            _text.fontSize = textSize;
-            _text.alignment = TextAlignmentOptions.TopLeft;
-            _text.textWrappingMode = TextWrappingModes.NoWrap;
-            _text.richText = true;
-            _text.color = Color.white;
-            _text.text = "MRUK debug HUD starting...";
-        }
-
-        private void Follow()
-        {
-            if (ResolveHead() == null || _head.position == Vector3.zero)
-            {
-                return;
-            }
-
-            var headForward = _head.forward;
-            headForward.y = 0f;
-            if (headForward.sqrMagnitude < 1e-4f)
-            {
-                return;
-            }
-
-            headForward.Normalize();
-
-            var desiredPosition = _head.position + headForward * distance + Vector3.up * verticalOffset;
-            var toPanel = transform.position - _head.position;
-            toPanel.y = 0f;
-
-            var needsCatchUp = toPanel.sqrMagnitude < 1e-4f ||
-                               Vector3.Angle(headForward, toPanel.normalized) > deadZoneAngle;
-
-            // Snap into place the first time head tracking reports a real pose, then ease
-            // afterwards, so the panel does not visibly fly in from the tracking origin.
-            if (!_placed)
-            {
-                transform.position = desiredPosition;
-                _placed = true;
-            }
-            else
-            {
-                var t = needsCatchUp ? 1f - Mathf.Exp(-followSpeed * Time.unscaledDeltaTime) : 0f;
-                if (t > 0f)
-                {
-                    transform.position = Vector3.Lerp(transform.position, desiredPosition, t);
-                }
-            }
-
-            // Always face the user, even while the position is still catching up.
-            var lookDirection = transform.position - _head.position;
-            lookDirection.y = 0f;
-            if (lookDirection.sqrMagnitude > 1e-4f)
-            {
-                transform.rotation = Quaternion.LookRotation(lookDirection.normalized, Vector3.up);
-            }
         }
 
         private void Refresh()
@@ -183,7 +105,7 @@ namespace MRExitReady.Debugging
             {
                 _sb.AppendLine("<color=#ff6b6b>No MRUK instance in the scene.</color>");
                 AppendScanLog();
-                _text.text = _sb.ToString();
+                _panel.Text.text = _sb.ToString();
                 return;
             }
 
@@ -196,12 +118,12 @@ namespace MRExitReady.Debugging
             {
                 _sb.AppendLine("<color=#ffd166>Waiting for scene data. Run Space Setup on the headset, then relaunch.</color>");
                 AppendScanLog();
-                _text.text = _sb.ToString();
+                _panel.Text.text = _sb.ToString();
                 return;
             }
 
             var nativeRoom = mruk.GetCurrentRoom();
-            var headPosition = ResolveHead() != null ? _head.position : Vector3.zero;
+            var headPosition = HeadLocator.Head != null ? HeadLocator.Head.position : Vector3.zero;
             var geometricRoom = FindRoomByGeometry(rooms, headPosition);
 
             TrackTransition(nativeRoom);
@@ -231,7 +153,7 @@ namespace MRExitReady.Debugging
                     : "World lock: <color=#ff6b6b>lost localization</color>");
             }
 
-            var rig = FindAnyObjectByType<OVRCameraRig>();
+            var rig = HeadLocator.Rig;
             var trackingSpace = rig != null ? rig.trackingSpace : null;
             if (trackingSpace != null)
             {
@@ -250,7 +172,7 @@ namespace MRExitReady.Debugging
             _sb.AppendLine();
             _sb.AppendLine("<size=80%>R-stick click: meshes on/off   B/Y: recentre menu   L-stick click: this panel</size>");
 
-            _text.text = _sb.ToString();
+            _panel.Text.text = _sb.ToString();
         }
 
         private void AppendScanLog()
@@ -407,29 +329,6 @@ namespace MRExitReady.Debugging
         private static string Metres(float distance)
         {
             return float.IsPositiveInfinity(distance) || distance <= 0f ? "n/a" : $"{distance:F2} m";
-        }
-
-        private Transform ResolveHead()
-        {
-            if (_head != null)
-            {
-                return _head;
-            }
-
-            var rig = FindAnyObjectByType<OVRCameraRig>();
-            if (rig != null && rig.centerEyeAnchor != null)
-            {
-                _head = rig.centerEyeAnchor;
-                return _head;
-            }
-
-            var cam = Camera.main;
-            if (cam != null)
-            {
-                _head = cam.transform;
-            }
-
-            return _head;
         }
     }
 }

@@ -33,6 +33,9 @@ namespace MRExitReady.Debugging
         [Tooltip("Toggle all debug meshes on/off by clicking the right thumbstick. A/X is reserved for menu clicks by OVRInputModule.")]
         [SerializeField] private bool allowVisibilityToggle = true;
 
+        [Tooltip("Whether the debug meshes are visible when the app starts. Off for the fire drill so the real room shows.")]
+        [SerializeField] private bool startVisible = true;
+
         private static readonly int BaseColorId = Shader.PropertyToID("_BaseColor");
         private static readonly int ColorId = Shader.PropertyToID("_Color");
 
@@ -67,6 +70,8 @@ namespace MRExitReady.Debugging
 
         private void Start()
         {
+            _visible = startVisible;
+
             if (sourceMaterial == null)
             {
                 Debug.LogError($"[{nameof(SceneLabelColorizer)}] No source material assigned; debug meshes will keep the EffectMesh material.");

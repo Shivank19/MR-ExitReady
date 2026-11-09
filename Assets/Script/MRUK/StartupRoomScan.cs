@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Meta.XR.MRUtilityKit;
+using MRExitReady.Common;
 using UnityEngine;
 #if UNITY_ANDROID && !UNITY_EDITOR
 using UnityEngine.Android;
@@ -18,37 +19,13 @@ namespace MRExitReady.Debugging
     /// </summary>
     public static class ScanLog
     {
-        private const int Capacity = 40;
-        private static readonly List<string> Lines = new();
+        private static readonly TaggedLog Log = new("ExitReady-Scan");
 
-        public static event Action<string> LineAdded;
+        public static IReadOnlyList<string> Recent => Log.Recent;
 
-        public static IReadOnlyList<string> Recent => Lines;
-
-        public static void Info(string message) => Write(message, LogType.Log);
-        public static void Warn(string message) => Write(message, LogType.Warning);
-        public static void Error(string message) => Write(message, LogType.Error);
-
-        private static void Write(string message, LogType type)
-        {
-            var line = $"{Time.realtimeSinceStartup:F1}s {message}";
-            if (Lines.Count >= Capacity)
-            {
-                Lines.RemoveAt(0);
-            }
-
-            Lines.Add(line);
-
-            var tagged = $"[ExitReady-Scan] {line}";
-            switch (type)
-            {
-                case LogType.Warning: Debug.LogWarning(tagged); break;
-                case LogType.Error: Debug.LogError(tagged); break;
-                default: Debug.Log(tagged); break;
-            }
-
-            LineAdded?.Invoke(line);
-        }
+        public static void Info(string message) => Log.Info(message);
+        public static void Warn(string message) => Log.Warn(message);
+        public static void Error(string message) => Log.Error(message);
     }
 
     /// <summary>
@@ -72,6 +49,26 @@ namespace MRExitReady.Debugging
 
         private bool _running;
 
+        /// <summary>
+        /// Raised when a scan attempt ends. The value is the MRUK load result, or null if the
+        /// scan could not get as far as loading (no MRUK, permission denied, exception).
+        /// </summary>
+        public static event Action<MRUK.LoadDeviceResult?> ScanFinished;
+
+        /// <summary>Result of the most recent finished scan, for listeners that subscribe late.</summary>
+        public static MRUK.LoadDeviceResult? LastResult { get; private set; }
+
+        /// <summary>True once at least one scan attempt has finished.</summary>
+        public static bool HasFinished { get; private set; }
+
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        private static void ResetStatics()
+        {
+            ScanFinished = null;
+            LastResult = null;
+            HasFinished = false;
+        }
+
         private async void Start()
         {
             await RunScan();
@@ -88,6 +85,7 @@ namespace MRExitReady.Debugging
             }
 
             _running = true;
+            MRUK.LoadDeviceResult? finalResult = null;
             try
             {
                 var mruk = MRUK.Instance;
@@ -128,6 +126,7 @@ namespace MRExitReady.Debugging
                 ScanLog.Info("Loading scene from device...");
                 var result = await mruk.LoadSceneFromDevice(requestSceneCaptureIfNoDataFound: !alwaysScan, removeMissingRooms: true);
                 ScanLog.Info($"LoadSceneFromDevice -> {result}");
+                finalResult = result;
 
                 if (result == MRUK.LoadDeviceResult.Success)
                 {
@@ -145,6 +144,9 @@ namespace MRExitReady.Debugging
             finally
             {
                 _running = false;
+                LastResult = finalResult;
+                HasFinished = true;
+                ScanFinished?.Invoke(finalResult);
             }
         }
 

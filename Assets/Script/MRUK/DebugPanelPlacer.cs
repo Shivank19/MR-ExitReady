@@ -1,6 +1,7 @@
 // Copyright (c) MR-ExitReady contributors.
 
 using System.Collections;
+using MRExitReady.Common;
 using UnityEngine;
 
 namespace MRExitReady.Debugging
@@ -34,8 +35,6 @@ namespace MRExitReady.Debugging
         [Tooltip("Re-summon the panel in front of you (B on the right controller, Y on the left).")]
         [SerializeField] private bool allowRecenterButton = true;
 
-        private Transform _head;
-
         private void Awake()
         {
             if (target == null)
@@ -50,13 +49,13 @@ namespace MRExitReady.Debugging
             // would pin the panel to the tracking-space origin.
             const float timeout = 5f;
             var waited = 0f;
-            while (waited < timeout && ResolveHead() == null)
+            while (waited < timeout && HeadLocator.Head == null)
             {
                 waited += Time.unscaledDeltaTime;
                 yield return null;
             }
 
-            while (waited < timeout && _head != null && _head.position == Vector3.zero)
+            while (waited < timeout && HeadLocator.Head != null && !HeadLocator.HasTrackedHead)
             {
                 waited += Time.unscaledDeltaTime;
                 yield return null;
@@ -79,48 +78,19 @@ namespace MRExitReady.Debugging
         /// <summary>Snaps the target in front of the headset, upright and facing the user.</summary>
         public void Place()
         {
-            if (ResolveHead() == null)
+            var head = HeadLocator.Head;
+            if (head == null)
             {
                 return;
             }
 
-            var forward = _head.forward;
-            forward.y = 0f;
-            if (forward.sqrMagnitude < 1e-4f)
-            {
-                forward = Vector3.forward;
-            }
+            var forward = HeadLocator.FlatForward;
 
-            forward.Normalize();
-
-            target.position = _head.position + forward * distance + Vector3.up * verticalOffset;
+            target.position = head.position + forward * distance + Vector3.up * verticalOffset;
 
             // A world-space canvas renders its content facing its own +Z, i.e. away from the
             // viewer, so the panel's forward matches the head's forward rather than opposing it.
             target.rotation = Quaternion.LookRotation(forward, Vector3.up);
-        }
-
-        private Transform ResolveHead()
-        {
-            if (_head != null)
-            {
-                return _head;
-            }
-
-            var rig = FindAnyObjectByType<OVRCameraRig>();
-            if (rig != null && rig.centerEyeAnchor != null)
-            {
-                _head = rig.centerEyeAnchor;
-                return _head;
-            }
-
-            var cam = Camera.main;
-            if (cam != null)
-            {
-                _head = cam.transform;
-            }
-
-            return _head;
         }
     }
 }
