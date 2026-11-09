@@ -108,12 +108,14 @@ namespace MRExitReady.Drill
 
             if (scanDone && !hasRooms)
             {
-                _hud.ShowMessage("No room found",
-                    "The drill needs a scanned room.\n<color=#8ce99a><b>Press A to scan again</b></color>",
+                var result = StartupRoomScan.LastResult.HasValue ? StartupRoomScan.LastResult.Value.ToString() : "not loaded";
+                _hud.ShowMessage("Room didn't load",
+                    $"Result: <color=#ffd166>{result}</color>\nThe drill needs a loaded room.\n" +
+                    "<color=#8ce99a><b>Press A to load again</b></color>",
                     ScanLog.Recent);
                 if (StartPressed() && _scanner != null)
                 {
-                    _ = _scanner.RunScan();
+                    _ = _scanner.ReloadRooms();
                 }
 
                 return;

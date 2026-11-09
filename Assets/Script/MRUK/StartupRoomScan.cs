@@ -47,6 +47,15 @@ namespace MRExitReady.Debugging
         [Tooltip("Seconds to wait for the user to answer the scene permission dialog.")]
         [SerializeField] private float permissionTimeout = 60f;
 
+        [Tooltip("Seconds to wait after the app regains focus before the first load, so tracking can settle.")]
+        [SerializeField] private float settleSeconds = 1f;
+
+        [Tooltip("Load attempts before giving up on transient failures.")]
+        [SerializeField] private int maxLoadAttempts = 5;
+
+        [Tooltip("Base delay between load attempts; attempt n waits n-1 times this.")]
+        [SerializeField] private float retryDelaySeconds = 1.5f;
+
         private bool _running;
 
         /// <summary>
@@ -76,7 +85,13 @@ namespace MRExitReady.Debugging
 
         /// <summary>Runs the scan flow again (e.g. from a UI button or the component context menu).</summary>
         [ContextMenu("Run room scan")]
-        public async System.Threading.Tasks.Task RunScan()
+        public System.Threading.Tasks.Task RunScan() => Run(alwaysScan);
+
+        /// <summary>Loads the stored rooms again without reopening Space Setup.</summary>
+        [ContextMenu("Reload rooms")]
+        public System.Threading.Tasks.Task ReloadRooms() => Run(false);
+
+        private async System.Threading.Tasks.Task Run(bool openSpaceSetup)
         {
             if (_running)
             {
@@ -113,7 +128,7 @@ namespace MRExitReady.Debugging
                 }
 
 #if !UNITY_EDITOR && UNITY_ANDROID
-                if (alwaysScan)
+                if (openSpaceSetup)
                 {
                     ScanLog.Info("Opening Space Setup - scan your rooms, then confirm to return to the app.");
                     var captured = await OVRScene.RequestSpaceSetup();
@@ -123,18 +138,36 @@ namespace MRExitReady.Debugging
                 }
 #endif
 
-                ScanLog.Info("Loading scene from device...");
-                var result = await mruk.LoadSceneFromDevice(requestSceneCaptureIfNoDataFound: !alwaysScan, removeMissingRooms: true);
-                ScanLog.Info($"LoadSceneFromDevice -> {result}");
+                // Space Setup is a system app: when it closes we get control back before the XR
+                // session has input focus again, and a scene query issued then fails. Wait for
+                // focus, let tracking settle, and retry the failures that are known to be transient.
+                MRUK.LoadDeviceResult result = MRUK.LoadDeviceResult.Failure;
+                for (var attempt = 1; attempt <= maxLoadAttempts; attempt++)
+                {
+                    await WaitForFocus();
+                    await WaitSeconds(attempt == 1 ? settleSeconds : retryDelaySeconds * (attempt - 1));
+
+                    ScanLog.Info($"Loading scene from device (attempt {attempt}/{maxLoadAttempts})...");
+                    result = await mruk.LoadSceneFromDevice(requestSceneCaptureIfNoDataFound: !openSpaceSetup && !HasFinished, removeMissingRooms: true);
+                    ScanLog.Info($"LoadSceneFromDevice -> {result} ({(int)result})");
+
+                    if (result == MRUK.LoadDeviceResult.Success || !IsRetryable(result) || attempt == maxLoadAttempts)
+                    {
+                        break;
+                    }
+
+                    ScanLog.Warn($"{Explain(result)} Retrying...");
+                }
+
                 finalResult = result;
 
                 if (result == MRUK.LoadDeviceResult.Success)
                 {
                     LogAllRooms(mruk);
                 }
-                else if (result == MRUK.LoadDeviceResult.NoRoomsFound)
+                else
                 {
-                    ScanLog.Warn("No rooms found. Complete Space Setup (Settings > Environment Setup) and relaunch.");
+                    ScanLog.Error($"Could not load the room: {result}. {Explain(result)}");
                 }
             }
             catch (Exception e)
@@ -162,6 +195,62 @@ namespace MRExitReady.Debugging
             mruk.RoomCreatedEvent.RemoveListener(OnRoomCreated);
             mruk.RoomUpdatedEvent.RemoveListener(OnRoomUpdated);
             mruk.RoomRemovedEvent.RemoveListener(OnRoomRemoved);
+        }
+
+        private static bool IsRetryable(MRUK.LoadDeviceResult result) => result switch
+        {
+            MRUK.LoadDeviceResult.Failure => true,
+            MRUK.LoadDeviceResult.NotInitialized => true,
+            MRUK.LoadDeviceResult.DiscoveryOngoing => true,
+            MRUK.LoadDeviceResult.NoRoomsFound => true, // a fresh scan can take a moment to be queryable
+            MRUK.LoadDeviceResult.FailureInsufficientResources => true,
+            MRUK.LoadDeviceResult.FailureInsufficientView => true,
+            MRUK.LoadDeviceResult.FailureRateLimited => true,
+            _ => false,
+        };
+
+        private static string Explain(MRUK.LoadDeviceResult result) => result switch
+        {
+            MRUK.LoadDeviceResult.NoScenePermission or MRUK.LoadDeviceResult.FailurePermissionInsufficient =>
+                "Scene permission is missing: Settings > Apps > this app > Permissions > Spatial data.",
+            MRUK.LoadDeviceResult.NoRoomsFound => "No room is stored. Finish Space Setup, including walls and doors.",
+            MRUK.LoadDeviceResult.NotInitialized => "MRUK/OpenXR is not ready yet (or running in the Editor without Link).",
+            MRUK.LoadDeviceResult.DiscoveryOngoing => "Another scene load is still running.",
+            MRUK.LoadDeviceResult.FailureInsufficientView => "Look around the room so the headset can relocalize.",
+            MRUK.LoadDeviceResult.FailureTooDark => "The room is too dark for tracking. Turn on a light.",
+            MRUK.LoadDeviceResult.FailureTooBright => "The room is too bright for tracking.",
+            MRUK.LoadDeviceResult.FailureRateLimited => "The system is rate limiting scene queries.",
+            MRUK.LoadDeviceResult.StorageAtCapacity => "Spatial data storage is full. Delete old spaces in Settings.",
+            _ => "Generic failure, usually because the app did not have focus yet after Space Setup.",
+        };
+
+        /// <summary>Waits until the app (and the XR session) has focus again after a system UI.</summary>
+        private static async System.Threading.Tasks.Task WaitForFocus()
+        {
+#if !UNITY_EDITOR && UNITY_ANDROID
+            var logged = false;
+            var deadline = Time.realtimeSinceStartup + 30f;
+            while (!(Application.isFocused && OVRManager.hasInputFocus) && Time.realtimeSinceStartup < deadline)
+            {
+                if (!logged)
+                {
+                    ScanLog.Info("Waiting for the app to regain focus...");
+                    logged = true;
+                }
+
+                await System.Threading.Tasks.Task.Yield();
+            }
+#endif
+            await System.Threading.Tasks.Task.CompletedTask;
+        }
+
+        private static async System.Threading.Tasks.Task WaitSeconds(float seconds)
+        {
+            var until = Time.realtimeSinceStartup + seconds;
+            while (Time.realtimeSinceStartup < until)
+            {
+                await System.Threading.Tasks.Task.Yield();
+            }
         }
 
         private async System.Threading.Tasks.Task<bool> EnsureScenePermission()
