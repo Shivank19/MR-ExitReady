@@ -56,6 +56,14 @@ namespace MRExitReady.Debugging
         [Tooltip("Base delay between load attempts; attempt n waits n-1 times this.")]
         [SerializeField] private float retryDelaySeconds = 1.5f;
 
+        [Header("Fallback")]
+        [Tooltip("Room loaded when the device room can't be loaded, so the drill can still run. " +
+                 "Use one of MRUK's sample rooms (Core/Rooms/Prefabs). Leave empty to disable.")]
+        [SerializeField] private GameObject fallbackRoomPrefab;
+
+        /// <summary>True when the loaded room is the sample fallback room, not the user's scan.</summary>
+        public static bool UsingFallbackRoom { get; private set; }
+
         private bool _running;
 
         /// <summary>
@@ -76,6 +84,7 @@ namespace MRExitReady.Debugging
             ScanFinished = null;
             LastResult = null;
             HasFinished = false;
+            UsingFallbackRoom = false;
         }
 
         private async void Start()
@@ -149,15 +158,20 @@ namespace MRExitReady.Debugging
                     }
                 }
 
-                finalResult = result;
-
                 if (result == MRUK.LoadDeviceResult.Success)
                 {
-                    LogAllRooms(mruk);
+                    UsingFallbackRoom = false;
                 }
                 else
                 {
                     ScanLog.Error($"Could not load the room: {result}. {Explain(result)}");
+                    result = await LoadFallbackRoom(mruk, result);
+                }
+
+                finalResult = result;
+                if (result == MRUK.LoadDeviceResult.Success)
+                {
+                    LogAllRooms(mruk);
                 }
             }
             catch (Exception e)
@@ -195,6 +209,26 @@ namespace MRExitReady.Debugging
                          $"scenePermission={Permission.HasUserAuthorizedPermission(OVRPermissionsRequester.ScenePermission)}, " +
                          $"hasInputFocus={OVRManager.hasInputFocus}, appFocused={Application.isFocused}.");
 #endif
+        }
+
+        /// <summary>Loads the sample fallback room, if one is assigned. Returns the original failure otherwise.</summary>
+        private async System.Threading.Tasks.Task<MRUK.LoadDeviceResult> LoadFallbackRoom(MRUK mruk, MRUK.LoadDeviceResult deviceResult)
+        {
+            if (fallbackRoomPrefab == null)
+            {
+                return deviceResult;
+            }
+
+            ScanLog.Warn($"Using the sample room '{fallbackRoomPrefab.name}' instead of your scan.");
+            var result = await mruk.LoadSceneFromPrefab(fallbackRoomPrefab);
+            ScanLog.Info($"LoadSceneFromPrefab -> {result} ({(int)result})");
+            if (result == MRUK.LoadDeviceResult.Success)
+            {
+                UsingFallbackRoom = true;
+                return result;
+            }
+
+            return deviceResult;
         }
 
         /// <summary>Opens Meta Space Setup (system UI). Returns false if it was cancelled or is unavailable.</summary>

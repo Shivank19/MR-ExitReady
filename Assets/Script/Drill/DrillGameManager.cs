@@ -137,7 +137,11 @@ namespace MRExitReady.Drill
                 }
             }
 
-            _hud.ShowBriefing(_preview.Title, _preview.Briefing, _setupError);
+            var briefing = StartupRoomScan.UsingFallbackRoom
+                ? _preview.Briefing + "\n\n<color=#ffd166>Your room scan couldn't be loaded, so this drill uses a " +
+                  "sample room. Its walls and doors aren't your real ones (R-stick shows them).</color>"
+                : _preview.Briefing;
+            _hud.ShowBriefing(_preview.Title, briefing, _setupError);
         }
 
         private void UpdateCountdown()
