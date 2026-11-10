@@ -25,19 +25,20 @@ on your own furniture next to one of your own doors, and scores how you react.
 | **1. Scan** | The headset scans the room with Meta Space Setup (walls, doors, furniture). The app loads it through MR Utility Kit (MRUK). |
 | **2. Briefing** | A head-following panel explains the controls. **A** starts. |
 | **3. Countdown** | 3, 2, 1. |
-| **4. Drill (90 s)** | A fire starts on the furniture nearest one door, and that door is *hot*. Smoke banks down from the ceiling. The user raises the alarm, checks the doors, stays low and leaves. |
+| **4. Drill (90 s)** | A fire starts on the furniture nearest one door, and that door is *hot*. Smoke banks down from the ceiling and the room darkens as the fire grows. The user raises the alarm, checks the doors, stays low and leaves. The timer, current instruction and checklist sit on a "watch" panel above the left controller, so the view stays clear. |
 | **5. Debrief** | A slow-motion outcome beat, then a readiness score out of 100, a grade, a timeline, measurements and up to two tips. **A** runs it again. |
 
 ### Interactions
 
 | Action | How |
 | --- | --- |
-| Pull the fire alarm | Controller on the red pull station by the safe exit, then trigger. Siren and white strobe start. |
+| Pull the fire alarm | Controller on the red pull station by the safe exit (a pulsing red beacon marks it), then trigger. The siren and strobe start, and every strobe flash lights up the room. |
 | Check a door | Hold a controller flat on the door for 1 s. Strong buzz and red frame = **HOT**. Soft buzz and blue frame = cool. |
 | Pick up the extinguisher | Hold grip near it, and keep holding to carry it. |
 | Spray | Trigger while holding it. 10 s of charge. Aim at the base of the flames. |
 | Leave | Grip with a hand on a door. A cool door is an escape. The hot door fails the drill. |
-| Avoid the smoke | Crouch. The view darkens while the head is inside the smoke layer. |
+| Avoid the smoke | Crouch below the rolling smoke clouds. The view darkens while the head is inside the smoke layer. |
+| Keep away from the fire | Getting close brings a red heat vignette, a louder crackle and a heartbeat rumble in both controllers. Staying too close costs points. |
 
 ## 4. Feature highlights
 
@@ -48,9 +49,9 @@ on your own furniture next to one of your own doors, and scores how you react.
   - 1 door: it is the safe exit, and the fire goes on the furniture farthest from it.
   - No doors: a virtual exit is placed on the far wall.
   - No furniture: the fire burns on the floor.
-- **Robust startup:** it loads the stored room first, opens Space Setup if that fails, retries
-  with the V2 scene model, and falls back to an MRUK sample room (drawn as a furnished virtual room)
-  if the device room can't load. It tells the user when the drill needs a room.
+- **Robust startup:** it loads the stored room first and opens Space Setup if that fails or finds
+  no room. If the device room still can't load, it falls back to an MRUK sample room, drawn as a
+  furnished virtual room (walls, floor, doors, windows, furniture), and the briefing says so.
 
 ### Fire, smoke and atmosphere
 - **Fire:** layered particle systems (white-hot core, flame body, tall flame tongues, embers,
@@ -113,7 +114,7 @@ DebugPanelPlacer             │       ├─ FireAlarmStation         (code-gen
   with the room.
 - **Stack:** Unity 6000.3, Meta XR SDK 207, MR Utility Kit 207, URP 17, Quest 3 (Horizon OS SDK 207),
   passthrough mixed reality.
-- **Size:** about 5,700 lines of C# across 26 scripts in `Assets/Script/`.
+- **Size:** about 6,300 lines of C# across 29 scripts in `Assets/Script/`.
 
 ## 6. Development progress
 
@@ -127,8 +128,13 @@ DebugPanelPlacer             │       ├─ FireAlarmStation         (code-gen
 
 ## 7. Honest status (for Q&A)
 
-- The props are placeholders built from primitives. The fire, smoke, siren and spray are
-  generated in code. Real models and audio can be swapped in without touching gameplay code.
+- The props are placeholders built from primitives. The fire, smoke, siren, spray and room
+  textures are generated in code. Real models and audio can be swapped in without touching
+  gameplay code.
+- On the test headset, the system refuses this app's room queries (MRUK returns a generic failure
+  and Space Setup won't open from the app), even though permissions are granted and other apps
+  load the room. Until that's solved, demos run in MRUK's sample room, drawn as a virtual room.
+  Fire, doors and furniture then don't line up with the real space.
 - Fire is not hidden behind real furniture yet (Environment Depth isn't set up).
 - The scoring weights are first guesses, to be tuned with real users.
 - v1 has one scenario and one room. It has not had user testing.
