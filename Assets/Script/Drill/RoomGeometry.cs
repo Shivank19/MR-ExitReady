@@ -16,6 +16,41 @@ namespace MRExitReady.Drill
         public const MRUKAnchor.SceneLabels Walls =
             MRUKAnchor.SceneLabels.WALL_FACE | MRUKAnchor.SceneLabels.INNER_WALL_FACE;
 
+        /// <summary>Furniture worth drawing and setting on fire: big, recognisable pieces.</summary>
+        public const MRUKAnchor.SceneLabels MajorFurnitureLabels =
+            MRUKAnchor.SceneLabels.COUCH | MRUKAnchor.SceneLabels.TABLE | MRUKAnchor.SceneLabels.BED |
+            MRUKAnchor.SceneLabels.STORAGE;
+
+        /// <summary>
+        /// The main furniture of a room, largest footprint first, at most <paramref name="max"/>
+        /// pieces. Clutter (generic boxes, plants, lamps) and tiny items are left out so the room
+        /// doesn't feel crowded. Falls back to any furniture if the room has no major pieces.
+        /// </summary>
+        public static List<MRUKAnchor> MajorFurniture(MRUKRoom room, int max = 5)
+        {
+            var list = AnchorsWith(room, MajorFurnitureLabels);
+            list.RemoveAll(a => !a.VolumeBounds.HasValue || Footprint(a) < 0.12f);
+            if (list.Count == 0)
+            {
+                list = AnchorsWith(room, Furniture);
+            }
+
+            list.Sort((x, y) => Footprint(y).CompareTo(Footprint(x)));
+            if (list.Count > max)
+            {
+                list.RemoveRange(max, list.Count - max);
+            }
+
+            return list;
+        }
+
+        /// <summary>Floor area covered by a volume anchor, in square metres.</summary>
+        public static float Footprint(MRUKAnchor anchor)
+        {
+            var b = WorldBounds(anchor);
+            return b.size.x * b.size.z;
+        }
+
         public static float FloorY(MRUKRoom room)
         {
             var floors = room.FloorAnchors;

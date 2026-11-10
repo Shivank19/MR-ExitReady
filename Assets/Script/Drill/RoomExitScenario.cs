@@ -115,7 +115,8 @@ namespace MRExitReady.Drill
             }
 
             // ── Fire placement ─────────────────────────────────────────────────
-            var furniture = RoomGeometry.AnchorsWith(room, RoomGeometry.Furniture);
+            // Same pieces RoomVisuals draws, so the fire never sits on furniture that isn't shown.
+            var furniture = RoomGeometry.MajorFurniture(room);
             var hotIndex = -1;
             Vector3 firePosition;
             float fireRadius;
@@ -202,13 +203,11 @@ namespace MRExitReady.Drill
                 }
             }
 
-            // ── Alarm: beside the safe exit, at shoulder height ───────────────
+            // ── Alarm: on a wall near the safe exit, at shoulder height ───────
             var safe = exits[safeIndex];
-            var right = Vector3.Cross(Vector3.up, safe.normal).normalized;
-            var alarmPos = safe.center + right * (Mathf.Clamp(safe.width, 0.6f, 2.5f) * 0.5f + 0.35f);
-            alarmPos.y = floorY + 1.2f;
-            alarmPos += safe.normal * 0.01f;
-            _alarm = FireAlarmStation.Create(_root, context.Assets, alarmPos, safe.normal);
+            var (alarmPos, alarmNormal, alarmWall) = AlarmSpot(room, exits, safe.center, safe.normal, safe.width, floorY);
+            _alarm = FireAlarmStation.Create(_root, context.Assets, alarmPos + alarmNormal * 0.01f, alarmNormal);
+            DrillLog.Info($"Alarm on {alarmWall}, {RoomGeometry.FlatDistance(alarmPos, safe.center):F2} m from {safe.name}.");
             _alarm.OnPulled += OnAlarmPulled;
 
             // ── Extinguisher: on the floor by the wall nearest the user ───────
@@ -425,6 +424,115 @@ namespace MRExitReady.Drill
             }
 
             return index;
+        }
+
+        /// <summary>
+        /// Picks a spot for the alarm on a real wall surface, as close as possible to the safe
+        /// exit: for every wall, the point nearest the exit that stays inside the wall (with a
+        /// margin) and clear of doors and windows. A naive "next to the door" spot can fall off
+        /// the end of a short wall and end up hidden inside the neighbouring one.
+        /// </summary>
+        private static (Vector3 position, Vector3 normal, string wall) AlarmSpot(MRUKRoom room,
+            List<(string name, Vector3 center, Vector3 normal, float width, float height, bool isVirtual)> exits,
+            Vector3 safeCenter, Vector3 safeNormal, float safeWidth, float floorY)
+        {
+            const float margin = 0.2f;     // keep away from wall ends and corners
+            const float clearance = 0.3f;  // gap to door and window frames
+            var roomCenter = RoomGeometry.Center(room);
+
+            // Openings to keep clear of: every exit plus the windows.
+            var openings = new List<(Vector3 center, float halfWidth)>();
+            foreach (var e in exits)
+            {
+                openings.Add((e.center, Mathf.Clamp(e.width, 0.6f, 2.5f) * 0.5f));
+            }
+
+            foreach (var w in RoomGeometry.AnchorsWith(room, MRUKAnchor.SceneLabels.WINDOW_FRAME))
+            {
+                openings.Add((w.GetAnchorCenter(), (w.PlaneRect.HasValue ? w.PlaneRect.Value.width : 1f) * 0.5f));
+            }
+
+            var best = float.MaxValue;
+            var result = (position: Vector3.zero, normal: Vector3.zero, wall: "");
+            foreach (var wall in RoomGeometry.AnchorsWith(room, RoomGeometry.Walls))
+            {
+                if (!wall.PlaneRect.HasValue)
+                {
+                    continue;
+                }
+
+                var rect = wall.PlaneRect.Value;
+                var c = wall.GetAnchorCenter();
+                var along = Vector3.ProjectOnPlane(wall.transform.right, Vector3.up).normalized;
+                var half = rect.width * 0.5f - margin;
+                if (half <= 0.05f)
+                {
+                    continue; // too narrow for anything
+                }
+
+                // Openings on this wall, as intervals along it.
+                var blocked = new List<(float min, float max)>();
+                foreach (var o in openings)
+                {
+                    var off = o.center - c;
+                    if (Mathf.Abs(Vector3.Dot(off, RoomGeometry.InwardNormal(room, wall))) < 0.25f)
+                    {
+                        var t = Vector3.Dot(off, along);
+                        blocked.Add((t - o.halfWidth - clearance, t + o.halfWidth + clearance));
+                    }
+                }
+
+                // Candidates: the point nearest the exit, and both sides of every opening.
+                var target = Vector3.Dot(safeCenter - c, along);
+                var candidates = new List<float> { Mathf.Clamp(target, -half, half) };
+                foreach (var b in blocked)
+                {
+                    candidates.Add(b.min);
+                    candidates.Add(b.max);
+                }
+
+                foreach (var t in candidates)
+                {
+                    if (t < -half || t > half || IsBlocked(t, blocked))
+                    {
+                        continue;
+                    }
+
+                    var p = c + along * t;
+                    p.y = floorY + 1.2f;
+                    var d = RoomGeometry.FlatDistance(p, safeCenter);
+                    if (d < best)
+                    {
+                        best = d;
+                        result = (p, RoomGeometry.Inward(roomCenter, p, RoomGeometry.InwardNormal(room, wall)),
+                            $"wall at {c.x:F1},{c.z:F1}");
+                    }
+                }
+            }
+
+            if (best < float.MaxValue)
+            {
+                return result;
+            }
+
+            // No usable wall (shouldn't happen): fall back to beside the exit.
+            var right = Vector3.Cross(Vector3.up, safeNormal).normalized;
+            var fallback = safeCenter + right * (Mathf.Clamp(safeWidth, 0.6f, 2.5f) * 0.5f + 0.35f);
+            fallback.y = floorY + 1.2f;
+            return (fallback, safeNormal, "fallback beside exit");
+        }
+
+        private static bool IsBlocked(float t, List<(float min, float max)> blocked)
+        {
+            foreach (var b in blocked)
+            {
+                if (t > b.min + 1e-3f && t < b.max - 1e-3f)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private static MRUKAnchor FarthestWall(MRUKRoom room, Vector3 from)

@@ -34,6 +34,9 @@ namespace MRExitReady.Drill
             var floorY = RoomGeometry.FloorY(room);
             int walls = 0, doors = 0, windows = 0, furniture = 0;
 
+            // Only the main pieces of furniture, so the room isn't cluttered with boxes.
+            var keep = new System.Collections.Generic.HashSet<MRUKAnchor>(RoomGeometry.MajorFurniture(room));
+
             foreach (var anchor in room.Anchors)
             {
                 if (anchor == null)
@@ -60,7 +63,7 @@ namespace MRExitReady.Drill
                     BuildWindow(assets, room, anchor);
                     windows++;
                 }
-                else if (anchor.VolumeBounds.HasValue)
+                else if (anchor.VolumeBounds.HasValue && keep.Contains(anchor))
                 {
                     BuildFurniture(assets, anchor);
                     furniture++;

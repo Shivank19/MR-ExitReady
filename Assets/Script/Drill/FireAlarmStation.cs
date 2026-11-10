@@ -40,6 +40,8 @@ namespace MRExitReady.Drill
             go.transform.SetParent(parent, false);
             // Local +Z points out of the wall, into the room.
             go.transform.SetPositionAndRotation(position, Quaternion.LookRotation(normal, Vector3.up));
+            // A bit larger than a real pull station so it's easy to spot in a smoky room.
+            go.transform.localScale = Vector3.one * 1.3f;
 
             var alarm = go.AddComponent<FireAlarmStation>();
             alarm._assets = assets;
