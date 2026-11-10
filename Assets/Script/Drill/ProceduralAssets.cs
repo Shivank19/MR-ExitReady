@@ -79,7 +79,7 @@ namespace MRExitReady.Drill
             }
         }
 
-        private static void SetTexture(Material material, Texture texture)
+        public static void SetTexture(Material material, Texture texture)
         {
             if (material.HasProperty(BaseMapId))
             {

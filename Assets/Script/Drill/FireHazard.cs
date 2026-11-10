@@ -20,6 +20,9 @@ namespace MRExitReady.Drill
 
         public event Action Extinguished;
 
+        /// <summary>0-1, set by <see cref="HeatCues"/>: makes the crackle louder when the user is close.</summary>
+        public float ProximityBoost { get; set; }
+
         private float _radius;
         private float _growthPerSecond;
         private ParticleSystem _flames;
@@ -129,7 +132,8 @@ namespace MRExitReady.Drill
             smokeMain.startSize = new ParticleSystem.MinMaxCurve(0.4f + 0.5f * i, 0.8f + 0.9f * i);
 
             _light.range = 2f + 3f * i;
-            _audio.volume = 0.25f + 0.55f * i;
+            _audio.volume = Mathf.Min(1f, (0.25f + 0.55f * i) * (1f + 0.8f * ProximityBoost));
+            _audio.pitch = 1f + 0.12f * ProximityBoost;
         }
 
         private void Build(ProceduralAssets assets)

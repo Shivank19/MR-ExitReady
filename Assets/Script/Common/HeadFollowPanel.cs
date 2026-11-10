@@ -2,7 +2,6 @@
 
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace MRExitReady.Common
 {
@@ -19,53 +18,39 @@ namespace MRExitReady.Common
         public float FollowSpeed = 3f;
 
         private readonly Transform _root;
-        private readonly RectTransform _panel;
-        private readonly Image _background;
+        private readonly TextPanel _panel;
         private bool _placed;
 
-        public TextMeshProUGUI Text { get; }
+        public TextMeshProUGUI Text => _panel.Text;
+
+        /// <summary>Right column, or null for a single-column panel.</summary>
+        public TextMeshProUGUI Text2 => _panel.Text2;
 
         public bool Visible
         {
-            get => _panel.gameObject.activeSelf;
-            set => _panel.gameObject.SetActive(value);
+            get => _panel.Visible;
+            set
+            {
+                if (value && !_panel.Visible)
+                {
+                    // Reappear in front of the user rather than wherever it was last left.
+                    _placed = false;
+                }
+
+                _panel.Visible = value;
+            }
         }
 
         /// <param name="root">Transform that is moved around; the canvas is created as its child.</param>
         /// <param name="sizeMm">Panel size in millimetres.</param>
-        public HeadFollowPanel(Transform root, Vector2 sizeMm, float textSize, Color background)
+        public HeadFollowPanel(Transform root, Vector2 sizeMm, float textSize, Color background, int columns = 1,
+            bool wrap = false)
         {
             _root = root;
-
-            var canvasGo = new GameObject(root.name + "Canvas", typeof(Canvas), typeof(CanvasScaler));
-            canvasGo.GetComponent<Canvas>().renderMode = RenderMode.WorldSpace;
-
-            _panel = canvasGo.GetComponent<RectTransform>();
-            _panel.SetParent(root, false);
-            _panel.sizeDelta = sizeMm;
-            _panel.localScale = Vector3.one * 0.001f;
-
-            var bgGo = new GameObject("Background", typeof(Image));
-            var bgRect = bgGo.GetComponent<RectTransform>();
-            bgRect.SetParent(_panel, false);
-            Stretch(bgRect, 0f);
-            _background = bgGo.GetComponent<Image>();
-            _background.color = background;
-
-            var textGo = new GameObject("Text", typeof(TextMeshProUGUI));
-            var textRect = textGo.GetComponent<RectTransform>();
-            textRect.SetParent(_panel, false);
-            Stretch(textRect, 18f);
-
-            Text = textGo.GetComponent<TextMeshProUGUI>();
-            Text.fontSize = textSize;
-            Text.alignment = TextAlignmentOptions.TopLeft;
-            Text.textWrappingMode = TextWrappingModes.NoWrap;
-            Text.richText = true;
-            Text.color = Color.white;
+            _panel = new TextPanel(root, sizeMm, textSize, background, columns, wrap);
         }
 
-        public void SetBackground(Color color) => _background.color = color;
+        public void SetBackground(Color color) => _panel.SetBackground(color);
 
         /// <summary>Forces the panel to snap in front of the user on the next <see cref="Follow"/>.</summary>
         public void Recenter() => _placed = false;
@@ -73,7 +58,7 @@ namespace MRExitReady.Common
         /// <summary>Call once per frame.</summary>
         public void Follow()
         {
-            if (!HeadLocator.HasTrackedHead)
+            if (!HeadLocator.HasTrackedHead || !_panel.Visible)
             {
                 return;
             }
@@ -110,14 +95,6 @@ namespace MRExitReady.Common
             {
                 _root.rotation = Quaternion.LookRotation(look.normalized, Vector3.up);
             }
-        }
-
-        private static void Stretch(RectTransform rect, float inset)
-        {
-            rect.anchorMin = Vector2.zero;
-            rect.anchorMax = Vector2.one;
-            rect.offsetMin = new Vector2(inset, inset);
-            rect.offsetMax = new Vector2(-inset, -inset);
         }
     }
 }

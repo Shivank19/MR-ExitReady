@@ -50,8 +50,11 @@ namespace MRExitReady.Drill
         private SmokeLayer _smoke;
         private FireAlarmStation _alarm;
         private FireExtinguisher _extinguisher;
+        private HeatCues _heat;
         private readonly List<ExitDoor> _doors = new();
         private Vector3 _startHead;
+        private float _floorY;
+        private float _standingHeight;
         private bool _wasInSmoke;
 
         public RoomExitScenario()
@@ -80,6 +83,9 @@ namespace MRExitReady.Drill
             var roomCenter = RoomGeometry.Center(room);
             var head = HeadLocator.Head != null ? HeadLocator.Head.position : roomCenter;
             _startHead = head;
+            _floorY = floorY;
+            // Head height when the drill starts, as the user's standing height (for crouch tracking).
+            _standingHeight = Mathf.Clamp(head.y - floorY, 1.2f, 2.1f);
 
             // ── Exits ──────────────────────────────────────────────────────────
             var doorAnchors = RoomGeometry.AnchorsWith(room, MRUKAnchor.SceneLabels.DOOR_FRAME);
@@ -177,6 +183,7 @@ namespace MRExitReady.Drill
             _fire = FireHazard.Create(_root, context.Assets, firePosition, fireRadius,
                 context.Settings.fireStartIntensity, context.Settings.fireGrowthPerSecond);
             _fire.Extinguished += () => context.Scorer.FireExtinguished(_fire.IntensityAtFirstSpray);
+            _heat = HeatCues.Create(_root, context.Assets, _fire);
 
             // ── Doors ──────────────────────────────────────────────────────────
             var safeIndex = -1;
@@ -231,7 +238,19 @@ namespace MRExitReady.Drill
             if (HeadLocator.Head != null &&
                 RoomGeometry.FlatDistance(HeadLocator.Head.position, _startHead) > 0.5f)
             {
-                scorer.MarkReaction("moved");
+                scorer.MarkReaction("moved", "Started moving");
+            }
+
+            if (HeadLocator.Head != null)
+            {
+                var headPos = HeadLocator.Head.position;
+                scorer.TrackFrame(headPos, headPos.y - _floorY, _standingHeight, _heat.FireDistance, _heat.Heat,
+                    Time.deltaTime);
+            }
+
+            if (_extinguisher.IsHeld)
+            {
+                scorer.ExtinguisherPickedUp();
             }
 
             if (_smoke.HeadInSmoke)
@@ -239,6 +258,7 @@ namespace MRExitReady.Drill
                 scorer.AddSmokeTime(Time.deltaTime);
                 if (!_wasInSmoke)
                 {
+                    scorer.SmokeEntered();
                     DrillLog.Info($"Head entered smoke (layer at {_smoke.BottomY:F2} m).");
                 }
             }
@@ -254,11 +274,11 @@ namespace MRExitReady.Drill
             // Instructions escalate with what the user has (not) done yet.
             if (!_alarm.Pulled)
             {
-                Instruction = "Fire! Pull the red alarm next to the exit.";
+                Instruction = "Fire! Pull the red alarm by the exit.";
             }
             else if (!scorer.CheckedAnyDoor)
             {
-                Instruction = "Check a door: hold a controller on it for a second.";
+                Instruction = "Check a door: hold a controller on it.";
             }
             else
             {
@@ -270,7 +290,8 @@ namespace MRExitReady.Drill
                 Instruction = "LEAVE NOW. " + Instruction;
             }
 
-            Warning = _smoke.HeadInSmoke ? "You're in the smoke. Crouch down!"
+            Warning = _heat.Heat >= 0.65f ? "Too close to the fire! Back away."
+                : _smoke.HeadInSmoke ? "You're in the smoke. Crouch down!"
                 : _extinguisher.IsSpraying && _fire.Intensity > 0.7f ? "This fire is too big to fight. Get out!"
                 : null;
         }
@@ -300,6 +321,11 @@ namespace MRExitReady.Drill
             if (_extinguisher != null)
             {
                 _extinguisher.enabled = false;
+            }
+
+            if (_heat != null)
+            {
+                _heat.enabled = false;
             }
 
             ControllerInput.StopAll();

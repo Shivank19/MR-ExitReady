@@ -50,6 +50,10 @@ namespace MRExitReady.Drill
         private ScoreReport _report;
         private float _phaseStart;
         private string _setupError;
+        private int _lastTickSecond = -1;
+
+        /// <summary>Seconds left at which the left controller taps, so the timer can be felt.</summary>
+        private static readonly int[] TickSeconds = { 30, 15, 5, 4, 3, 2, 1 };
 
         private float PhaseTime => Time.time - _phaseStart;
 
@@ -163,6 +167,7 @@ namespace MRExitReady.Drill
             var remaining = Mathf.Max(0f, timeLimit - elapsed);
 
             _scenario.Tick(elapsed, remaining);
+            TimerHaptics(remaining);
 
             if (_scenario.IsFinished || remaining <= 0f)
             {
@@ -182,7 +187,7 @@ namespace MRExitReady.Drill
 
         private void UpdateDebrief()
         {
-            _hud.ShowDebrief(_scenario.Title, _report);
+            _hud.ShowDebrief(_scenario.Title, _report, timeLimit);
 
             // Short guard so the press that ended the drill can't also restart it.
             if (PhaseTime > 1f && StartPressed())
@@ -233,8 +238,24 @@ namespace MRExitReady.Drill
             return false;
         }
 
+        private void TimerHaptics(float remaining)
+        {
+            var second = Mathf.CeilToInt(remaining);
+            if (second == _lastTickSecond)
+            {
+                return;
+            }
+
+            _lastTickSecond = second;
+            if (System.Array.IndexOf(TickSeconds, second) >= 0)
+            {
+                ControllerInput.Pulse(OVRInput.Controller.LTouch, second <= 5 ? 0.8f : 0.5f, second <= 5 ? 0.12f : 0.25f);
+            }
+        }
+
         private void Enter(Phase phase)
         {
+            _lastTickSecond = -1;
             DrillLog.Info($"Phase: {_phase} -> {phase}");
             _phase = phase;
             _phaseStart = Time.time;
