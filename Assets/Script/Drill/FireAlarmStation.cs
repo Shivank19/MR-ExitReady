@@ -14,6 +14,9 @@ namespace MRExitReady.Drill
         private const float ReachDistance = 0.14f;
 
         public bool Pulled { get; private set; }
+
+        /// <summary>True on the frames the strobe is flashing (used to flash the room).</summary>
+        public bool StrobeOn { get; private set; }
         public event Action OnPulled;
 
         private Transform _handle;
@@ -25,6 +28,8 @@ namespace MRExitReady.Drill
         private Material _lensOff;
         private Material _lensOn;
         private AudioSource _siren;
+        private Material _beacon;
+        private Light _redGlow;
         private ProceduralAssets _assets;
 
         /// <param name="position">Point on the wall surface.</param>
@@ -80,6 +85,31 @@ namespace MRExitReady.Drill
             _strobe.color = Color.white;
             _strobe.enabled = false;
 
+            // Until it is pulled, a soft red beacon pulses around the station so it can be found
+            // in a smoky room; afterwards a red glow washes the wall.
+            var beaconQuad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            beaconQuad.name = "Beacon";
+            Destroy(beaconQuad.GetComponent<Collider>());
+            beaconQuad.transform.SetParent(transform, false);
+            beaconQuad.transform.localPosition = new Vector3(0f, 0.03f, 0.065f);
+            beaconQuad.transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
+            beaconQuad.transform.localScale = new Vector3(0.55f, 0.6f, 1f);
+            _beacon = new Material(_assets.ParticleAdditive) { name = "Drill_AlarmBeacon" };
+            ProceduralAssets.SetColor(_beacon, new Color(1f, 0.1f, 0.05f, 0f));
+            var beaconRenderer = beaconQuad.GetComponent<MeshRenderer>();
+            beaconRenderer.sharedMaterial = _beacon;
+            beaconRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+
+            var glowGo = new GameObject("RedGlow");
+            glowGo.transform.SetParent(transform, false);
+            glowGo.transform.localPosition = new Vector3(0f, 0f, 0.3f);
+            _redGlow = glowGo.AddComponent<Light>();
+            _redGlow.type = LightType.Point;
+            _redGlow.color = new Color(1f, 0.1f, 0.05f);
+            _redGlow.range = 1.2f;
+            _redGlow.intensity = 0.6f;
+            _redGlow.shadows = LightShadows.None;
+
             _siren = ProceduralAssets.LoopingSource(gameObject, _assets.Siren, 0.6f, 0.4f, 20f, playNow: false);
         }
 
@@ -89,7 +119,10 @@ namespace MRExitReady.Drill
             {
                 // ~1.5 Hz strobe with a short on-time, like a real visual alarm.
                 var on = Mathf.Repeat(Time.time, 0.66f) < 0.1f;
+                StrobeOn = on;
                 _strobe.enabled = on;
+                _redGlow.intensity = on ? 2.5f : 1.2f;
+                ProceduralAssets.SetColor(_beacon, new Color(1f, 0.1f, 0.05f, on ? 0.9f : 0.35f));
                 _strobeLens.sharedMaterial = on ? _lensOn : _lensOff;
                 return;
             }
@@ -112,6 +145,10 @@ namespace MRExitReady.Drill
             }
 
             _handleRenderer.sharedMaterial = hovering ? _handleHover : _handleIdle;
+
+            var pulse = 0.5f + 0.5f * Mathf.Sin(Time.time * 4f);
+            ProceduralAssets.SetColor(_beacon, new Color(1f, 0.1f, 0.05f, hovering ? 0.8f : 0.15f + 0.35f * pulse));
+            _redGlow.intensity = 0.3f + 0.6f * pulse;
         }
 
         private void Pull(OVRInput.Controller hand)
@@ -129,6 +166,9 @@ namespace MRExitReady.Drill
         {
             _siren.Stop();
             _strobe.enabled = false;
+            StrobeOn = false;
+            _redGlow.enabled = false;
+            ProceduralAssets.SetColor(_beacon, new Color(1f, 0.1f, 0.05f, 0f));
             enabled = false;
         }
     }

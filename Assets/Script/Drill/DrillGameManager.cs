@@ -21,6 +21,7 @@ namespace MRExitReady.Drill
             Briefing,
             Countdown,
             Active,
+            Ending,
             Debrief,
         }
 
@@ -34,6 +35,13 @@ namespace MRExitReady.Drill
         [SerializeField] private float timeLimit = 90f;
 
         [SerializeField] private float countdownSeconds = 3f;
+
+        [Tooltip("Real-time seconds of the slow-motion beat between the end of the drill and the debrief.")]
+        [SerializeField] private float endingSeconds = 2f;
+
+        [Header("Room")]
+        [Tooltip("Draw walls, floor, doors and furniture for a real scan too (the sample room always gets them).")]
+        [SerializeField] private bool drawWallsForRealScan;
 
         [Header("Tuning")]
         [SerializeField] private ScenarioSettings scenario = new();
@@ -51,6 +59,8 @@ namespace MRExitReady.Drill
         private float _phaseStart;
         private string _setupError;
         private int _lastTickSecond = -1;
+        private float _endingStart;
+        private RoomVisuals _roomVisuals;
 
         /// <summary>Seconds left at which the left controller taps, so the timer can be felt.</summary>
         private static readonly int[] TickSeconds = { 30, 15, 5, 4, 3, 2, 1 };
@@ -77,6 +87,7 @@ namespace MRExitReady.Drill
         private void OnDisable()
         {
             ControllerInput.StopAll();
+            Time.timeScale = 1f;
         }
 
         private void Update()
@@ -90,6 +101,7 @@ namespace MRExitReady.Drill
                 case Phase.Briefing: UpdateBriefing(); break;
                 case Phase.Countdown: UpdateCountdown(); break;
                 case Phase.Active: UpdateActive(); break;
+                case Phase.Ending: UpdateEnding(); break;
                 case Phase.Debrief: UpdateDebrief(); break;
             }
         }
@@ -106,6 +118,7 @@ namespace MRExitReady.Drill
 
             if (hasRooms && scanDone)
             {
+                EnsureRoomVisuals();
                 Enter(Phase.Briefing);
                 return;
             }
@@ -178,11 +191,28 @@ namespace MRExitReady.Drill
 
                 _scenario.Freeze();
                 _report = _scorer.Build();
-                Enter(Phase.Debrief);
+                _endingStart = Time.unscaledTime;
+                ControllerInput.Pulse(OVRInput.Controller.LTouch, 0.6f, 0.25f);
+                ControllerInput.Pulse(OVRInput.Controller.RTouch, 0.6f, 0.25f);
+                Enter(Phase.Ending);
                 return;
             }
 
             _hud.ShowActive(_scenario.Title, remaining, _scenario.Instruction, _scenario.Warning, _scenario.Objectives);
+        }
+
+        /// <summary>A short slow-motion beat with the outcome in big letters, then the debrief.</summary>
+        private void UpdateEnding()
+        {
+            var t = Time.unscaledTime - _endingStart;
+            // Ease into slow motion over the first 0.4 s, hold, and snap back for the debrief.
+            Time.timeScale = Mathf.Lerp(1f, 0.25f, Mathf.Clamp01(t / 0.4f));
+            _hud.ShowOutcome(_report);
+            if (t >= endingSeconds)
+            {
+                Time.timeScale = 1f;
+                Enter(Phase.Debrief);
+            }
         }
 
         private void UpdateDebrief()
@@ -207,7 +237,7 @@ namespace MRExitReady.Drill
 
         // ── Helpers ────────────────────────────────────────────────────────────
 
-        private bool TrySetUpScenario()
+        private static MRUKRoom CurrentRoom()
         {
             var mruk = MRUK.Instance;
             var room = mruk != null ? mruk.GetCurrentRoom() : null;
@@ -215,6 +245,30 @@ namespace MRExitReady.Drill
             {
                 room = mruk.Rooms[0];
             }
+
+            return room;
+        }
+
+        /// <summary>Draws the room (always for the sample room; for a real scan only if enabled).</summary>
+        private void EnsureRoomVisuals()
+        {
+            var room = CurrentRoom();
+            var wanted = room != null && (StartupRoomScan.UsingFallbackRoom || drawWallsForRealScan);
+            if (_roomVisuals != null && (!wanted || _roomVisuals.Room != room))
+            {
+                Destroy(_roomVisuals.gameObject);
+                _roomVisuals = null;
+            }
+
+            if (wanted && _roomVisuals == null)
+            {
+                _roomVisuals = RoomVisuals.Create(transform, _assets, room);
+            }
+        }
+
+        private bool TrySetUpScenario()
+        {
+            var room = CurrentRoom();
 
             _scorer = new DrillScorer(scoring);
             _scenario = new RoomExitScenario();

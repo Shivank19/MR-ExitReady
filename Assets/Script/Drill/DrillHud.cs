@@ -190,6 +190,21 @@ namespace MRExitReady.Drill
             }
         }
 
+        /// <summary>The big moment right after the drill ends, shown during the slow-motion beat.</summary>
+        public void ShowOutcome(ScoreReport report)
+        {
+            Show(front: true);
+            var (text, color, bg) = report.Outcome switch
+            {
+                DrillOutcome.Escaped => ("YOU GOT OUT", Green, Calm),
+                DrillOutcome.HotDoor => ("HOT DOOR", Red, Alert),
+                _ => ("TIME'S UP", Red, Alert),
+            };
+            _front.SetBackground(bg);
+            _front.Text.text = $"\n\n<align=center><size=260%><b><color={color}>{text}</color></b></size>\n\n" +
+                               $"<size=120%>{Clock(report.Duration)}</size></align>";
+        }
+
         public void ShowDebrief(string title, ScoreReport report, float timeLimit)
         {
             Show(debrief: true);

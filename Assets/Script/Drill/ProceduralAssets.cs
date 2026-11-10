@@ -33,9 +33,12 @@ namespace MRExitReady.Drill
         /// <summary>Alpha-blended, double-sided material for the smoke layer volume.</summary>
         public Material SmokeVolume { get; }
 
+        private readonly Texture2D _softDot;
+
         public ProceduralAssets(Material particleAdditive, Material particleAlpha, Material prop)
         {
             var softDot = MakeSoftDot(64);
+            _softDot = softDot;
 
             ParticleAdditive = new Material(particleAdditive) { name = "Drill_ParticleAdditive" };
             SetTexture(ParticleAdditive, softDot);
@@ -65,6 +68,103 @@ namespace MRExitReady.Drill
             _props[color] = material;
             return material;
         }
+
+        /// <summary>
+        /// A lit material with a texture, tinted and tiled (e.g. 2 = the texture repeats twice per
+        /// face). Not cached: each caller gets its own so tiling can differ per object.
+        /// </summary>
+        public Material Textured(Texture texture, Color tint, Vector2 tiling)
+        {
+            var material = new Material(_propBase) { name = $"Drill_Textured_{texture.name}" };
+            SetColor(material, tint);
+            SetTexture(material, texture);
+            if (material.HasProperty(BaseMapId))
+            {
+                material.SetTextureScale(BaseMapId, tiling);
+            }
+
+            if (material.HasProperty(MainTexId))
+            {
+                material.SetTextureScale(MainTexId, tiling);
+            }
+
+            return material;
+        }
+
+        /// <summary>A copy of the soft round particle texture, for glows and decals.</summary>
+        public Texture2D SoftDot => _softDot;
+
+        // ── Procedural surface textures (tile seamlessly) ───────────────────────
+
+        private Texture2D _plaster;
+        private Texture2D _wood;
+        private Texture2D _fabric;
+
+        /// <summary>Light painted plaster: low-contrast mottling.</summary>
+        public Texture2D Plaster => _plaster ??= MakeTexture("Drill_Plaster", 128, (u, v) =>
+        {
+            var n = 0.6f * Tile(u, v, 6f, 11f) + 0.4f * Tile(u, v, 19f, 37f);
+            var g = 0.92f + 0.08f * n;
+            return new Color(g, g, g * 0.98f, 1f);
+        });
+
+        /// <summary>Wooden floor boards: four planks per tile with grain and dark seams.</summary>
+        public Texture2D Wood => _wood ??= MakeTexture("Drill_Wood", 256, (u, v) =>
+        {
+            const int planks = 4;
+            var row = Mathf.FloorToInt(v * planks);
+            var inRow = v * planks - row;
+            var offset = (row * 0.37f) % 1f;  // stagger the plank ends
+            var along = Mathf.Repeat(u + offset, 1f);
+            var grain = Mathf.Sin((inRow * 18f + Tile(along, inRow, 3f, 5f) * 4f) * Mathf.PI) * 0.5f + 0.5f;
+            var tone = 0.75f + 0.12f * Hash(row) + 0.13f * grain;
+            var seam = inRow < 0.04f || along < 0.008f ? 0.55f : 1f;
+            var c = new Color(0.62f, 0.44f, 0.28f) * tone * seam;
+            c.a = 1f;
+            return c;
+        });
+
+        /// <summary>Woven fabric for upholstery.</summary>
+        public Texture2D Fabric => _fabric ??= MakeTexture("Drill_Fabric", 64, (u, v) =>
+        {
+            var weave = 0.5f + 0.25f * Mathf.Sin(u * Mathf.PI * 32f) * Mathf.Sin(v * Mathf.PI * 32f);
+            var g = 0.85f + 0.15f * weave + 0.05f * Tile(u, v, 8f, 13f);
+            return new Color(g, g, g, 1f);
+        });
+
+        private static Texture2D MakeTexture(string name, int size, System.Func<float, float, Color> sample)
+        {
+            var tex = new Texture2D(size, size, TextureFormat.RGBA32, true)
+            {
+                name = name,
+                wrapMode = TextureWrapMode.Repeat,
+                filterMode = FilterMode.Bilinear,
+                anisoLevel = 2,
+            };
+            var pixels = new Color[size * size];
+            for (var y = 0; y < size; y++)
+            {
+                for (var x = 0; x < size; x++)
+                {
+                    pixels[y * size + x] = sample((float)x / size, (float)y / size);
+                }
+            }
+
+            tex.SetPixels(pixels);
+            tex.Apply(true, true);
+            return tex;
+        }
+
+        /// <summary>Tileable value noise in 0..1: sums of sines at integer frequencies.</summary>
+        private static float Tile(float u, float v, float f1, float f2)
+        {
+            var a = Mathf.Sin(2f * Mathf.PI * (u * Mathf.Round(f1 * 0.5f) + v * Mathf.Round(f1 * 0.3f)) + 1.3f);
+            var b = Mathf.Sin(2f * Mathf.PI * (u * Mathf.Round(f2 * 0.2f) - v * Mathf.Round(f2 * 0.5f)) + 4.1f);
+            var c = Mathf.Sin(2f * Mathf.PI * (u * Mathf.Round(f2 * 0.6f) + v * Mathf.Round(f1 * 0.7f)) + 2.7f);
+            return (a + b + c) / 6f + 0.5f;
+        }
+
+        private static float Hash(int i) => Mathf.Repeat(Mathf.Sin(i * 12.9898f) * 43758.547f, 1f);
 
         public static void SetColor(Material material, Color color)
         {

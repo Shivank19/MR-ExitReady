@@ -51,6 +51,7 @@ namespace MRExitReady.Drill
         private FireAlarmStation _alarm;
         private FireExtinguisher _extinguisher;
         private HeatCues _heat;
+        private Atmosphere _atmosphere;
         private readonly List<ExitDoor> _doors = new();
         private Vector3 _startHead;
         private float _floorY;
@@ -219,6 +220,8 @@ namespace MRExitReady.Drill
             _smoke = SmokeLayer.Create(_root, context.Assets, room.GetRoomBounds(), floorY, ceilingY,
                 context.Settings.smokeMinHeight, context.Settings.smokeDescendSeconds);
 
+            _atmosphere = Atmosphere.Create(_root, _fire, _alarm, _smoke);
+
             DrillLog.Info($"Scenario ready: {exits.Count} exit(s), hot = {(hotIndex >= 0 ? exits[hotIndex].name : "none")}, " +
                           $"safe = {safe.name}, fire on {fireOn}, floor {floorY:F2} m, ceiling {ceilingY:F2} m.");
             error = null;
@@ -326,6 +329,11 @@ namespace MRExitReady.Drill
             if (_heat != null)
             {
                 _heat.enabled = false;
+            }
+
+            if (_atmosphere != null)
+            {
+                _atmosphere.enabled = false;
             }
 
             ControllerInput.StopAll();

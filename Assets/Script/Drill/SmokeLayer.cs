@@ -30,8 +30,11 @@ namespace MRExitReady.Drill
         private Material _volumeMaterial;
         private GameObject _tint;
         private Material _tintMaterial;
+        private ParticleSystem _clouds;
+        private Bounds _roomBounds;
 
-        private static readonly Color VolumeColor = new(0.12f, 0.12f, 0.13f, 0.38f);
+        // The box gives the layer a continuous density; the cloud particles on top make it roll.
+        private static readonly Color VolumeColor = new(0.1f, 0.1f, 0.11f, 0.22f);
         private static readonly Color TintColor = new(0.08f, 0.08f, 0.08f, 0.55f);
 
         public static SmokeLayer Create(Transform parent, ProceduralAssets assets, Bounds roomBounds, float floorY,
@@ -52,6 +55,9 @@ namespace MRExitReady.Drill
 
         private void Build(ProceduralAssets assets, Bounds roomBounds)
         {
+            _roomBounds = roomBounds;
+            BuildClouds(assets, roomBounds);
+
             var volume = GameObject.CreatePrimitive(PrimitiveType.Cube);
             volume.name = "SmokeVolume";
             Destroy(volume.GetComponent<Collider>());
@@ -101,12 +107,75 @@ namespace MRExitReady.Drill
             var s = _volume.localScale;
             _volume.localScale = new Vector3(s.x, thickness, s.z);
 
+            UpdateClouds(thickness);
+
             var head = HeadLocator.Head;
             HeadInSmoke = head != null && HeadLocator.HasTrackedHead && head.position.y > BottomY;
             if (_tint != null)
             {
                 _tint.SetActive(HeadInSmoke);
             }
+        }
+
+        /// <summary>
+        /// Big, slow, dark puffs that churn inside the layer. Their emitter box tracks the layer,
+        /// so the clouds visibly roll down from the ceiling as the smoke banks down.
+        /// </summary>
+        private void BuildClouds(ProceduralAssets assets, Bounds roomBounds)
+        {
+            _clouds = ProceduralAssets.Particles("SmokeClouds", transform, assets.ParticleAlpha);
+            var main = _clouds.main;
+            main.startLifetime = new ParticleSystem.MinMaxCurve(6f, 10f);
+            main.startSpeed = new ParticleSystem.MinMaxCurve(0.02f, 0.08f);
+            main.startSize = new ParticleSystem.MinMaxCurve(0.8f, 1.6f);
+            main.startRotation = new ParticleSystem.MinMaxCurve(0f, Mathf.PI * 2f);
+            main.maxParticles = 260;
+
+            var shape = _clouds.shape;
+            shape.shapeType = ParticleSystemShapeType.Box;
+
+            var col = _clouds.colorOverLifetime;
+            col.enabled = true;
+            col.color = ProceduralAssets.Gradient(
+                (new Color(0.1f, 0.1f, 0.1f, 0f), 0f),
+                (new Color(0.09f, 0.09f, 0.1f, 0.32f), 0.25f),
+                (new Color(0.14f, 0.14f, 0.15f, 0.28f), 0.75f),
+                (new Color(0.18f, 0.18f, 0.18f, 0f), 1f));
+
+            var rot = _clouds.rotationOverLifetime;
+            rot.enabled = true;
+            rot.z = new ParticleSystem.MinMaxCurve(-0.15f, 0.15f);
+
+            var size = _clouds.sizeOverLifetime;
+            size.enabled = true;
+            size.size = new ParticleSystem.MinMaxCurve(1f, AnimationCurve.Linear(0f, 0.7f, 1f, 1.3f));
+
+            var noise = _clouds.noise;
+            noise.enabled = true;
+            noise.strength = 0.08f;
+            noise.frequency = 0.25f;
+            noise.scrollSpeed = 0.1f;
+
+            _clouds.transform.rotation = Quaternion.identity;
+            _clouds.Play();
+        }
+
+        private void UpdateClouds(float thickness)
+        {
+            if (_clouds == null)
+            {
+                return;
+            }
+
+            var c = _roomBounds.center;
+            _clouds.transform.position = new Vector3(c.x, BottomY + thickness * 0.5f, c.z);
+            var shape = _clouds.shape;
+            shape.scale = new Vector3(_roomBounds.size.x, Mathf.Max(0.05f, thickness * 0.8f), _roomBounds.size.z);
+
+            // More puffs as the layer gets thicker; a thin layer just under the ceiling stays light.
+            var area = Mathf.Max(1f, _roomBounds.size.x * _roomBounds.size.z);
+            var emission = _clouds.emission;
+            emission.rateOverTime = Mathf.Clamp(area * (0.4f + 2.2f * thickness), 2f, 40f);
         }
 
         private void OnDisable()

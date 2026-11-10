@@ -28,12 +28,15 @@ namespace MRExitReady.Drill
         private FireHazard _fire;
         private DrillScorer _scorer;
         private ParticleSystem _spray;
+        private ParticleSystem _jet;
+        private ParticleSystem _foam;
         private AudioSource _hiss;
         private Transform _visual;
         private Transform _nozzle;
         private Transform _originalParent;
         private float _floorY;
         private bool _reportedEmpty;
+        private float _foamDebt;
 
         public static FireExtinguisher Create(Transform parent, ProceduralAssets assets, Vector3 floorPosition,
             float floorY, float capacitySeconds, FireHazard fire, DrillScorer scorer)
@@ -107,6 +110,58 @@ namespace MRExitReady.Drill
                 col.color = ProceduralAssets.Gradient(
                     (new Color(1f, 1f, 1f, 0.8f), 0f),
                     (new Color(0.9f, 0.9f, 0.95f, 0f), 1f));
+            }
+
+            // Jet: a dense, fast, stretched core inside the softer spray cloud.
+            _jet = ProceduralAssets.Particles("Jet", _nozzle, assets.ParticleAlpha);
+            {
+                var main = _jet.main;
+                main.startLifetime = new ParticleSystem.MinMaxCurve(0.25f, 0.4f);
+                main.startSpeed = new ParticleSystem.MinMaxCurve(7f, 9f);
+                main.startSize = new ParticleSystem.MinMaxCurve(0.03f, 0.06f);
+                main.startColor = new Color(1f, 1f, 1f, 0.85f);
+                var shape = _jet.shape;
+                shape.shapeType = ParticleSystemShapeType.Cone;
+                shape.angle = 3f;
+                shape.radius = 0.005f;
+                var emission = _jet.emission;
+                emission.rateOverTime = 120f;
+                var renderer = _jet.GetComponent<ParticleSystemRenderer>();
+                renderer.renderMode = ParticleSystemRenderMode.Stretch;
+                renderer.velocityScale = 0.05f;
+                renderer.lengthScale = 1.5f;
+                var col = _jet.colorOverLifetime;
+                col.enabled = true;
+                col.color = ProceduralAssets.Gradient(
+                    (new Color(1f, 1f, 1f, 0.9f), 0f),
+                    (new Color(0.95f, 0.95f, 1f, 0f), 1f));
+            }
+
+            // Foam/powder billowing where the spray hits the fire. Lives in world space under
+            // the scenario root (not the bottle), and is emitted from Update while hitting.
+            _foam = ProceduralAssets.Particles("Foam", _originalParent, assets.ParticleAlpha);
+            {
+                var main = _foam.main;
+                main.startLifetime = new ParticleSystem.MinMaxCurve(1.2f, 2.2f);
+                main.startSpeed = new ParticleSystem.MinMaxCurve(0.2f, 0.7f);
+                main.startSize = new ParticleSystem.MinMaxCurve(0.15f, 0.35f);
+                main.startRotation = new ParticleSystem.MinMaxCurve(0f, Mathf.PI * 2f);
+                main.gravityModifier = 0.05f;
+                var shape = _foam.shape;
+                shape.shapeType = ParticleSystemShapeType.Sphere;
+                shape.radius = 0.2f;
+                var emission = _foam.emission;
+                emission.rateOverTime = 0f;
+                var size = _foam.sizeOverLifetime;
+                size.enabled = true;
+                size.size = new ParticleSystem.MinMaxCurve(1f, AnimationCurve.Linear(0f, 0.6f, 1f, 2f));
+                var col = _foam.colorOverLifetime;
+                col.enabled = true;
+                col.color = ProceduralAssets.Gradient(
+                    (new Color(1f, 1f, 1f, 0f), 0f),
+                    (new Color(0.95f, 0.95f, 0.97f, 0.7f), 0.15f),
+                    (new Color(0.85f, 0.85f, 0.88f, 0f), 1f));
+                _foam.Play();
             }
 
             _hiss = ProceduralAssets.LoopingSource(gameObject, assets.Hiss, 0.5f, 1f, 8f, playNow: false);
@@ -186,6 +241,7 @@ namespace MRExitReady.Drill
             {
                 IsSpraying = true;
                 _spray.Play();
+                _jet.Play();
                 _hiss.Play();
             }
 
@@ -206,6 +262,16 @@ namespace MRExitReady.Drill
                 // Closer is more effective, like a real extinguisher's effective range.
                 var effectiveness = Mathf.Lerp(1f, 0.35f, distance / SprayRange);
                 _fire.ApplyExtinguisher(KnockdownPerSecond * effectiveness * Time.deltaTime);
+
+                // Foam billows where the jet meets the flames.
+                _foam.transform.position = _fire.Center;
+                _foamDebt += 60f * Time.deltaTime;
+                var n = Mathf.FloorToInt(_foamDebt);
+                if (n > 0)
+                {
+                    _foam.Emit(n);
+                    _foamDebt -= n;
+                }
             }
         }
 
@@ -218,6 +284,7 @@ namespace MRExitReady.Drill
 
             IsSpraying = false;
             _spray.Stop(true, ParticleSystemStopBehavior.StopEmitting);
+            _jet.Stop(true, ParticleSystemStopBehavior.StopEmitting);
             _hiss.Stop();
             if (_holder != OVRInput.Controller.None)
             {

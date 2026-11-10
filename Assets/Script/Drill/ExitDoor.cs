@@ -42,6 +42,11 @@ namespace MRExitReady.Drill
         private Material _frameHot;
         private Material _frameCool;
         private ParticleSystem _seep;
+        private Light _underGlowLight;
+        private Material _underGlow;
+        private Transform _revealGlow;
+        private Material _revealMaterial;
+        private float _revealTime = -1f;
         private bool _locked;
         private Func<OVRInput.Controller, bool> _handBusy;
 
@@ -100,6 +105,18 @@ namespace MRExitReady.Drill
                 "EXIT", 0.9f, Color.white);
             exitText.transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
 
+            // Make the sign glow like a lit emergency sign: a soft green halo and a little light.
+            GlowQuad("ExitGlow", new Vector3(0f, hh + 0.15f, lift + 0.02f), new Vector2(0.8f, 0.42f),
+                new Color(0.2f, 1f, 0.4f, 0.45f), assets);
+            var signLight = new GameObject("ExitLight").AddComponent<Light>();
+            signLight.transform.SetParent(transform, false);
+            signLight.transform.localPosition = new Vector3(0f, hh + 0.1f, 0.25f);
+            signLight.type = LightType.Point;
+            signLight.color = new Color(0.3f, 1f, 0.45f);
+            signLight.range = 1.3f;
+            signLight.intensity = 0.8f;
+            signLight.shadows = LightShadows.None;
+
             _status = ProceduralAssets.Label("Status", transform, new Vector3(0f, 0.15f, 0.12f), "", 0.7f, Color.white);
             _status.transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
 
@@ -112,14 +129,14 @@ namespace MRExitReady.Drill
                 var main = _seep.main;
                 main.startLifetime = new ParticleSystem.MinMaxCurve(2f, 3f);
                 main.startSpeed = new ParticleSystem.MinMaxCurve(0.1f, 0.25f);
-                main.startSize = new ParticleSystem.MinMaxCurve(0.1f, 0.25f);
-                main.startColor = new Color(0.2f, 0.2f, 0.2f, 0.4f);
+                main.startSize = new ParticleSystem.MinMaxCurve(0.15f, 0.4f);
+                main.startColor = new Color(0.15f, 0.15f, 0.15f, 0.5f);
                 main.gravityModifier = -0.03f;
                 var shape = _seep.shape;
                 shape.shapeType = ParticleSystemShapeType.Box;
                 shape.scale = new Vector3(_width * 0.9f, 0.01f, 0.02f);
                 var emission = _seep.emission;
-                emission.rateOverTime = 12f;
+                emission.rateOverTime = 26f;
                 var col = _seep.colorOverLifetime;
                 col.enabled = true;
                 col.color = ProceduralAssets.Gradient(
@@ -127,6 +144,79 @@ namespace MRExitReady.Drill
                     (new Color(0.2f, 0.2f, 0.2f, 0.45f), 0.2f),
                     (new Color(0.3f, 0.3f, 0.3f, 0f), 1f));
                 _seep.Play();
+
+                // Firelight flickering in the gap under the door.
+                _underGlow = GlowQuad("UnderDoorGlow", new Vector3(0f, -hh + 0.015f, 0.03f),
+                    new Vector2(_width * 1.1f, 0.12f), new Color(1f, 0.45f, 0.1f, 0.7f), assets);
+                _underGlowLight = new GameObject("UnderDoorLight").AddComponent<Light>();
+                _underGlowLight.transform.SetParent(transform, false);
+                _underGlowLight.transform.localPosition = new Vector3(0f, -hh + 0.05f, 0.2f);
+                _underGlowLight.type = LightType.Point;
+                _underGlowLight.color = new Color(1f, 0.45f, 0.12f);
+                _underGlowLight.range = 1.2f;
+                _underGlowLight.shadows = LightShadows.None;
+            }
+
+            // Shown across the door once it has been checked: orange throb if hot, a blue flash if cool.
+            _revealMaterial = new Material(assets.ParticleAdditive) { name = "Drill_DoorReveal" };
+            ProceduralAssets.SetColor(_revealMaterial, Color.clear);
+            _revealGlow = GlowQuadWith(_revealMaterial, "RevealGlow", new Vector3(0f, 0f, 0.04f),
+                new Vector2(_width * 1.4f, _height * 1.1f)).transform;
+            _revealGlow.gameObject.SetActive(false);
+        }
+
+        /// <summary>A soft additive glow facing into the room.</summary>
+        private Material GlowQuad(string name, Vector3 localPosition, Vector2 size, Color color, ProceduralAssets assets)
+        {
+            var material = new Material(assets.ParticleAdditive) { name = "Drill_" + name };
+            ProceduralAssets.SetColor(material, color);
+            GlowQuadWith(material, name, localPosition, size);
+            return material;
+        }
+
+        private GameObject GlowQuadWith(Material material, string name, Vector3 localPosition, Vector2 size)
+        {
+            var quad = GameObject.CreatePrimitive(PrimitiveType.Quad);
+            quad.name = name;
+            Destroy(quad.GetComponent<Collider>());
+            quad.transform.SetParent(transform, false);
+            quad.transform.localPosition = localPosition;
+            // A quad's visible side faces -Z; turn it to face +Z, into the room.
+            quad.transform.localRotation = Quaternion.Euler(0f, 180f, 0f);
+            quad.transform.localScale = new Vector3(size.x, size.y, 1f);
+            var renderer = quad.GetComponent<MeshRenderer>();
+            renderer.sharedMaterial = material;
+            renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+            renderer.receiveShadows = false;
+            return quad;
+        }
+
+        private void LateUpdate()
+        {
+            var t = Time.time;
+            if (_underGlow != null)
+            {
+                var flicker = 0.55f + 0.3f * Mathf.PerlinNoise(t * 3f, 1.7f) + 0.15f * Mathf.Sin(t * 17f);
+                ProceduralAssets.SetColor(_underGlow, new Color(1f, 0.45f, 0.1f, 0.75f * flicker));
+                _underGlowLight.intensity = 1.6f * flicker;
+            }
+
+            if (_revealTime >= 0f)
+            {
+                var age = t - _revealTime;
+                Color c;
+                if (IsHot)
+                {
+                    var throb = 0.6f + 0.4f * Mathf.Sin(age * 6f);
+                    c = new Color(1f, 0.35f, 0.05f, 0.35f * throb * Mathf.Clamp01(age * 3f));
+                }
+                else
+                {
+                    // Cool: a brief blue wash that fades out.
+                    c = new Color(0.3f, 0.65f, 1f, 0.35f * Mathf.Clamp01(1f - age / 2f));
+                }
+
+                ProceduralAssets.SetColor(_revealMaterial, c);
             }
         }
 
@@ -194,6 +284,8 @@ namespace MRExitReady.Drill
                 r.sharedMaterial = material;
             }
 
+            _revealTime = Time.time;
+            _revealGlow.gameObject.SetActive(true);
             _status.text = IsHot ? "HOT - don't open" : "Cool - safe to open";
             _status.color = IsHot ? new Color(1f, 0.4f, 0.3f) : new Color(0.5f, 0.8f, 1f);
             ControllerInput.Pulse(hand, IsHot ? 1f : 0.3f, IsHot ? 0.6f : 0.15f, IsHot ? 1f : 0.3f);
