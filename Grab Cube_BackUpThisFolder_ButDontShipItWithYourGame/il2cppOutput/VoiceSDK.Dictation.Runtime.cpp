@@ -1222,7 +1222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 133130
+// Method Definition Index: 133152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 WitDictationRuntimeConfiguration_get_RecordingTimeRange_m562A7D79965CFC3DCADA12E03B6EA8B0DDC2C8CE (WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1233,7 +1233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_0;
 	}
 }
-// Method Definition Index: 133131
+// Method Definition Index: 133153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitDictationRuntimeConfiguration__ctor_mD4EB105CD1AFCE6BA137F80A20CCDE07737E7110 (WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1250,7 +1250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitDictationRuntimeConfiguration__ctor_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 133132
+// Method Definition Index: 133154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* AppDictationExperience_get_RuntimeConfiguration_m1E5C0B326DCB3D200267839B988CBCD810C6B6FA (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1259,7 +1259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0
 		return L_0;
 	}
 }
-// Method Definition Index: 133133
+// Method Definition Index: 133155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* AppDictationExperience_get_RuntimeDictationConfiguration_m900D587785FABCE2B3357207677DF075A0ED31EB (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1268,7 +1268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitDictationRuntimeConfiguration_t8330D272942
 		return L_0;
 	}
 }
-// Method Definition Index: 133134
+// Method Definition Index: 133156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_RuntimeDictationConfiguration_m070A8A2BD4614CF601287971127EE652CE2F1822 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1279,7 +1279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_RuntimeDictat
 		return;
 	}
 }
-// Method Definition Index: 133135
+// Method Definition Index: 133157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitConfiguration_t85BCD6C826D35078E90334092184A53D1B69C72E* AppDictationExperience_get_Configuration_m01DA90C8011DE74EACA6EADD33C7911DFB2D6303 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* G_B2_0 = NULL;
@@ -1307,7 +1307,7 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 133136
+// Method Definition Index: 133158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DictationSession_tD05EFD07F6AAF0E29A83E17B32DA9B57742D2A7A* AppDictationExperience_get_ActiveSession_m98194D9C2BB40FCBAEA1F2D159D48C6F2716F2E8 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1316,7 +1316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DictationSession_tD05EFD07F6AAF0E29A83E17B32D
 		return L_0;
 	}
 }
-// Method Definition Index: 133137
+// Method Definition Index: 133159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* AppDictationExperience_get_ActiveRequestOptions_m5661BEE324ED930DD6E0D3A3EAE6BED981F295E9 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1325,7 +1325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitRequestOptions_tB2E8B103538F7E42F0568C6F62
 		return L_0;
 	}
 }
-// Method Definition Index: 133138
+// Method Definition Index: 133160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_add_OnInitialized_mE9211FDB52898395EF70B602BBB44432210AF918 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1369,7 +1369,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 133139
+// Method Definition Index: 133161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_remove_OnInitialized_m5E2C91A2B122CCC4891CCBAC09C5254399DE4A38 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1413,7 +1413,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 133140
+// Method Definition Index: 133162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppDictationExperience_get_PACKAGE_VERSION_mF3D45842FA12FA8142D33566ED6C6A6F76D28CF8 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1430,7 +1430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AppDictationExperience_get_PACKAGE_
 		return L_0;
 	}
 }
-// Method Definition Index: 133141
+// Method Definition Index: 133163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_HasPlatformIntegrations_m96F5733B679B7D82962363D56AC61982F513E115 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1438,7 +1438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_HasPlatformIn
 		return (bool)0;
 	}
 }
-// Method Definition Index: 133142
+// Method Definition Index: 133164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_UsePlatformIntegrations_m8E4B2F994E436137A770CCF57210979647297835 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1447,7 +1447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_UsePlatformIn
 		return L_0;
 	}
 }
-// Method Definition Index: 133143
+// Method Definition Index: 133165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_UsePlatformIntegrations_mD6D4C4AC07C5EEF299508DCF8805D213CF870A90 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1482,7 +1482,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 133144
+// Method Definition Index: 133166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_DoNotFallbackToWit_m3C9908D64874FA79F66979E874AF56AA7EFE8F59 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1491,7 +1491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_DoNotFallback
 		return L_0;
 	}
 }
-// Method Definition Index: 133145
+// Method Definition Index: 133167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_DoNotFallbackToWit_m9406C84B0BEF072609AEA9215255422789E4C09A (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1501,7 +1501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_DoNotFallback
 		return;
 	}
 }
-// Method Definition Index: 133146
+// Method Definition Index: 133168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_InitDictation_m344E3985F74EC73B8BE8D548D4E43E65D9BF25FB (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1631,7 +1631,7 @@ IL_006d:
 		return;
 	}
 }
-// Method Definition Index: 133147
+// Method Definition Index: 133169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnPlatformServiceNotAvailable_mCADA6DBD21E1776EF16DD99052A5FCAFDD4C6670 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1697,7 +1697,7 @@ IL_0032:
 		return;
 	}
 }
-// Method Definition Index: 133148
+// Method Definition Index: 133170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnDictationServiceNotAvailable_m541A5EE26B923C8DBD934A654C1025A4FDE5D34F (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1742,7 +1742,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 133149
+// Method Definition Index: 133171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_RevertToWitDictation_m52DCF19FE49B2A56B218E560FAFE2C6A0BCB5042 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1825,7 +1825,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 133150
+// Method Definition Index: 133172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnEnable_mAE6A041B0C48B14FD1D2D8125054A451DED25A3D (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1891,7 +1891,7 @@ IL_0026:
 		return;
 	}
 }
-// Method Definition Index: 133151
+// Method Definition Index: 133173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnDisable_m699870C64621BBB158791422C439266F4AF6AE85 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1951,7 +1951,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 133152
+// Method Definition Index: 133174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_Active_m5CECE8B11F04EFF94B8DC6B21CF37776B5286860 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1981,7 +1981,7 @@ IL_0014:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 133153
+// Method Definition Index: 133175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_IsRequestActive_m350AE581BB641C35B7EACABE70EE270140FAD4CB (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2011,7 +2011,7 @@ IL_0014:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 133154
+// Method Definition Index: 133176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppDictationExperience_get_TranscriptionProvider_m493B06897E1B5809857D8AF5B101AC0177E4260F (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2029,7 +2029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppDictationExperience_get_Tra
 		return L_1;
 	}
 }
-// Method Definition Index: 133155
+// Method Definition Index: 133177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_TranscriptionProvider_mB3AC149E64D1F23AD91D1FB5785F13C154AA9328 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2047,7 +2047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_Transcription
 		return;
 	}
 }
-// Method Definition Index: 133156
+// Method Definition Index: 133178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_MicActive_m547D17FB6D55D6B666314BD9DCA0E1EDBFC915F5 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2077,7 +2077,7 @@ IL_0014:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 133157
+// Method Definition Index: 133179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_ShouldSendMicData_mE01D5D8E58899B4DA9FA0E14FF5BE07E64217F6F (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2103,7 +2103,7 @@ IL_0017:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 133158
+// Method Definition Index: 133180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Toggle_mA6EACA5F4BB4DF7488D4982A4CF4259B1240101C (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2129,7 +2129,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 133159
+// Method Definition Index: 133181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* AppDictationExperience_Activate_mFCB3BFCCE0E92ADF1B6BA3BCD2B52428D1B69973 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___0_requestOptions, VoiceServiceRequestEvents_t4270DDE59A84A1A65EBF9331C446BBBC7BDE0838* ___1_requestEvents, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2197,7 +2197,7 @@ IL_0039:
 		return L_9;
 	}
 }
-// Method Definition Index: 133160
+// Method Definition Index: 133182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* AppDictationExperience_ActivateImmediately_m7CC84F3A0C5F1037305FC5F63A2FCD7A114D950B (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___0_requestOptions, VoiceServiceRequestEvents_t4270DDE59A84A1A65EBF9331C446BBBC7BDE0838* ___1_requestEvents, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2265,7 +2265,7 @@ IL_0039:
 		return L_9;
 	}
 }
-// Method Definition Index: 133161
+// Method Definition Index: 133183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Deactivate_m98BD5315544177259F743D8C2A283B5CF2BD8E2E (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2301,7 +2301,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 133162
+// Method Definition Index: 133184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Cancel_m24596723ADD719DFAF2F4B9409D085F5AF70DEB9 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2337,7 +2337,7 @@ IL_000f:
 		return;
 	}
 }
-// Method Definition Index: 133163
+// Method Definition Index: 133185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestInit_m8D6BA800708D4E9BD8655C38D47A4817164EBAD3 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2665,7 +2665,7 @@ IL_0101:
 		return;
 	}
 }
-// Method Definition Index: 133164
+// Method Definition Index: 133186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestStartListening_m9F729130FF5B520739A599CC6CB7BED082F4235C (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2687,7 +2687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestStartLis
 		return;
 	}
 }
-// Method Definition Index: 133165
+// Method Definition Index: 133187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestStopListening_m796C13AC89A35293AB5BF8A218D0F1F35F3E279E (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2736,7 +2736,7 @@ IL_003d:
 		return;
 	}
 }
-// Method Definition Index: 133166
+// Method Definition Index: 133188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnDictationSessionStarted_m5788494B3D639BAAFA860294D231BFEFDC8FE6C5 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, DictationSession_tD05EFD07F6AAF0E29A83E17B32DA9B57742D2A7A* ___0_session, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2778,7 +2778,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 133167
+// Method Definition Index: 133189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnAudioDurationTrackerFinished_m0749C5263C9178B6F10F3C3AE759697FC8380049 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, int64_t ___0_timestamp, double ___1_audioDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2810,7 +2810,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnAudioDurationTr
 		return;
 	}
 }
-// Method Definition Index: 133168
+// Method Definition Index: 133190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestPartialTranscription_m77F9F07A1E0E367C3DD1C8A031D621FFAF7540E7 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* ___0_request, String_t* ___1_transcription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2844,7 +2844,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 133169
+// Method Definition Index: 133191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestFullTranscription_m73CEB80C9C35F8ADBF14455F701ED64AE31A27C0 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* ___0_request, String_t* ___1_transcription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2867,7 +2867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestFullTran
 		return;
 	}
 }
-// Method Definition Index: 133170
+// Method Definition Index: 133192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnRequestComplete_mE9697E08FB21C90F02B4778718AF3E4CEE5842EA (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, VoiceServiceRequest_tCF844F597C059D6A354311EB2BD5644AE5E8E536* ___0_request, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3133,7 +3133,7 @@ IL_0108:
 		return;
 	}
 }
-// Method Definition Index: 133171
+// Method Definition Index: 133193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_CleanupSession_m97166BDB9EF52CFC6C3CBA3C6E8CE121DE23110E (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3149,7 +3149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_CleanupSession_m9
 		return;
 	}
 }
-// Method Definition Index: 133172
+// Method Definition Index: 133194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience__ctor_mECA4F8793D6A2469C52A07D0A010AE15D22E91F1 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3158,7 +3158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience__ctor_mECA4F8793D
 		return;
 	}
 }
-// Method Definition Index: 133173
+// Method Definition Index: 133195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_U3COnEnableU3Eb__37_0_m71032CD86D3B83722B6B7336D0CE7469FDA1C0C0 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, String_t* ___0_e, const RuntimeMethod* method) 
 {
 	{
@@ -3175,7 +3175,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_U3COnEnableU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 133175
+// Method Definition Index: 133197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSession__ctor_mE25FD457E28701E01E016212ED5D4F516791BAC7 (PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3192,7 +3192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSession__ctor_mE25FD457
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 133182
+// Method Definition Index: 133204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfiguration__ctor_mBC95CB49A1217571897B1407FF0F03E1C79BD3B4 (DictationConfiguration_t5ED65C60FC8795303E51480340815D29DE1C5A36* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3216,7 +3216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfiguration__ctor_mBC95CB49A1
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 61254
+// Method Definition Index: 66575
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -3230,7 +3230,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFF
 		return;
 	}
 }
-// Method Definition Index: 133132
+// Method Definition Index: 133154
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* AppDictationExperience_get_RuntimeConfiguration_m1E5C0B326DCB3D200267839B988CBCD810C6B6FA_inline (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3239,7 +3239,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t9724E21E
 		return L_0;
 	}
 }
-// Method Definition Index: 133133
+// Method Definition Index: 133155
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* AppDictationExperience_get_RuntimeDictationConfiguration_m900D587785FABCE2B3357207677DF075A0ED31EB_inline (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3255,7 +3255,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 133144
+// Method Definition Index: 133166
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AppDictationExperience_get_DoNotFallbackToWit_m3C9908D64874FA79F66979E874AF56AA7EFE8F59_inline (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3264,7 +3264,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AppDictationExperience_get_D
 		return L_0;
 	}
 }
-// Method Definition Index: 103733
+// Method Definition Index: 103898
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitErrorEvent_tF617F56AD9B12E89D73E125B79E441A56067F1B2* SpeechEvents_get_OnError_mCB052EBA347C9125964E56DD0BD6CC0264796421_inline (SpeechEvents_tB51C31627EF79AB5734270C1558A6C6F67A5040E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3273,7 +3273,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitErrorEvent_tF617F56AD9B12E89D7
 		return L_0;
 	}
 }
-// Method Definition Index: 133235
+// Method Definition Index: 133257
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WitDictation_set_RuntimeConfiguration_m037CCF952EFEA5260F6F08CDC432021C25B6263D_inline (WitDictation_t444662566862DDF66D409A74B8CB6C6B7F899D74* __this, WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -3284,7 +3284,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WitDictation_set_RuntimeConf
 		return;
 	}
 }
-// Method Definition Index: 133196
+// Method Definition Index: 133218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TelemetryEvents_t728EE43C6D9E03EE2233160917696F0D483CF2DC* DictationService_get_TelemetryEvents_mF6671D2F13D5E8E9FC85D8EF958B08DE85B3ED5E_inline (DictationService_tC6916F48E2B3D77590A50703F559F243AEA16AE2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3293,7 +3293,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TelemetryEvents_t728EE43C6D9E03EE
 		return L_0;
 	}
 }
-// Method Definition Index: 133197
+// Method Definition Index: 133219
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DictationService_set_TelemetryEvents_mCBED1B27C647331AC9FCE4B07A407F3A844FD611_inline (DictationService_tC6916F48E2B3D77590A50703F559F243AEA16AE2* __this, TelemetryEvents_t728EE43C6D9E03EE2233160917696F0D483CF2DC* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -3304,7 +3304,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DictationService_set_Telemet
 		return;
 	}
 }
-// Method Definition Index: 133256
+// Method Definition Index: 133278
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DictationSessionEvent_t867E36986EFC354C1A8DAB6B139D338E1C281279* DictationEvents_get_OnDictationSessionStarted_m3F5BD1EF0F04E12D16BA4B43199E98964995BC47_inline (DictationEvents_tF7C2EBFE83A286C0058596351EA71DCE2BBF301A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3313,7 +3313,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DictationSessionEvent_t867E36986E
 		return L_0;
 	}
 }
-// Method Definition Index: 103534
+// Method Definition Index: 103699
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VoiceServiceRequestOptions_get_RequestId_mC465590B47E4B5F542BD3E9BED1074D032C1446F_inline (VoiceServiceRequestOptions_tBB80C39F5D734638F03442F09F4F106BD5F20EE4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3322,7 +3322,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VoiceServiceRequestOpti
 		return L_0;
 	}
 }
-// Method Definition Index: 103558
+// Method Definition Index: 103723
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VoiceServiceRequestResults_get_Message_mB5D3F7451AC4CE7DA64F7CAD1C9E8A856B7E2188_inline (VoiceServiceRequestResults_t42861FCA7E9538CBAEE9F7246C891F0A5BB7E497* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3331,7 +3331,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VoiceServiceRequestResu
 		return L_0;
 	}
 }
-// Method Definition Index: 133257
+// Method Definition Index: 133279
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DictationSessionEvent_t867E36986EFC354C1A8DAB6B139D338E1C281279* DictationEvents_get_OnDictationSessionStopped_m96F1B3BF03523A76E84484DE9DF6D9BEB4E03E37_inline (DictationEvents_tF7C2EBFE83A286C0058596351EA71DCE2BBF301A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3340,7 +3340,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DictationSessionEvent_t867E36986E
 		return L_0;
 	}
 }
-// Method Definition Index: 101785
+// Method Definition Index: 101950
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* VoiceRequest_4_get_Options_m8B97A3713C11BD4C6CB2D8F13D33F379F2CEC08F_gshared_inline (VoiceRequest_4_t1443D0F3F9623BE22CFAA07EFF4DE33F58C4E56E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3349,7 +3349,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* VoiceRequest_4_get
 		return L_0;
 	}
 }
-// Method Definition Index: 101774
+// Method Definition Index: 101939
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VoiceRequest_4_get_State_m13FDAE1A4F0AF2A1EF7AFA82BD4555B8A2A2B558_gshared_inline (VoiceRequest_4_t1443D0F3F9623BE22CFAA07EFF4DE33F58C4E56E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3358,7 +3358,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t VoiceRequest_4_get_State_
 		return L_0;
 	}
 }
-// Method Definition Index: 101787
+// Method Definition Index: 101952
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* VoiceRequest_4_get_Results_m9C103C457D34930BDD3C8438CBBA2C296E03F898_gshared_inline (VoiceRequest_4_t1443D0F3F9623BE22CFAA07EFF4DE33F58C4E56E* __this, const RuntimeMethod* method) 
 {
 	{
