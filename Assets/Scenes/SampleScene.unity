@@ -24238,7 +24238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0d7e2a9c3f4e18a6d41f7c82b9e3a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alwaysScan: 1
+  alwaysScan: 0
   permissionTimeout: 60
 --- !u!4 &1672833460
 Transform:

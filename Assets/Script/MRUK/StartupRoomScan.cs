@@ -41,8 +41,8 @@ namespace MRExitReady.Debugging
     /// </summary>
     public class StartupRoomScan : MonoBehaviour
     {
-        [Tooltip("Open Space Setup every launch. Turn off to only scan when no room is stored on the device.")]
-        [SerializeField] private bool alwaysScan = true;
+        [Tooltip("Open Space Setup every launch. Off (normal): load the stored room first and only open Space Setup if that finds nothing.")]
+        [SerializeField] private bool alwaysScan = false;
 
         [Tooltip("Seconds to wait for the user to answer the scene permission dialog.")]
         [SerializeField] private float permissionTimeout = 60f;
@@ -80,12 +80,12 @@ namespace MRExitReady.Debugging
 
         private async void Start()
         {
-            await RunScan();
+            await Run(alwaysScan);
         }
 
-        /// <summary>Runs the scan flow again (e.g. from a UI button or the component context menu).</summary>
+        /// <summary>Opens Space Setup to scan a room, then loads it (e.g. from a UI button or the context menu).</summary>
         [ContextMenu("Run room scan")]
-        public System.Threading.Tasks.Task RunScan() => Run(alwaysScan);
+        public System.Threading.Tasks.Task RunScan() => Run(true);
 
         /// <summary>Loads the stored rooms again without reopening Space Setup.</summary>
         [ContextMenu("Reload rooms")]
@@ -127,40 +127,26 @@ namespace MRExitReady.Debugging
                     return;
                 }
 
-#if !UNITY_EDITOR && UNITY_ANDROID
+                var openedSetup = false;
                 if (openSpaceSetup)
                 {
-                    ScanLog.Info("Opening Space Setup - scan your rooms, then confirm to return to the app.");
-                    var captured = await OVRScene.RequestSpaceSetup();
-                    ScanLog.Info(captured
-                        ? "Space Setup finished."
-                        : "Space Setup was cancelled or failed; loading whatever is already stored.");
+                    openedSetup = await OpenSpaceSetup();
                 }
-#endif
 
-                // Space Setup is a system app, so give the app focus (and tracking) back before
-                // querying. The query is retried, alternating between the original (V1) scene
-                // model and the high-fidelity one (V2 with V1 fallback): which of them the
-                // device has stored depends on the Horizon OS version.
                 LogDiagnostics();
-                MRUK.LoadDeviceResult result = MRUK.LoadDeviceResult.Failure;
-                for (var attempt = 1; attempt <= maxLoadAttempts; attempt++)
+                var result = await LoadWithRetries(mruk);
+
+                // Like MRUK's own flow, but also for a generic Failure: some headsets answer a
+                // query with no stored space with an error instead of "no rooms found", and MRUK
+                // only opens Space Setup for the latter. Scan once, then try loading again.
+                if (result != MRUK.LoadDeviceResult.Success && !openedSetup && NeedsScan(result))
                 {
-                    await WaitForFocus();
-                    await WaitSeconds(attempt == 1 ? settleSeconds : retryDelaySeconds * (attempt - 1));
-
-                    var model = attempt % 2 == 1 ? MRUK.SceneModel.V1 : MRUK.SceneModel.V2FallbackV1;
-                    ScanLog.Info($"Loading scene from device (attempt {attempt}/{maxLoadAttempts}, model {model})...");
-                    result = await mruk.LoadSceneFromDevice(requestSceneCaptureIfNoDataFound: !openSpaceSetup && !HasFinished,
-                        removeMissingRooms: true, sceneModel: model);
-                    ScanLog.Info($"LoadSceneFromDevice -> {result} ({(int)result})");
-
-                    if (result == MRUK.LoadDeviceResult.Success || !IsRetryable(result) || attempt == maxLoadAttempts)
+                    ScanLog.Info($"No usable room ({result}); opening Space Setup so you can scan one.");
+                    if (await OpenSpaceSetup())
                     {
-                        break;
+                        openedSetup = true;
+                        result = await LoadWithRetries(mruk);
                     }
-
-                    ScanLog.Warn($"{Explain(result)} Retrying...");
                 }
 
                 finalResult = result;
@@ -211,12 +197,54 @@ namespace MRExitReady.Debugging
 #endif
         }
 
+        /// <summary>Opens Meta Space Setup (system UI). Returns false if it was cancelled or is unavailable.</summary>
+        private static async System.Threading.Tasks.Task<bool> OpenSpaceSetup()
+        {
+#if !UNITY_EDITOR && UNITY_ANDROID
+            ScanLog.Info("Opening Space Setup - scan your room, then confirm to return to the app.");
+            var captured = await OVRScene.RequestSpaceSetup();
+            ScanLog.Info(captured
+                ? "Space Setup finished."
+                : "Space Setup was cancelled or failed.");
+            return captured;
+#else
+            await System.Threading.Tasks.Task.CompletedTask;
+            return false;
+#endif
+        }
+
+        private async System.Threading.Tasks.Task<MRUK.LoadDeviceResult> LoadWithRetries(MRUK mruk)
+        {
+            var result = MRUK.LoadDeviceResult.Failure;
+            for (var attempt = 1; attempt <= maxLoadAttempts; attempt++)
+            {
+                await WaitForFocus();
+                await WaitSeconds(attempt == 1 ? settleSeconds : retryDelaySeconds * (attempt - 1));
+
+                ScanLog.Info($"Loading scene from device (attempt {attempt}/{maxLoadAttempts})...");
+                result = await mruk.LoadSceneFromDevice(requestSceneCaptureIfNoDataFound: false,
+                    removeMissingRooms: true, sceneModel: MRUK.SceneModel.V1);
+                ScanLog.Info($"LoadSceneFromDevice -> {result} ({(int)result})");
+
+                if (result == MRUK.LoadDeviceResult.Success || !IsRetryable(result) || attempt == maxLoadAttempts)
+                {
+                    break;
+                }
+
+                ScanLog.Warn($"{Explain(result)} Retrying...");
+            }
+
+            return result;
+        }
+
+        /// <summary>Results where scanning (again) is the sensible next step.</summary>
+        private static bool NeedsScan(MRUK.LoadDeviceResult result) =>
+            result == MRUK.LoadDeviceResult.Failure || result == MRUK.LoadDeviceResult.NoRoomsFound;
+
         private static bool IsRetryable(MRUK.LoadDeviceResult result) => result switch
         {
-            MRUK.LoadDeviceResult.Failure => true,
             MRUK.LoadDeviceResult.NotInitialized => true,
             MRUK.LoadDeviceResult.DiscoveryOngoing => true,
-            MRUK.LoadDeviceResult.NoRoomsFound => true, // a fresh scan can take a moment to be queryable
             MRUK.LoadDeviceResult.FailureInsufficientResources => true,
             MRUK.LoadDeviceResult.FailureInsufficientView => true,
             MRUK.LoadDeviceResult.FailureRateLimited => true,
@@ -235,7 +263,7 @@ namespace MRExitReady.Debugging
             MRUK.LoadDeviceResult.FailureTooBright => "The room is too bright for tracking.",
             MRUK.LoadDeviceResult.FailureRateLimited => "The system is rate limiting scene queries.",
             MRUK.LoadDeviceResult.StorageAtCapacity => "Spatial data storage is full. Delete old spaces in Settings.",
-            _ => "Generic failure: the headset refused the room query. A Stationary boundary is a known cause: switch to a Roomscale boundary (Settings > Physical Space > Boundary), delete and rescan the room in Space Setup, then relaunch.",
+            _ => "The headset refused the room query. Scan the room in Space Setup; if it keeps failing, a Stationary boundary is a known cause (use Roomscale: Settings > Physical Space > Boundary).",
         };
 
         /// <summary>Waits until the app (and the XR session) has focus again after a system UI.</summary>

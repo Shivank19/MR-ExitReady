@@ -113,11 +113,11 @@ namespace MRExitReady.Drill
                     $"Result: <color=#ffd166>{result}</color>\nThe drill can't run without a scanned room.\n" +
                     "If your boundary is <b>Stationary</b>, switch to <b>Roomscale</b>\n" +
                     "(Settings > Physical Space > Boundary), rescan the room\nin Space Setup, then relaunch.\n" +
-                    "<color=#8ce99a><b>Press A to try loading again</b></color>",
+                    "<color=#8ce99a><b>Press A to scan your room</b></color>",
                     ScanLog.Recent);
                 if (StartPressed() && _scanner != null)
                 {
-                    _ = _scanner.ReloadRooms();
+                    _ = _scanner.RunScan();
                 }
 
                 return;
