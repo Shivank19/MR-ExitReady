@@ -110,8 +110,10 @@ namespace MRExitReady.Drill
             {
                 var result = StartupRoomScan.LastResult.HasValue ? StartupRoomScan.LastResult.Value.ToString() : "not loaded";
                 _hud.ShowMessage("Room didn't load",
-                    $"Result: <color=#ffd166>{result}</color>\nThe drill needs a loaded room.\n" +
-                    "<color=#8ce99a><b>Press A to load again</b></color>",
+                    $"Result: <color=#ffd166>{result}</color>\nThe drill can't run without a scanned room.\n" +
+                    "If your boundary is <b>Stationary</b>, switch to <b>Roomscale</b>\n" +
+                    "(Settings > Physical Space > Boundary), rescan the room\nin Space Setup, then relaunch.\n" +
+                    "<color=#8ce99a><b>Press A to try loading again</b></color>",
                     ScanLog.Recent);
                 if (StartPressed() && _scanner != null)
                 {

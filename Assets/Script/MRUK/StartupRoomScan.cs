@@ -235,7 +235,7 @@ namespace MRExitReady.Debugging
             MRUK.LoadDeviceResult.FailureTooBright => "The room is too bright for tracking.",
             MRUK.LoadDeviceResult.FailureRateLimited => "The system is rate limiting scene queries.",
             MRUK.LoadDeviceResult.StorageAtCapacity => "Spatial data storage is full. Delete old spaces in Settings.",
-            _ => "Generic failure: MRUK maps several native errors to this. Check the full Unity log (not just ExitReady lines) for a line from the MRUK native library.",
+            _ => "Generic failure: the headset refused the room query. A Stationary boundary is a known cause: switch to a Roomscale boundary (Settings > Physical Space > Boundary), delete and rescan the room in Space Setup, then relaunch.",
         };
 
         /// <summary>Waits until the app (and the XR session) has focus again after a system UI.</summary>
