@@ -27,7 +27,10 @@ public class A3TalkingCube : MonoBehaviour
     [SerializeField] private string chatModel = "gpt-6-luna";
     [SerializeField] private string ttsModel = "azure-tts";
     [SerializeField] private string ttsVoice = "alloy";
-    [SerializeField] private string systemPrompt = "You are a friendly talking cube for University of Minnesota's AI-enabled MR class. Your replies are spoken aloud, so don't use markdown or emoji.";
+    [SerializeField] private string systemPrompt = "You are a friendly talking cube with eyes. You can see what the user sees through their headset camera. When the user asks about something in their view, describe what you see. Keep answers short. Your replies are spoken aloud, so don't use markdown or emoji.";
+
+    [Header("Camera")]
+    [SerializeField] private A4CameraFrameProvider cameraFrameProvider;
 
     [Header("Recording")]
     [SerializeField] private int maxRecordingSeconds = 15;
@@ -215,12 +218,41 @@ public class A3TalkingCube : MonoBehaviour
             Debug.Log($"[TalkingCube] Transcribed: {userText}");
 
             // Part B.2: Text → LLM
+            // A4: grab what the user is looking at, to send along with their words.
+            Texture2D snapshot = null;
+            if (cameraFrameProvider != null)
+            {
+                snapshot = await cameraFrameProvider.CaptureFrameAsync(token);
+            }
+
+            // Always store text-only in history to avoid sending images repeatedly.
             history.Add(new JObject { ["role"] = "user", ["content"] = userText });
+
+            // Throwaway copy of the history: only its last message carries the image.
+            var requestMessages = (JArray)history.DeepClone();
+            if (snapshot != null)
+            {
+                string snapshotBase64 = Convert.ToBase64String(snapshot.EncodeToJPG(75));
+                Destroy(snapshot);
+                requestMessages[requestMessages.Count - 1] = new JObject
+                {
+                    ["role"] = "user",
+                    ["content"] = new JArray
+                    {
+                        new JObject
+                        {
+                            ["type"] = "image_url",
+                            ["image_url"] = new JObject { ["url"] = "data:image/jpeg;base64," + snapshotBase64 }
+                        },
+                        new JObject { ["type"] = "text", ["text"] = userText }
+                    }
+                };
+            }
 
             JObject chatBody = new JObject
             {
                 ["model"] = chatModel,
-                ["messages"] = history
+                ["messages"] = requestMessages
             };
 
             JObject chatResponse = await gateway.PostJsonAsync("/v1/chat/completions", chatBody, token);
